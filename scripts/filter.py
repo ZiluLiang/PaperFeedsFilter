@@ -267,48 +267,59 @@ def main():
     profile = build_interest_profile(cfg, model)
     log.info("Interest profile ready.")
 
-    # Fetch all feeds
-    all_entries = []
+    # Fetch and filter per-feed
+    filtered = []
     passthrough_entries = []
+    total_fetched = 0
+    total_above_threshold = 0
 
     for feed_cfg in cfg.get("feeds", []):
         entries = fetch_feed(feed_cfg, max_age_days)
+        total_fetched += len(entries)
+
         if feed_cfg["name"] in passthrough:
             passthrough_entries.extend(entries)
-        else:
-            all_entries.extend(entries)
+            continue
 
-    # Deduplicate by title
-    seen = set()
-    unique = []
-    for e in all_entries:
-        key = e["title"].lower()[:80]
-        if key not in seen:
-            seen.add(key)
-            unique.append(e)
-    log.info(f"Total unique entries to score: {len(unique)}")
+        # Deduplicate within this feed by title
+        seen = set()
+        unique = []
+        for e in entries:
+            key = e["title"].lower()[:80]
+            if key not in seen:
+                seen.add(key)
+                unique.append(e)
 
-    # Score
-    scored = score_entries(unique, profile, model)
-    scored.sort(key=lambda x: x["score"], reverse=True)
+        if not unique:
+            continue
 
-    # Filter
-    above_threshold = [e for e in scored if e["score"] >= threshold]
-    # Always include top_n even if below threshold
-    top = scored[:top_n]
-    top_ids = {e["id"] for e in top}
-    combined = {e["id"]: e for e in above_threshold}
-    for e in top:
-        combined[e["id"]] = e
-    filtered = sorted(combined.values(), key=lambda x: x["score"], reverse=True)
+        # Score this feed independently
+        scored = score_entries(unique, profile, model)
+        scored.sort(key=lambda x: x["score"], reverse=True)
 
-    # Add passthrough entries (journals) at the end
+        # Per-feed filter: above threshold + always keep top_n
+        above = [e for e in scored if e["score"] >= threshold]
+        total_above_threshold += len(above)
+
+        # Always include top_n from this feed as a floor
+        top = scored[:top_n]
+        combined = {e["id"]: e for e in above}
+        for e in top:
+            combined[e["id"]] = e
+
+        feed_filtered = sorted(combined.values(), key=lambda x: x["score"], reverse=True)
+        log.info(f"  {feed_cfg['name']}: {len(unique)} unique → {len(above)} above threshold → {len(feed_filtered)} in feed")
+        filtered.extend(feed_filtered)
+
+    # Sort all filtered entries by score, newest within same score
+    filtered.sort(key=lambda x: x["score"], reverse=True)
+
+    # Add passthrough entries (journals) at the end, unscored
     for e in passthrough_entries:
         e["score"] = 1.0  # mark as passthrough
         filtered.append(e)
 
-    log.info(f"Entries above threshold ({threshold}): {len(above_threshold)}")
-    log.info(f"Total in output feed (incl. top-{top_n} and passthrough): {len(filtered)}")
+    log.info(f"Total fetched: {total_fetched} | Above threshold: {total_above_threshold} | In feed: {len(filtered)}")
 
     if args.dry_run:
         log.info("Dry run — top 10 results:")
@@ -323,11 +334,11 @@ def main():
     # Write a small JSON summary for debugging
     summary = {
         "generated": datetime.now(timezone.utc).isoformat(),
-        "total_fetched": len(all_entries),
-        "total_unique": len(unique),
-        "above_threshold": len(above_threshold),
+        "total_fetched": total_fetched,
+        "above_threshold": total_above_threshold,
         "in_feed": len(filtered),
         "threshold": threshold,
+        "top_n_per_feed": top_n,
     }
     Path(out_file.replace(".xml", "_summary.json")).write_text(json.dumps(summary, indent=2))
 
