@@ -1,0 +1,72 @@
+# =============================================================================
+# Paper Filter Configuration
+# =============================================================================
+
+# --- Interest Profile ---
+# Option A: Point to your Zotero export (BibTeX or CSV)
+# After exporting from Zotero: File > Export Library > BibTeX or CSV
+# Place the file in the config/ folder and set the path here.
+zotero_export: null  # e.g. "config/my_library.bib" or "config/my_library.csv"
+
+# Option B: Plain-text description of your interests (used if zotero_export is null)
+# Write freely — the more detail the better. No keyword lists needed.
+interest_description: |
+  I am interested in computational approaches to understanding the mind and brain.
+  This includes predictive processing and predictive coding, Bayesian brain theories,
+  active inference, and reinforcement learning as it applies to cognition and behaviour.
+  I follow work on large language models, reasoning in AI systems, and AI alignment.
+  I also read broadly in cognitive neuroscience, computational psychiatry, and decision-making.
+  On the psychology side I care about perception, memory, attention, and mental health.
+  I am interested in methods: fMRI, EEG, neural data analysis, and ML methods for neuroscience.
+
+# --- Similarity threshold ---
+# Papers with a cosine similarity score above this threshold are included.
+# 0.0 = everything passes, 1.0 = nothing passes.
+# Start around 0.25 and tune up if too many papers come through.
+threshold: 0.25
+
+# --- How many top papers to always include (regardless of threshold) ---
+# Useful to ensure the feed is never completely empty.
+top_n: 10
+
+# --- RSS Feeds to monitor ---
+feeds:
+  # arXiv
+  - name: "arXiv cs.AI"
+    url: "https://arxiv.org/rss/cs.AI"
+  - name: "arXiv cs.LG"
+    url: "https://arxiv.org/rss/cs.LG"
+  - name: "arXiv cs.CL"
+    url: "https://arxiv.org/rss/cs.CL"
+  - name: "arXiv q-bio.NC"
+    url: "https://arxiv.org/rss/q-bio.NC"
+
+  # bioRxiv (by collection)
+  - name: "bioRxiv Neuroscience"
+    url: "https://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"
+  - name: "bioRxiv Psychology"
+    url: "https://connect.biorxiv.org/biorxiv_xml.php?subject=psychology"
+
+  # PsyArXiv
+  - name: "PsyArXiv"
+    url: "https://psyarxiv.com/feed/"
+
+  # Add your journal feeds below — these pass through unfiltered
+  # - name: "Nature Neuroscience"
+  #   url: "https://www.nature.com/neuro.rss"
+  # - name: "Neuron"
+  #   url: "https://www.cell.com/neuron/rss"
+
+# --- Which feeds to filter vs pass through ---
+# Feeds listed under "passthrough" are included as-is (good for low-volume journals)
+# All other feeds are semantically filtered.
+passthrough_feeds: []
+  # - "Nature Neuroscience"
+  # - "Neuron"
+
+# --- Output ---
+output:
+  filename: "filtered_feed.xml"   # name of the RSS file served via GitHub Pages
+  feed_title: "My Filtered Paper Feed"
+  feed_description: "Semantically filtered preprints and papers"
+  max_age_days: 7                 # ignore items older than this many days
