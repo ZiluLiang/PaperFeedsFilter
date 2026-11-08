@@ -2,12 +2,11 @@ name: Filter Papers
 
 on:
   schedule:
-    # Runs every day at 06:00 UTC — adjust to your timezone
     - cron: "0 6 * * *"
-  workflow_dispatch:  # allows manual runs from the GitHub UI
+  workflow_dispatch:
 
 permissions:
-  contents: write   # needed to push the output feed to gh-pages
+  contents: write
 
 jobs:
   filter:
@@ -17,7 +16,6 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      # Cache the sentence-transformer model so it isn't re-downloaded every run
       - name: Cache model
         uses: actions/cache@v4
         with:
@@ -36,15 +34,32 @@ jobs:
       - name: Run filter
         run: python scripts/filter.py --config config/config.yaml
 
-      # Push the generated RSS file to the gh-pages branch
-      # so it's served at: https://<you>.github.io/<repo>/filtered_feed.xml
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .          # publish from repo root
-          publish_branch: gh-pages
-          keep_files: true        # don't wipe other files on gh-pages
-          include_files: |
-            filtered_feed.xml
-            filtered_feed_summary.json
+      - name: Verify output
+        run: |
+          echo "=== Output files ==="
+          ls -lh filtered_feed.xml filtered_feed_summary.json
+          echo "=== Feed preview ==="
+          head -30 filtered_feed.xml
+
+      - name: Push feed to gh-pages
+        run: |
+          # Save generated files
+          cp filtered_feed.xml /tmp/filtered_feed.xml
+          cp filtered_feed_summary.json /tmp/filtered_feed_summary.json
+
+          # Configure git
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          # Switch to gh-pages
+          git fetch origin gh-pages
+          git checkout gh-pages
+
+          # Copy files in
+          cp /tmp/filtered_feed.xml filtered_feed.xml
+          cp /tmp/filtered_feed_summary.json filtered_feed_summary.json
+
+          # Commit and push
+          git add filtered_feed.xml filtered_feed_summary.json
+          git diff --staged --quiet && echo "No changes" || git commit -m "Update feed $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push origin gh-pages

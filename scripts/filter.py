@@ -94,6 +94,38 @@ def profile_from_csv(csv_path: str, model: SentenceTransformer) -> np.ndarray:
     return vecs.mean(axis=0)
 
 
+def profile_from_ris(ris_path: str, model: SentenceTransformer) -> np.ndarray:
+    """Extract titles+abstracts from a RIS/Zotero .txt export and average their embeddings.
+    RIS format uses tags like %T (title) and %X (abstract).
+    """
+    log.info(f"Building interest profile from RIS: {ris_path}")
+    texts = []
+    current_title = ""
+    current_abstract = ""
+    with open(ris_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.rstrip()
+            if line.startswith("%T "):
+                current_title = line[3:].strip()
+            elif line.startswith("%X "):
+                current_abstract = line[3:].strip()
+            elif line.startswith("%X") and len(line) > 2:
+                # continuation lines for long abstracts
+                current_abstract += " " + line[2:].strip()
+            elif line == "" and current_title:
+                texts.append(f"{current_title}. {current_abstract}".strip())
+                current_title = ""
+                current_abstract = ""
+    # catch last entry if file doesn't end with blank line
+    if current_title:
+        texts.append(f"{current_title}. {current_abstract}".strip())
+    if not texts:
+        raise ValueError("No entries found in RIS file.")
+    log.info(f"  Found {len(texts)} entries in RIS export.")
+    vecs = model.encode(texts, normalize_embeddings=True, show_progress_bar=True, batch_size=64)
+    return vecs.mean(axis=0)
+
+
 def build_interest_profile(cfg: dict, model: SentenceTransformer) -> np.ndarray:
     zotero_path = cfg.get("zotero_export")
     if zotero_path and Path(zotero_path).exists():
@@ -101,6 +133,8 @@ def build_interest_profile(cfg: dict, model: SentenceTransformer) -> np.ndarray:
             return profile_from_bibtex(zotero_path, model)
         elif zotero_path.endswith(".csv"):
             return profile_from_csv(zotero_path, model)
+        elif zotero_path.endswith(".txt") or zotero_path.endswith(".ris"):
+            return profile_from_ris(zotero_path, model)
         else:
             log.warning(f"Unknown Zotero export format: {zotero_path}. Falling back to description.")
     desc = cfg.get("interest_description", "")

@@ -6,10 +6,9 @@
 # Option A: Point to your Zotero export (BibTeX or CSV)
 # After exporting from Zotero: File > Export Library > BibTeX or CSV
 # Place the file in the config/ folder and set the path here.
-zotero_export: null  # e.g. "config/my_library.bib" or "config/my_library.csv"
+zotero_export: "config/MyLibrary.txt"
 
 # Option B: Plain-text description of your interests (used if zotero_export is null)
-# Write freely — the more detail the better. No keyword lists needed.
 interest_description: |
   I am interested in computational approaches to understanding the mind and brain.
   This includes predictive processing and predictive coding, Bayesian brain theories,
@@ -21,52 +20,82 @@ interest_description: |
 
 # --- Similarity threshold ---
 # Papers with a cosine similarity score above this threshold are included.
-# 0.0 = everything passes, 1.0 = nothing passes.
 # Start around 0.25 and tune up if too many papers come through.
 threshold: 0.25
 
 # --- How many top papers to always include (regardless of threshold) ---
-# Useful to ensure the feed is never completely empty.
 top_n: 10
 
-# --- RSS Feeds to monitor ---
+# --- RSS Feeds ---
+# Preprint feeds — these are semantically filtered
 feeds:
-  # arXiv
-  - name: "arXiv cs.AI"
-    url: "https://arxiv.org/rss/cs.AI"
-  - name: "arXiv cs.LG"
-    url: "https://arxiv.org/rss/cs.LG"
-  - name: "arXiv cs.CL"
-    url: "https://arxiv.org/rss/cs.CL"
-  - name: "arXiv q-bio.NC"
-    url: "https://arxiv.org/rss/q-bio.NC"
-
-  # bioRxiv (by collection)
+  - name: "arXiv AI"
+    url: "https://rss.arxiv.org/rss/cs.AI"
+  - name: "arXiv Neurons and Cognition"
+    url: "https://rss.arxiv.org/rss/q-bio.NC"
   - name: "bioRxiv Neuroscience"
     url: "https://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"
-  - name: "bioRxiv Psychology"
-    url: "https://connect.biorxiv.org/biorxiv_xml.php?subject=psychology"
 
-  # PsyArXiv
-  - name: "PsyArXiv"
-    url: "https://psyarxiv.com/feed/"
+  # Journal feeds — passed through unfiltered (low volume, curated)
+  - name: "Nature Neuroscience"
+    url: "https://www.nature.com/neuro.rss"
+  - name: "Annual Reviews Neuroscience"
+    url: "https://www.annualreviews.org/rss/content/journals/neuro/latestarticles?fmt=rss"
+  - name: "Nature"
+    url: "https://www.nature.com/nature.rss"
+  - name: "PNAS Neuroscience"
+    url: "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=neuro"
+  - name: "eLife Neuroscience"
+    url: "https://elifesciences.org/rss/subject/neuroscience.xml"
+  - name: "Science"
+    url: "https://feeds.science.org/rss/science-aop.xml"
+  - name: "Science Advances"
+    url: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv"
+  - name: "Trends in Cognitive Sciences"
+    url: "https://www.cell.com/cognitive-sciences/inpress.rss"
+  - name: "Current Biology"
+    url: "https://www.cell.com/current-biology/inpress.rss"
+  - name: "Nature Reviews Neuroscience"
+    url: "https://www.nature.com/nrn.rss"
+  - name: "Trends in Neurosciences"
+    url: "https://www.cell.com/neurosciences/inpress.rss"
+  - name: "Neuron"
+    url: "https://www.cell.com/neuron/inpress.rss"
+  - name: "Cell"
+    url: "https://www.cell.com/cell/inpress.rss"
+  - name: "Nature Human Behaviour"
+    url: "https://www.nature.com/nathumbehav.rss"
+  - name: "Psychological Bulletin"
+    url: "https://psycnet.apa.org:443/journals/bul.rss?_ga=2.32615934.1585622573.1629117727-1251722741.1629117727"
+  - name: "Annual Reviews Psychology"
+    url: "https://www.annualreviews.org/rss/content/journals/psych/latestarticles?fmt=rss"
+  - name: "PNAS Psychological and Cognitive Sciences"
+    url: "http://feeds.feedburner.com/ProceedingsOfTheNationalAcademyOfSciencesPsychologicalAndCognitiveSciences?format=xml"
 
-  # Add your journal feeds below — these pass through unfiltered
-  # - name: "Nature Neuroscience"
-  #   url: "https://www.nature.com/neuro.rss"
-  # - name: "Neuron"
-  #   url: "https://www.cell.com/neuron/rss"
-
-# --- Which feeds to filter vs pass through ---
-# Feeds listed under "passthrough" are included as-is (good for low-volume journals)
-# All other feeds are semantically filtered.
-passthrough_feeds: []
-  # - "Nature Neuroscience"
-  # - "Neuron"
+# --- Passthrough feeds (not filtered, included as-is) ---
+# All journal feeds listed here bypass semantic scoring.
+passthrough_feeds:
+  - "Nature Neuroscience"
+  - "Annual Reviews Neuroscience"
+  - "Nature"
+  - "PNAS Neuroscience"
+  - "eLife Neuroscience"
+  - "Science"
+  - "Science Advances"
+  - "Trends in Cognitive Sciences"
+  - "Current Biology"
+  - "Nature Reviews Neuroscience"
+  - "Trends in Neurosciences"
+  - "Neuron"
+  - "Cell"
+  - "Nature Human Behaviour"
+  - "Psychological Bulletin"
+  - "Annual Reviews Psychology"
+  - "PNAS Psychological and Cognitive Sciences"
 
 # --- Output ---
 output:
-  filename: "filtered_feed.xml"   # name of the RSS file served via GitHub Pages
-  feed_title: "My Filtered Paper Feed"
-  feed_description: "Semantically filtered preprints and papers"
-  max_age_days: 7                 # ignore items older than this many days
+  filename: "filtered_feed.xml"
+  feed_title: "Zilu's Filtered Paper Feed"
+  feed_description: "Semantically filtered preprints + journal feeds"
+  max_age_days: 7
