@@ -1,0 +1,50 @@
+name: Filter Papers
+
+on:
+  schedule:
+    # Runs every day at 06:00 UTC — adjust to your timezone
+    - cron: "0 6 * * *"
+  workflow_dispatch:  # allows manual runs from the GitHub UI
+
+permissions:
+  contents: write   # needed to push the output feed to gh-pages
+
+jobs:
+  filter:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      # Cache the sentence-transformer model so it isn't re-downloaded every run
+      - name: Cache model
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: sentence-transformers-all-MiniLM-L6-v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run filter
+        run: python scripts/filter.py --config config/config.yaml
+
+      # Push the generated RSS file to the gh-pages branch
+      # so it's served at: https://<you>.github.io/<repo>/filtered_feed.xml
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .          # publish from repo root
+          publish_branch: gh-pages
+          keep_files: true        # don't wipe other files on gh-pages
+          include_files: |
+            filtered_feed.xml
+            filtered_feed_summary.json
