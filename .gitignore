@@ -4,5 +4,3 @@ __pycache__/
 *.egg-info/
 dist/
 .DS_Store
-filtered_feed.xml
-filtered_feed_summary.json

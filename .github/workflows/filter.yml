@@ -60,6 +60,6 @@ jobs:
           cp /tmp/filtered_feed_summary.json filtered_feed_summary.json
 
           # Commit and push
-          git add filtered_feed.xml filtered_feed_summary.json
+          git add -f filtered_feed.xml filtered_feed_summary.json
           git diff --staged --quiet && echo "No changes" || git commit -m "Update feed $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push origin gh-pages
