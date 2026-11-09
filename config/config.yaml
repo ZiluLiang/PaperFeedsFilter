@@ -6,11 +6,21 @@
 zotero_export: "config/MyLibrary.txt"
 
 # --- Exploration profile ---
-# Optional. If left empty, Claude will automatically infer adjacent interests
-# from your Zotero library and save the result to config/exploration_description.txt
-# (delete that file to regenerate it).
-# If you want to override, write your own description here.
-exploration_description: ""
+# Describes adjacent areas outside your core reading domain.
+# Edit this whenever your curiosities shift. If left empty, the explore feed is disabled.
+exploration_description: |
+  I am curious about learning across multiple timescales — from trial-by-trial adaptation
+  and curriculum-driven skill acquisition, to the gradual emergence of structured knowledge
+  and cognitive flexibility over development, from infancy through childhood to adulthood
+  and ageing in humans and non-human animals. I am interested in naturalistic neuroscience
+  — how neural circuits support complex behaviour in unconstrained, real-world settings
+  rather than simplified laboratory tasks, and what new computational frameworks are needed
+  to analyse such data. I find the relationship between representational geometries in
+  neural data and those in large-scale AI models interesting, and what this comparative
+  approach reveals about computational principles shared between brains and machines.
+  Finally, I am interested in the neural basis of social cognition and multi-agent
+  behaviour, including how the brain models others' intentions and coordinates action
+  in interactive settings.
 
 # --- Thresholds ---
 core_threshold: 0.30       # higher — only papers closely matching your Zotero profile
