@@ -27,71 +27,56 @@ threshold: 0.25
 top_n: 10
 
 # --- RSS Feeds ---
-# Preprint feeds — these are semantically filtered
+# These all go through semantic filtering.
+#
+# ALSO IN INOREADER (no filtering needed, already topic-specific):
+#   - Nature Neuroscience:        https://www.nature.com/neuro.rss
+#   - Nature Reviews Neuroscience: https://www.nature.com/nrn.rss
+#   - Neuron:                     https://www.cell.com/neuron/inpress.rss
+#   - Cell:                       https://www.cell.com/cell/inpress.rss
+#   - Trends in Cognitive Sciences: https://www.cell.com/cognitive-sciences/inpress.rss
+#   - Trends in Neurosciences:    https://www.cell.com/neurosciences/inpress.rss
+#   - Annual Reviews Neuroscience: https://www.annualreviews.org/rss/content/journals/neuro/latestarticles?fmt=rss
+#   - Annual Reviews Psychology:  https://www.annualreviews.org/rss/content/journals/psych/latestarticles?fmt=rss
+#   - Psychological Bulletin:     https://psycnet.apa.org/journals/bul.rss
+
 feeds:
+  # --- Preprints ---
   - name: "arXiv AI"
     url: "https://rss.arxiv.org/rss/cs.AI"
+  - name: "arXiv Machine Learning"
+    url: "https://rss.arxiv.org/rss/cs.LG"
+  - name: "arXiv Computation and Language"
+    url: "https://rss.arxiv.org/rss/cs.CL"
   - name: "arXiv Neurons and Cognition"
     url: "https://rss.arxiv.org/rss/q-bio.NC"
   - name: "bioRxiv Neuroscience"
     url: "https://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"
+  - name: "bioRxiv Psychology"
+    url: "https://connect.biorxiv.org/biorxiv_xml.php?subject=psychology"
+  - name: "PsyArXiv"
+    url: "https://psyarxiv.com/feed/"
 
-  # Journal feeds — passed through unfiltered (low volume, curated)
-  - name: "Nature Neuroscience"
-    url: "https://www.nature.com/neuro.rss"
-  - name: "Annual Reviews Neuroscience"
-    url: "https://www.annualreviews.org/rss/content/journals/neuro/latestarticles?fmt=rss"
+  # --- Broad journals (high volume, need filtering) ---
   - name: "Nature"
     url: "https://www.nature.com/nature.rss"
-  - name: "PNAS Neuroscience"
-    url: "https://www.pnas.org/action/showFeed?type=searchTopic&feed=rss&taxonomyCode=topic&tagCode=neuro"
-  - name: "eLife Neuroscience"
-    url: "https://elifesciences.org/rss/subject/neuroscience.xml"
   - name: "Science"
     url: "https://feeds.science.org/rss/science-aop.xml"
-  - name: "Science Advances"
-    url: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv"
-  - name: "Trends in Cognitive Sciences"
-    url: "https://www.cell.com/cognitive-sciences/inpress.rss"
+  - name: "PNAS"
+    url: "https://www.pnas.org/rss/current.xml"
   - name: "Current Biology"
     url: "https://www.cell.com/current-biology/inpress.rss"
-  - name: "Nature Reviews Neuroscience"
-    url: "https://www.nature.com/nrn.rss"
-  - name: "Trends in Neurosciences"
-    url: "https://www.cell.com/neurosciences/inpress.rss"
-  - name: "Neuron"
-    url: "https://www.cell.com/neuron/inpress.rss"
-  - name: "Cell"
-    url: "https://www.cell.com/cell/inpress.rss"
+  - name: "Science Advances"
+    url: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv"
+
+  # --- Sub-journals (broad scope, need filtering) ---
   - name: "Nature Human Behaviour"
     url: "https://www.nature.com/nathumbehav.rss"
-  - name: "Psychological Bulletin"
-    url: "https://psycnet.apa.org:443/journals/bul.rss?_ga=2.32615934.1585622573.1629117727-1251722741.1629117727"
-  - name: "Annual Reviews Psychology"
-    url: "https://www.annualreviews.org/rss/content/journals/psych/latestarticles?fmt=rss"
-  - name: "PNAS Psychological and Cognitive Sciences"
-    url: "http://feeds.feedburner.com/ProceedingsOfTheNationalAcademyOfSciencesPsychologicalAndCognitiveSciences?format=xml"
+  - name: "eLife"
+    url: "https://elifesciences.org/rss/recent.xml"
 
-# --- Passthrough feeds (not filtered, included as-is) ---
-# All journal feeds listed here bypass semantic scoring.
-passthrough_feeds:
-  - "Nature Neuroscience"
-  - "Annual Reviews Neuroscience"
-  - "Nature"
-  - "PNAS Neuroscience"
-  - "eLife Neuroscience"
-  - "Science"
-  - "Science Advances"
-  - "Trends in Cognitive Sciences"
-  - "Current Biology"
-  - "Nature Reviews Neuroscience"
-  - "Trends in Neurosciences"
-  - "Neuron"
-  - "Cell"
-  - "Nature Human Behaviour"
-  - "Psychological Bulletin"
-  - "Annual Reviews Psychology"
-  - "PNAS Psychological and Cognitive Sciences"
+# No passthrough — everything above is filtered
+passthrough_feeds: []
 
 # --- Output ---
 output:
