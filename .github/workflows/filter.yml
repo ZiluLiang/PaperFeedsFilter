@@ -43,9 +43,12 @@ jobs:
 
       - name: Push feed to gh-pages
         run: |
-          # Save generated files
+          # Save generated files to tmp BEFORE switching branches
           cp filtered_feed.xml /tmp/filtered_feed.xml
           cp filtered_feed_summary.json /tmp/filtered_feed_summary.json
+
+          # Remove them from working tree so checkout doesn't complain
+          rm filtered_feed.xml filtered_feed_summary.json
 
           # Configure git
           git config user.name "github-actions[bot]"
