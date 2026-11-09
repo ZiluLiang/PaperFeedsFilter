@@ -1,7 +1,8 @@
 {
-  "generated": "2026-11-09T15:42:40.553411+00:00",
-  "core_entries": 52,
-  "explore_entries": 114,
+  "generated": "2026-11-09T15:53:44.984519+00:00",
+  "preprint_entries": 26,
+  "journal_entries": 26,
+  "explore_entries": 109,
   "core_threshold": 0.3,
   "explore_threshold": 0.18
 }

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Zilu's Filtered Journal Feed</title>
+    <description>Semantically filtered journal articles matched to your Zotero profile</description>
+    <link>https://github.com</link>
+    <lastBuildDate>Mon, 09 Nov 2026 15:53:44 +0000</lastBuildDate>
+    <item>
+      <title>The representation of object-concept primitives across the macaque brain</title>
+      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</link>
+      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</guid>
+      <description>&lt;b&gt;Relevance: 35% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Spencer R. Loggia, Helen E. Feibes, Stuart Duffield, Karthik Kasi, Bevil R. Conway&lt;/i&gt;&lt;br/&gt;Loggia et al. train macaques for years on color-shape associations, then use fMRI while the monkeys “hold in mind” features cued by their associates. The results suggest a whole-brain blueprint for object concepts: retinotopic cortex encodes perception, anterior IT uses color as a concept scaffold, and frontal cortex mediates decisions.</description>
+    </item>
+    <item>
+      <title>Neuromodulation-inspired gated associative memory networks: Extended memory retrieval and emergent multistability</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2607559123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2607559123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 33% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Daiki GotoHector Manuel Lopez RiosMonika ScholzSuriyanarayanan Vaikuntanathanahttps://ror.org/024mw5h28Department of Physics, The University of Chicago, Chicago, IL 60637bhttps://ror.org/024mw5h28The James Franck Institute, The University of Chicago, Chicago, IL 60637chttps://ror.org/024mw5h28Department of Chemistry, The University of Chicago, Chicago, IL 60637dhttps://ror.org/02yjyfs84Max Planck Research Group Neural Information Flow, Max Planck Institute for Neurobiology of Behavior-Caesar, Bonn 53175, Germany&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 44, November 2026. SignificanceNeuromodulators such as neuropeptides and bioamines regulate behavioral states across species, yet their collective computational consequences remain poorly understood theoretically. We show that a single biologically motivated mechanism for ...</description>
+    </item>
+    <item>
+      <title>Dual-feature selectivity enables bidirectional coding in visual cortical neurons</title>
+      <link>https://elifesciences.org/articles/109861</link>
+      <guid>https://dx.doi.org/10.7554/eLife.109861</guid>
+      <description>&lt;b&gt;Relevance: 33% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Alexander Ecker, Andreas Savas Tolias, Cate Nealley, Edgar Walker, Emmanouil Froudarakis, Fabian H Sinz, Gabby Garcia, Hasan Atakan Bedel, Kandan Ramakrishnan, Katrin Franke, Kelli Restivo, Konstantin Friedrich Willeke, Maria Diamantaki, Nikos Karantzas, Paul Fahey, Pavithra Elumalai, Saumil Patel, Sophia Sanborn, Tori Shinn&lt;/i&gt;&lt;br/&gt;Sensory neurons are traditionally viewed as feature detectors that respond with an increase in firing rate to preferred stimuli while remaining unresponsive to others. Here, we identify a dual-feature encoding strategy in macaque visual cortex, wherein many neurons in areas V1 and V4 are selectively tuned to two distinct visual features—one that enhances and one that suppresses activity—around an elevated baseline firing rate. By combining neuronal recordings with functional digital twin models—deep learning-based predictive models of biological neurons—we were able to systematically identify each neuron’s preferred and non-preferred features. These feature pairs served as anchors for a continuous, low-dimensional axis in natural image similarity space, along which neuronal activity varied approximately linearly. Within a single visual area, visual features that strongly or weakly activated individual neurons also had a high probability of modulating the activity of other neurons, suggesting a shared feature selectivity across the population that structures stimulus encoding. We show that this encoding strategy is conserved across species, present in both primary and lateral visual areas of mouse cortex. Dual-feature selectivity is consistent with recent anatomical evidence for feature-specific inhibitory connectivity, complementing the feature-detector principle through circuit mechanisms in which selective excitation and inhibition may together enhance the representational capacity of the neuronal population.</description>
+      <pubDate>2026-11-09T00:00:00+00:00</pubDate>
+    </item>
+    <item>
+      <title>Long-term development of a motor memory</title>
+      <link>https://www.nature.com/articles/s41562-026-02622-1</link>
+      <guid>https://www.nature.com/articles/s41562-026-02622-1</guid>
+      <description>&lt;b&gt;Relevance: 29% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;David W. Franklin, Pascal Nietschmann, Sae Franklin&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02622-1 Franklin et al. examine how simple motor adaptation is developed with thousands of training trials over multiple weeks to study the long-term development of a motor memory.</description>
+    </item>
+    <item>
+      <title>Selective control of course correction over long timescales in the Drosophila central complex</title>
+      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01278-9?rss=yes</link>
+      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01278-9?rss=yes</guid>
+      <description>&lt;b&gt;Relevance: 29% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Anthony M. Crown, Annie H. Wu, Lindsey Hofflander, Gilad Barnea&lt;/i&gt;&lt;br/&gt;Crown et al. describe a behavioral correlate between optomotor steering maneuvers and the navigational circuitry of the fly brain. Several populations of columnar neurons contribute different aspects of these maneuvers, and their influence is most evident when the fly moves over timescales of several seconds.</description>
+    </item>
+    <item>
+      <title>Expectation-driven gain modulation of preparatory spatial attention</title>
+      <link>https://elifesciences.org/articles/110315</link>
+      <guid>https://dx.doi.org/10.7554/eLife.110315</guid>
+      <description>&lt;b&gt;Relevance: 28% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Dirk van Moorselaar, Stefan van der Stigchel&lt;/i&gt;&lt;br/&gt;The visual system can flexibly adjust attentional deployment to match task demands, but whether observers can proactively modulate the spatial scope of attention based on expectations about upcoming search difficulty remains unclear. According to the zoom lens model, attention can narrow or broaden its spatial extent, with narrower focus enhancing processing efficiency, a mechanism that would benefit target discrimination in crowded displays. We tested whether observers adjust attentional scope when expecting sparse versus dense search arrays by combining spatial cueing with block-wise manipulations of display density expectations. Participants performed a visual search task in which endogenous cues predicted target location, while blocks predominantly contained either sparse (1 target, 3 distractors) or dense (1 target, 7 distractors) displays. We applied inverted encoding models to broadband EEG data to reconstruct spatial channel tuning functions, enabling precise characterization of both the locus and breadth of attentional deployment. Behaviorally, expecting difficult searches selectively improved accuracy at cued locations without costs elsewhere. Consistent with this selective benefit, neural measurements revealed that expectancy enhanced the amplitude of spatially selective responses at the attended location but did not alter tuning width. These findings demonstrate that expectations about search difficulty modulate attention through gain-based signal enhancement rather than adjustments to spatial scope, revealing that preparatory attentional control operates via amplitude modulation within a stable spatial focus. This mechanism complements reactive attentional adjustments and provides an efficient means for the visual system to optimize processing under predictable task demands.</description>
+      <pubDate>2026-11-06T00:00:00+00:00</pubDate>
+    </item>
+    <item>
+      <title>Distinct neural representations of perceptual and numerical absence in the human brain</title>
+      <link>https://elifesciences.org/articles/112088</link>
+      <guid>https://dx.doi.org/10.7554/eLife.112088</guid>
+      <description>&lt;b&gt;Relevance: 28% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Benjy Barnett, Stephen M Fleming&lt;/i&gt;&lt;br/&gt;The ability to represent absences is fundamental to human perception and cognition. Sensitivity to non-numerical absences depends on inferring a lack of sensory evidence, enabling the recognition of a lack of environmental resources or other objects. In turn, encoding numerical absence as a concept – in the form of the number zero – has enabled a multitude of technological and mathematical advances. Whether perceptual and conceptual absences rely on overlapping or distinct neural representations in the human brain, however, remains unknown. We employed three different tasks together with magnetoencephalography to characterise neural representations of absence evoked within perceptual and numerical domains. Using multivariate decoding and Bayes factor analyses, we replicate previous findings of shared representations of numerical absence across symbolic and non-symbolic formats. In contrast, we show that these representations of numerical absence are distinct from those evoked by non-numerical absences. This result held even after controlling for stimulus-level confounds which generate surface-level similarities between perceptual absences and non-symbolic empty sets. Our results extend a boundary between perception and cognition to the domain of absence and provide insight into the different mechanisms employed by the human brain to both perceive and conceive of absences.</description>
+      <pubDate>2026-11-05T00:00:00+00:00</pubDate>
+    </item>
+    <item>
+      <title>Environment-specific virtual head direction representation in the human anteroventral thalamus during memory-guided spatial orientation</title>
+      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01330-8?rss=yes</link>
+      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01330-8?rss=yes</guid>
+      <description>&lt;b&gt;Relevance: 28% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Pengcheng Lv, Dong Chen, Chao Zhang, Kai Zhang, Liang Wang&lt;/i&gt;&lt;br/&gt;Lv et al. show that the human anteroventral thalamus carries environment-specific virtual head direction information during memory-guided spatial orientation, providing direct intracranial evidence that bridges animal head direction models and human navigation.</description>
+    </item>
+    <item>
+      <title>Electrical synapses mediate visual orientation behavior</title>
+      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01270-4?rss=yes</link>
+      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01270-4?rss=yes</guid>
+      <description>&lt;b&gt;Relevance: 26% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Giovanni Frighetto, Mark Dombrovski, Lesly M. Palacios Castillo, Pratap Meera, Parmis S. Mirshahidi, Pegah S. Mirshahidi, Piero Sanfilippo, Andrea Vaccari, Pratyush Kandimalla, Volker Hartenstein, Yerbol Z. Kurmangaliyev, S. Lawrence Zipursky, Mark A. Frye&lt;/i&gt;&lt;br/&gt;Frighetto et al. reveal a neural circuit in the fly optic lobe that mediates saccadic orientation toward visual objects. Electrical synapses are a key feature of this visual pathway and are required for proper computation of visual signals and the resulting behavioral response.</description>
+    </item>
+    <item>
+      <title>Alerting acoustic stimuli enhance the internal representation of head direction</title>
+      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01331-X?rss=yes</link>
+      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01331-X?rss=yes</guid>
+      <description>&lt;b&gt;Relevance: 26% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Florian Hofmann, Eduardo Blanco-Hernández, Giuseppe Balsamo, Steffen R. Hage, Andrea Burgalossi, Patricia Preston-Ferrer&lt;/i&gt;&lt;br/&gt;Hofmann et al. show that alerting sounds recruit HD neurons in the thalamocortical HD circuit and enhance the fidelity of the HD representation. These findings reveal a link between sensory-induced arousal and the neural circuits underlying spatial navigation.</description>
+    </item>
+    <item>
+      <title>In-context learning as a retraining-free paradigm for constitutive modeling</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2620983123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2620983123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 23% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Lingfeng LiZhuoyuan LiShun LiKaixin ZhanHuajian GaoChang Qing ChenLiu Yangahttps://ror.org/03cve4549Department of Engineering Mechanics, Tsinghua University, Beijing 100084, Chinabhttps://ror.org/01tgyzw49Department of Mathematics, National University of Singapore, Singapore 119076, Singaporechttps://ror.org/01tgyzw49Institute for Functional Intelligent Materials, National University of Singapore, Singapore 117544, Singaporedhttps://ror.org/02v51f717School of Mathematical Sciences, Peking University, Beijing 100871, Chinaehttps://ror.org/03cve4549Mechano-X Institute, Tsinghua University, Beijing 100084, China&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 44, November 2026. SignificanceConstitutive modeling underpins computational mechanics, yet most existing approaches follow a modeling-by-optimization paradigm in which each new material requires calibration or retraining. Here we demonstrate that constitutive modeling can ...</description>
+    </item>
+    <item>
+      <title>A functional connectome identifies vulnerability to cognitive decline and Alzheimer’s disease progression</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aed9351?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aed9351?af=R</guid>
+      <description>&lt;b&gt;Relevance: 23% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kanhao Zhao, Hua Xie, Gregory A. Fonzo, Nancy B. Carlisle, Tovia Jacobs, Ricardo S. Osorio, Arpana Church, Feng Vankee Lin, Yu Zhang, Alzheimer’s Disease Neuroimaging Initiative&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 45, November 2026.</description>
+    </item>
+    <item>
+      <title>Spyglass is a framework for reproducible and shareable neuroscience research</title>
+      <link>https://elifesciences.org/articles/108089</link>
+      <guid>https://dx.doi.org/10.7554/eLife.108089</guid>
+      <description>&lt;b&gt;Relevance: 22% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Alessio Paolo Buccino, Alison E Comrie, Andrew Tritt, Caleb Kemere, Chris Brozdowski, Cristofer Holobetz, Daniel P Gramling, Dimitri Yatsenko, Donghoon Shin, Emily Monroe, Emrey Broyles, Eric L Denovellis, Jeff Soules, Jennifer A Guidera, Jeremy Magland, Ji Hyun Bak, Joshua Chu, Kyu Hyun Lee, Loren Frank, Michael E Coulter, Oliver Rübel, Philip Adenekan, Rhino Nevers, Ryan Ly, Samuel Garcia, Samuel R Bray, Sharon Chiang, Thinh Nguyen, Xulu Sun&lt;/i&gt;&lt;br/&gt;Scientific progress depends on reliable and reproducible results. Progress can be accelerated when data are shared and re-analyzed to address new questions. Current approaches to storing and analyzing neural data involve bespoke formats and software that make replication and reuse of data difficult. To address these challenges, we created Spyglass, an open-source data management and analysis framework written in Python. Spyglass provides reproducible pipelines for common neuroscience analyses and sharing of raw data, intermediate analyses, and final results within and across labs. Spyglass uses the Neurodata Without Borders (NWB) standard and includes pipelines for spectral filtering, spike sorting, pose tracking, and neural decoding. Spyglass can be extended to apply existing and newly developed pipelines to datasets from multiple sources. We demonstrate these features in the context of a cross-laboratory replication by applying advanced state space decoding algorithms to publicly available data. New users can try out Spyglass on a Jupyter Hub hosted by HHMI and 2i2c: https://spyglass.hhmi.2i2c.cloud/ .</description>
+      <pubDate>2026-11-03T00:00:00+00:00</pubDate>
+    </item>
+    <item>
+      <title>The resource elasticity of control</title>
+      <link>https://elifesciences.org/articles/105507</link>
+      <guid>https://dx.doi.org/10.7554/eLife.105507</guid>
+      <description>&lt;b&gt;Relevance: 22% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Aviv Emanuel, Eran Eldar, Levi Solomyak&lt;/i&gt;&lt;br/&gt;The ability to determine how much the environment can be controlled through our actions has long been viewed as fundamental to adaptive behavior. While traditional accounts treat controllability as a fixed property of the environment, we argue that real-world controllability often depends on the effort, time, and money we are able and willing to invest. In such cases, controllability can be said to be elastic to invested resources. Here, we propose that inferring this elasticity is essential for efficient resource allocation, and thus, elasticity misestimations result in maladaptive behavior. To test this hypothesis, we developed a novel treasure hunt game where participants encountered environments with varying degrees of controllability and elasticity. Across two pre-registered studies ( N =514), we first demonstrate that people infer elasticity and adapt their resource allocation accordingly. We then present a computational model that explains how people make this inference and identify individual elasticity biases that lead to suboptimal resource allocation. Finally, we show that overestimation of elasticity is associated with elevated psychopathology involving an impaired sense of control. These findings establish the elasticity of control as a distinct cognitive construct guiding adaptive behavior and a computational marker for control-related maladaptive behavior.</description>
+      <pubDate>2026-11-06T00:00:00+00:00</pubDate>
+    </item>
+    <item>
+      <title>Forniceal deep brain stimulation improves memory in Rett syndrome mice by promoting the maturation of newborn hippocampal neurons</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2535887123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2535887123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 20% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Qi WangBin TangZhenyu WuHuda Y. ZoghbiJianrong Tangahttps://ror.org/05cz92x43Jan and Dan Duncan Neurological Research Institute at Texas Children’s Hospital, Houston, TX 77030bhttps://ror.org/02pttbw34Department of Pediatrics, Division of Neurology, Baylor College of Medicine, Houston, TX 77030chttps://ror.org/02pttbw34Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030dhttps://ror.org/02pttbw34Program in Developmental Biology, Baylor College of Medicine, Houston, TX 77030ehttps://ror.org/02pttbw34Department of Neuroscience, Baylor College of Medicine, Houston, TX 77030fhttps://ror.org/02pttbw34HHMI, Baylor College of Medicine, Houston, TX 77030&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 44, November 2026. SignificanceDeep brain stimulation (DBS) has long been known for its efficacy in mitigating movement disorders. More recently, it has shown promise for addressing disorders of learning and memory: for example, DBS of the fornix rescues hippocampal memory ...</description>
+    </item>
+    <item>
+      <title>fMRI-guided focal transcranial magnetic stimulation of anterior cingulate cortex reduces opioid seeking and restores connectivity</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2619013123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2619013123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 20% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Zilu MaYing DuanHieu NguyenSabrina LinMd Mohaiminul HaqueDanni WangSamantha HoffmanAidan CarneyTaylor ScottEleni VarlasElliot SteinZheng-Xiong XiYavin ShahamHanbing LuYihong YangaNeuroimaging Research Branch, Intramural Research Program, National Institute on Drug Abuse, National Institutes of Health, Baltimore, MD 21224bSchool of Electrical Engineering, International University, VNU-HCM, Ho Chi Minh City 71309, Vietnamchttps://ror.org/00waaqh38Viet Nam National University Ho Chi Minh City, Ho Chi Minh City 71309, Vietnamdhttps://ror.org/043mer456Department of Electrical and Electronic Engineering, University of Nebraska-Lincoln, Lincoln, NE 68588eMolecular Targets and Medication Discovery Branch, Intramural Research Program, National Institute on Drug Abuse, National Institutes of Health, Baltimore, MD 21224fBehavioral Neuroscience Branch, Intramural Research Program, National Institute on Drug Abuse, National Institutes of Health, Baltimore, MD 21224&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 44, November 2026. SignificanceA major challenge in developing brain stimulation therapies for opioid addiction is identifying which neural circuits to target and tracking how stimulation reshapes relapse-related circuit function. Using a rat model of oxycodone relapse ...</description>
+    </item>
+    <item>
+      <title>Pink noise in dyads’ semantic similarity trajectories predicts conversation enjoyment</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeb2684?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeb2684?af=R</guid>
+      <description>&lt;b&gt;Relevance: 19% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kathryn C. O’Nell, Kiara L. Sanchez, Emily S. Finn&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 45, November 2026.</description>
+    </item>
+    <item>
+      <title>Ddx3x deficiency in mice impairs corticofugal motor circuits and causes motor deficits that are attenuated by early-life exercise</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2535732123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2535732123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 18% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Lauren DierdorffIkrame El KhaldiMarta Garcia-FornWei WangJeronimo LukinCorinne M. SmithAdele MossaZhuhao WuSilvia De Rubeisahttps://ror.org/04a9tmd77Seaver Autism Center for Research and Treatment, Icahn School of Medicine at Mount Sinai, New York, NY 10029bhttps://ror.org/04a9tmd77Department of Psychiatry, Icahn School of Medicine at Mount Sinai, New York, NY 10029chttps://ror.org/04a9tmd77Department of Neuroscience, Icahn School of Medicine at Mount Sinai, New York, NY 10029dhttps://ror.org/04a9tmd77The Mindich Child Health and Development Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029ehttps://ror.org/04a9tmd77The Friedman Brain Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029fhttps://ror.org/04a9tmd77The Alper Center for Neural Development and Regeneration Friedman Brain Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029ghttps://ror.org/02r109517Helen &amp; Robert Appel Alzheimer’s Disease Research Institute, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10021hhttps://ror.org/04a9tmd77Department of Pharmacological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029ihttps://ror.org/04a9tmd77Department of Graduate Education, Icahn School of Medicine at Mount Sinai, New York, NY 10029&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 44, November 2026. SignificanceAcquisition of motor skills during infancy is critical for a child’s ability to interact with the physical and social environment and motor impairments are frequent in individuals with neurodevelopmental disorders. Here, we studied the neural ...</description>
+    </item>
+    <item>
+      <title>AI ‘slop’ is a social judgement</title>
+      <link>https://www.nature.com/articles/s41562-026-02639-6</link>
+      <guid>https://www.nature.com/articles/s41562-026-02639-6</guid>
+      <description>&lt;b&gt;Relevance: 18% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Richard Jean So, Hoyt Long, Cody Kommers, Mina Lee, Emily Wenger, Peter West, Eamon Duede, Ari Holtzman, Chenhao Tan&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02639-6 Artificial intelligence (AI)-generated content increasingly saturates our information environment. Efforts to detect and remove it are failing. We propose that calling AI-generated content ‘slop’ is best understood as a social judgement: what a community recognizes as unwanted AI content. Studying AI slop this way makes it tractable, measurable and governable.</description>
+    </item>
+    <item>
+      <title>Lighting up necrotic neurons from traumatic brain injury with magnetic quantum dots to decode the cellular origin of MRI</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aej0686?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aej0686?af=R</guid>
+      <description>&lt;b&gt;Relevance: 16% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Mingxia Jiao, Xin Zhao, Jingyun Wang, Wanru Tian, Yao Li, Xuan Cheng, Kun Zhang, Xiliang Luo, Peisen Zhang, Mingyuan Gao&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 45, November 2026.</description>
+    </item>
+    <item>
+      <title>Common transcriptional changes in the brain during hibernation and Alzheimer’s disease</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeg3486?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeg3486?af=R</guid>
+      <description>&lt;b&gt;Relevance: 15% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Pablo Largo-Barrientos, Roman Praschberger, Gonzalo León-Espinosa, Pieter-Jan Bultynck, Anastasia Mallopoulou, João F. Machado, Suresh Poovathingal, Kristofer Davie, Patrik Verstreken&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 45, November 2026.</description>
+    </item>
+    <item>
+      <title>AI governance needs to consider users’ emotional responses</title>
+      <link>https://www.nature.com/articles/s41562-026-02620-3</link>
+      <guid>https://www.nature.com/articles/s41562-026-02620-3</guid>
+      <description>&lt;b&gt;Relevance: 15% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Daniel Västfjäll&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 26 October 2026; doi:10.1038/s41562-026-02620-3 People will often trust or distrust an artificial intelligence (AI) output because of how it makes them feel, rather than how reliable it is. AI governance frameworks should require that platforms disclose design choices that target user emotions, allow users control over these, and include features aimed to calibrate trust.</description>
+    </item>
+    <item>
+      <title>On-going retinal neuronal degeneration despite clinical stability in glaucoma</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aef3222?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aef3222?af=R</guid>
+      <description>&lt;b&gt;Relevance: 13% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Achyut J. Raghavendra, Kenaan Elbash, Marlon Diaz, Osamah J. Saeedi, Zhuolin Liu, Daniel X. Hammer&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 45, November 2026.</description>
+    </item>
+    <item>
+      <title>Within-family heritability estimates for behavioural and disease phenotypes from 500,000 sibling pairs of diverse ancestries</title>
+      <link>https://www.nature.com/articles/s41562-026-02599-x</link>
+      <guid>https://www.nature.com/articles/s41562-026-02599-x</guid>
+      <description>&lt;b&gt;Relevance: 11% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Loic Yengo, Yanyu Liang, Xin Wang, Julie M. Granka, David M. Evans, Julia Sidorenko, Peter M. Visscher&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 26 October 2026; doi:10.1038/s41562-026-02599-x Using the variation in DNA sharing between 500,000 sibling pairs with diverse genetic ancestries, Yengo et al. estimate the heritability of 14 complex traits.</description>
+    </item>
+    <item>
+      <title>A natural field experiment on the effectiveness of economic sanctions before and after the Russian invasion of Ukraine</title>
+      <link>https://www.nature.com/articles/s41562-026-02591-5</link>
+      <guid>https://www.nature.com/articles/s41562-026-02591-5</guid>
+      <description>&lt;b&gt;Relevance: 5% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Michael G. Findley, Daniel L. Nielson, J. C. Sharman&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02591-5 A field experiment by Findley et al. finds that financial sanctions on Russian officials had little effect on access to banking and corporate services before the 2022 invasion of Ukraine, but significantly reduced access afterwards.</description>
+    </item>
+    <item>
+      <title>Quantum gases below 10 picokelvin in space | Science</title>
+      <link>https://www.science.org/doi/10.1126/science.aea5324</link>
+      <guid>https://www.science.org/doi/10.1126/science.aea5324</guid>
+      <description>&lt;b&gt;Relevance: -1% | Source: Science&lt;/b&gt;&lt;br/&gt;Ultracold atom platforms enable low temperatures and long free evolution times, which are crucial for fundamental physics tests and atom interferometry. The lowest equivalent temperature reported in such a system is 38 pK with a free expansion time of 2 ...</description>
+      <pubDate>2026-11-05T09:01:00-05:00</pubDate>
+    </item>
+  </channel>
+</rss>
