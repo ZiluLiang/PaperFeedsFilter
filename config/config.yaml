@@ -2,46 +2,39 @@
 # Paper Filter Configuration
 # =============================================================================
 
-# --- Interest Profile ---
-# Option A: Point to your Zotero export (BibTeX or CSV)
-# After exporting from Zotero: File > Export Library > BibTeX or CSV
-# Place the file in the config/ folder and set the path here.
+# --- Core interest profile (Zotero library) ---
 zotero_export: "config/MyLibrary.txt"
 
-# Option B: Plain-text description of your interests (used if zotero_export is null)
-interest_description: |
-  I am interested in computational approaches to understanding the mind and brain.
-  This includes predictive processing and predictive coding, Bayesian brain theories,
-  active inference, and reinforcement learning as it applies to cognition and behaviour.
-  I follow work on large language models, reasoning in AI systems, and AI alignment.
-  I also read broadly in cognitive neuroscience, computational psychiatry, and decision-making.
-  On the psychology side I care about perception, memory, attention, and mental health.
-  I am interested in methods: fMRI, EEG, neural data analysis, and ML methods for neuroscience.
+# --- Exploration profile ---
+# Optional. If left empty, Claude will automatically infer adjacent interests
+# from your Zotero library and save the result to config/exploration_description.txt
+# (delete that file to regenerate it).
+# If you want to override, write your own description here.
+exploration_description: ""
 
-# --- Similarity threshold ---
-# Papers with a cosine similarity score above this threshold are included.
-# Start around 0.25 and tune up if too many papers come through.
-threshold: 0.25
+# --- Thresholds ---
+core_threshold: 0.30       # higher — only papers closely matching your Zotero profile
+explore_threshold: 0.18    # lower — catches adjacent/surprising papers
+top_n: 5                   # min papers per feed per output (applied to both)
 
-# --- How many top papers to always include (regardless of threshold) ---
-top_n: 10
-
-# --- RSS Feeds ---
-# These all go through semantic filtering.
+# --- Feeds ---
+# core_feeds: filtered against your Zotero profile → core feed
+# explore_feeds: filtered against exploration profile → explore feed
+# A feed can appear in both if you want.
 #
-# ALSO IN INOREADER (no filtering needed, already topic-specific):
-#   - Nature Neuroscience:        https://www.nature.com/neuro.rss
+# KEEP IN INOREADER DIRECTLY (already topic-specific, low volume):
+#   - Nature Neuroscience:         https://www.nature.com/neuro.rss
 #   - Nature Reviews Neuroscience: https://www.nature.com/nrn.rss
-#   - Neuron:                     https://www.cell.com/neuron/inpress.rss
-#   - Cell:                       https://www.cell.com/cell/inpress.rss
+#   - Neuron:                      https://www.cell.com/neuron/inpress.rss
+#   - Cell:                        https://www.cell.com/cell/inpress.rss
 #   - Trends in Cognitive Sciences: https://www.cell.com/cognitive-sciences/inpress.rss
-#   - Trends in Neurosciences:    https://www.cell.com/neurosciences/inpress.rss
+#   - Trends in Neurosciences:     https://www.cell.com/neurosciences/inpress.rss
 #   - Annual Reviews Neuroscience: https://www.annualreviews.org/rss/content/journals/neuro/latestarticles?fmt=rss
-#   - Annual Reviews Psychology:  https://www.annualreviews.org/rss/content/journals/psych/latestarticles?fmt=rss
-#   - Psychological Bulletin:     https://psycnet.apa.org/journals/bul.rss
+#   - Annual Reviews Psychology:   https://www.annualreviews.org/rss/content/journals/psych/latestarticles?fmt=rss
+#   - Psychological Bulletin:      https://psycnet.apa.org/journals/bul.rss
 
-feeds:
-  # --- Preprints ---
+core_feeds:
+  # Preprints
   - name: "arXiv AI"
     url: "https://rss.arxiv.org/rss/cs.AI"
   - name: "arXiv Machine Learning"
@@ -56,8 +49,7 @@ feeds:
     url: "https://connect.biorxiv.org/biorxiv_xml.php?subject=psychology"
   - name: "PsyArXiv"
     url: "https://psyarxiv.com/feed/"
-
-  # --- Broad journals (high volume, need filtering) ---
+  # Broad journals
   - name: "Nature"
     url: "https://www.nature.com/nature.rss"
   - name: "Science"
@@ -68,19 +60,37 @@ feeds:
     url: "https://www.cell.com/current-biology/inpress.rss"
   - name: "Science Advances"
     url: "https://www.science.org/action/showFeed?type=etoc&feed=rss&jc=sciadv"
-
-  # --- Sub-journals (broad scope, need filtering) ---
   - name: "Nature Human Behaviour"
     url: "https://www.nature.com/nathumbehav.rss"
   - name: "eLife"
     url: "https://elifesciences.org/rss/recent.xml"
 
-# No passthrough — everything above is filtered
-passthrough_feeds: []
+explore_feeds:
+  # Adjacent preprint categories not in core
+  - name: "arXiv Computer Vision"
+    url: "https://rss.arxiv.org/rss/cs.CV"
+  - name: "arXiv Economics"
+    url: "https://rss.arxiv.org/rss/econ.GN"
+  - name: "arXiv Physics & Society"
+    url: "https://rss.arxiv.org/rss/physics.soc-ph"
+  - name: "arXiv Quantitative Biology"
+    url: "https://rss.arxiv.org/rss/q-bio.PE"
+  - name: "bioRxiv Animal Behavior"
+    url: "https://connect.biorxiv.org/biorxiv_xml.php?subject=animal-behavior-and-cognition"
+  # Broad journals also scanned for surprises
+  - name: "Nature"
+    url: "https://www.nature.com/nature.rss"
+  - name: "Science"
+    url: "https://feeds.science.org/rss/science-aop.xml"
+  - name: "PNAS"
+    url: "https://www.pnas.org/rss/current.xml"
 
 # --- Output ---
 output:
-  filename: "filtered_feed.xml"
-  feed_title: "Zilu's Filtered Paper Feed"
-  feed_description: "Semantically filtered preprints + journal feeds"
+  core_filename: "filtered_feed.xml"
+  explore_filename: "explore_feed.xml"
+  core_title: "Zilu's Core Paper Feed"
+  explore_title: "Zilu's Explore Feed"
+  core_description: "Papers closely matching your Zotero research profile"
+  explore_description: "Adjacent and surprising papers outside your usual domain"
   max_age_days: 7

@@ -1,9 +1,9 @@
 """
 paper-filter: Semantic RSS filter for academic preprints.
 
-Fetches configured RSS feeds, scores each entry against an interest profile
-(derived from a Zotero export or a plain-text description), and outputs a
-filtered RSS feed for subscription in any RSS reader (e.g. Inoreader).
+Produces two RSS feeds:
+  - Core feed:    high threshold, scored against Zotero library profile
+  - Explore feed: lower threshold, scored against exploration description
 """
 
 import os
@@ -22,7 +22,6 @@ from xml.etree import ElementTree as ET
 import yaml
 import numpy as np
 import feedparser
-import requests
 from sentence_transformers import SentenceTransformer
 
 logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
@@ -37,27 +36,25 @@ def load_config(path: str = "config/config.yaml") -> dict:
         return yaml.safe_load(f)
 
 # ---------------------------------------------------------------------------
-# Interest profile
+# Text cleaning
 # ---------------------------------------------------------------------------
 
 def _clean(text: str) -> str:
-    """Strip HTML tags and normalise whitespace."""
     text = re.sub(r"<[^>]+>", " ", text or "")
     return re.sub(r"\s+", " ", text).strip()
 
+# ---------------------------------------------------------------------------
+# Interest profiles
+# ---------------------------------------------------------------------------
 
 def profile_from_description(description: str, model: SentenceTransformer) -> np.ndarray:
-    """Embed a plain-text interest description."""
-    log.info("Building interest profile from text description.")
-    vec = model.encode([description], normalize_embeddings=True)
-    return vec[0]
+    log.info("Building profile from text description.")
+    return model.encode([description], normalize_embeddings=True)[0]
 
 
 def profile_from_bibtex(bib_path: str, model: SentenceTransformer) -> np.ndarray:
-    """Extract titles+abstracts from a BibTeX file and average their embeddings."""
-    log.info(f"Building interest profile from BibTeX: {bib_path}")
-    texts = []
-    current_title = current_abstract = ""
+    log.info(f"Building profile from BibTeX: {bib_path}")
+    texts, current_title, current_abstract = [], "", ""
     with open(bib_path, encoding="utf-8") as f:
         for line in f:
             line = line.strip()
@@ -71,37 +68,30 @@ def profile_from_bibtex(bib_path: str, model: SentenceTransformer) -> np.ndarray
                 current_title = current_abstract = ""
     if not texts:
         raise ValueError("No entries found in BibTeX file.")
-    log.info(f"  Found {len(texts)} entries in BibTeX.")
+    log.info(f"  {len(texts)} entries found.")
     vecs = model.encode(texts, normalize_embeddings=True, show_progress_bar=True, batch_size=64)
     return vecs.mean(axis=0)
 
 
 def profile_from_csv(csv_path: str, model: SentenceTransformer) -> np.ndarray:
-    """Extract titles+abstracts from a Zotero CSV export and average their embeddings."""
-    log.info(f"Building interest profile from CSV: {csv_path}")
+    log.info(f"Building profile from CSV: {csv_path}")
     texts = []
     with open(csv_path, encoding="utf-8") as f:
-        reader = csv.DictReader(f)
-        for row in reader:
+        for row in csv.DictReader(f):
             title = row.get("Title", "") or row.get("title", "")
             abstract = row.get("Abstract Note", "") or row.get("abstract", "")
             if title:
                 texts.append(f"{title}. {abstract}".strip())
     if not texts:
         raise ValueError("No entries found in CSV file.")
-    log.info(f"  Found {len(texts)} entries in CSV.")
+    log.info(f"  {len(texts)} entries found.")
     vecs = model.encode(texts, normalize_embeddings=True, show_progress_bar=True, batch_size=64)
     return vecs.mean(axis=0)
 
 
 def profile_from_ris(ris_path: str, model: SentenceTransformer) -> np.ndarray:
-    """Extract titles+abstracts from a RIS/Zotero .txt export and average their embeddings.
-    RIS format uses tags like %T (title) and %X (abstract).
-    """
-    log.info(f"Building interest profile from RIS: {ris_path}")
-    texts = []
-    current_title = ""
-    current_abstract = ""
+    log.info(f"Building profile from RIS: {ris_path}")
+    texts, current_title, current_abstract = [], "", ""
     with open(ris_path, encoding="utf-8") as f:
         for line in f:
             line = line.rstrip()
@@ -109,37 +99,102 @@ def profile_from_ris(ris_path: str, model: SentenceTransformer) -> np.ndarray:
                 current_title = line[3:].strip()
             elif line.startswith("%X "):
                 current_abstract = line[3:].strip()
-            elif line.startswith("%X") and len(line) > 2:
-                # continuation lines for long abstracts
-                current_abstract += " " + line[2:].strip()
             elif line == "" and current_title:
                 texts.append(f"{current_title}. {current_abstract}".strip())
-                current_title = ""
-                current_abstract = ""
-    # catch last entry if file doesn't end with blank line
+                current_title = current_abstract = ""
     if current_title:
         texts.append(f"{current_title}. {current_abstract}".strip())
     if not texts:
         raise ValueError("No entries found in RIS file.")
-    log.info(f"  Found {len(texts)} entries in RIS export.")
+    log.info(f"  {len(texts)} entries found.")
     vecs = model.encode(texts, normalize_embeddings=True, show_progress_bar=True, batch_size=64)
     return vecs.mean(axis=0)
 
 
-def build_interest_profile(cfg: dict, model: SentenceTransformer) -> np.ndarray:
-    zotero_path = cfg.get("zotero_export")
-    if zotero_path and Path(zotero_path).exists():
-        if zotero_path.endswith(".bib"):
-            return profile_from_bibtex(zotero_path, model)
-        elif zotero_path.endswith(".csv"):
-            return profile_from_csv(zotero_path, model)
-        elif zotero_path.endswith(".txt") or zotero_path.endswith(".ris"):
-            return profile_from_ris(zotero_path, model)
+def build_zotero_profile(cfg: dict, model: SentenceTransformer) -> np.ndarray:
+    path = cfg.get("zotero_export")
+    if path and Path(path).exists():
+        if path.endswith(".bib"):
+            return profile_from_bibtex(path, model)
+        elif path.endswith(".csv"):
+            return profile_from_csv(path, model)
+        elif path.endswith(".txt") or path.endswith(".ris"):
+            return profile_from_ris(path, model)
         else:
-            log.warning(f"Unknown Zotero export format: {zotero_path}. Falling back to description.")
+            log.warning(f"Unknown format: {path}. Falling back to description.")
     desc = cfg.get("interest_description", "")
     if not desc.strip():
-        raise ValueError("No interest profile configured. Set zotero_export or interest_description in config.")
+        raise ValueError("No interest profile configured.")
+    return profile_from_description(desc, model)
+
+
+def generate_exploration_description(cfg: dict) -> str:
+    """Use Claude API to infer adjacent interests from Zotero library.
+    Saves the result to config/exploration_description.txt so it only runs once
+    (delete that file to regenerate).
+    """
+    import requests
+
+    cache_path = Path("config/exploration_description.txt")
+    if cache_path.exists():
+        log.info("Loading cached exploration description.")
+        return cache_path.read_text(encoding="utf-8").strip()
+
+    log.info("Generating exploration description from Zotero library via Claude API...")
+
+    # Load titles from Zotero
+    zotero_path = cfg.get("zotero_export", "")
+    titles = []
+    if zotero_path and Path(zotero_path).exists():
+        with open(zotero_path, encoding="utf-8") as f:
+            for line in f:
+                if line.startswith("%T "):
+                    titles.append(line[3:].strip())
+
+    if not titles:
+        raise ValueError("Could not read titles from Zotero export.")
+
+    # Sample up to 200 titles to keep prompt size reasonable
+    import random
+    random.seed(42)
+    sample = random.sample(titles, min(200, len(titles)))
+    titles_text = "\n".join(f"- {t}" for t in sample)
+
+    prompt = f"""Here are a sample of {len(sample)} paper titles from a researcher's personal library:
+
+{titles_text}
+
+Based on these titles, please:
+1. Briefly characterise this researcher's core interests in 2-3 sentences.
+2. Then write a 4-6 sentence description of ADJACENT fields and topics they don't currently read much about, but would likely find intellectually interesting given their existing interests. Focus on areas that would genuinely surprise and expand their reading — not just more of the same.
+
+Write only the adjacent fields description (point 2), in plain prose, as if describing what a curious version of this researcher might want to explore next. Do not use bullet points or headers."""
+
+    response = requests.post(
+        "https://api.anthropic.com/v1/messages",
+        headers={"Content-Type": "application/json"},
+        json={
+            "model": "claude-sonnet-4-6",
+            "max_tokens": 400,
+            "messages": [{"role": "user", "content": prompt}]
+        },
+        timeout=60
+    )
+    response.raise_for_status()
+    data = response.json()
+    description = data["content"][0]["text"].strip()
+
+    log.info(f"Generated exploration description:\n{description}")
+    cache_path.write_text(description, encoding="utf-8")
+    log.info(f"Saved to {cache_path}")
+    return description
+
+
+def build_explore_profile(cfg: dict, model: SentenceTransformer) -> np.ndarray:
+    # Use manual description if provided, otherwise auto-generate from Zotero
+    desc = cfg.get("exploration_description", "").strip()
+    if not desc:
+        desc = generate_exploration_description(cfg)
     return profile_from_description(desc, model)
 
 # ---------------------------------------------------------------------------
@@ -147,20 +202,18 @@ def build_interest_profile(cfg: dict, model: SentenceTransformer) -> np.ndarray:
 # ---------------------------------------------------------------------------
 
 def fetch_feed(feed_cfg: dict, max_age_days: int) -> list[dict]:
-    """Fetch and parse one RSS feed, returning a list of entry dicts."""
     name = feed_cfg["name"]
     url = feed_cfg["url"]
     log.info(f"Fetching: {name}")
     try:
         parsed = feedparser.parse(url, request_headers={"User-Agent": "paper-filter/1.0"})
     except Exception as e:
-        log.warning(f"  Failed to fetch {name}: {e}")
+        log.warning(f"  Failed: {e}")
         return []
 
     cutoff = datetime.now(timezone.utc) - timedelta(days=max_age_days)
     entries = []
     for e in parsed.entries:
-        # Parse date
         pub = None
         for field in ("published", "updated"):
             raw = e.get(field)
@@ -194,36 +247,58 @@ def fetch_feed(feed_cfg: dict, max_age_days: int) -> list[dict]:
     return entries
 
 # ---------------------------------------------------------------------------
-# Scoring
+# Scoring & filtering
 # ---------------------------------------------------------------------------
 
 def score_entries(entries: list[dict], profile: np.ndarray, model: SentenceTransformer) -> list[dict]:
     if not entries:
         return []
-    texts = [e["text"] for e in entries]
-    vecs = model.encode(texts, normalize_embeddings=True, batch_size=64, show_progress_bar=False)
+    vecs = model.encode([e["text"] for e in entries], normalize_embeddings=True,
+                        batch_size=64, show_progress_bar=False)
     scores = (vecs @ profile).tolist()
     for e, s in zip(entries, scores):
         e["score"] = round(float(s), 4)
     return entries
 
+
+def filter_feed_entries(feed_cfg: dict, max_age_days: int, profile: np.ndarray,
+                        model: SentenceTransformer, threshold: float, top_n: int) -> list[dict]:
+    entries = fetch_feed(feed_cfg, max_age_days)
+    if not entries:
+        return []
+
+    # Deduplicate by title
+    seen, unique = set(), []
+    for e in entries:
+        key = e["title"].lower()[:80]
+        if key not in seen:
+            seen.add(key)
+            unique.append(e)
+
+    scored = score_entries(unique, profile, model)
+    scored.sort(key=lambda x: x["score"], reverse=True)
+
+    above = [e for e in scored if e["score"] >= threshold]
+    combined = {e["id"]: e for e in above}
+    for e in scored[:top_n]:
+        combined[e["id"]] = e
+
+    result = sorted(combined.values(), key=lambda x: x["score"], reverse=True)
+    log.info(f"  → {len(unique)} unique | {len(above)} above threshold | {len(result)} in output")
+    return result
+
 # ---------------------------------------------------------------------------
 # RSS output
 # ---------------------------------------------------------------------------
 
-def build_rss(entries: list[dict], cfg: dict) -> str:
-    out_cfg = cfg.get("output", {})
-    title = out_cfg.get("feed_title", "Filtered Paper Feed")
-    desc = out_cfg.get("feed_description", "Semantically filtered papers")
-
+def build_rss(entries: list[dict], title: str, description: str) -> str:
     rss = ET.Element("rss", version="2.0")
     channel = ET.SubElement(rss, "channel")
     ET.SubElement(channel, "title").text = title
-    ET.SubElement(channel, "description").text = desc
+    ET.SubElement(channel, "description").text = description
     ET.SubElement(channel, "link").text = "https://github.com"
     ET.SubElement(channel, "lastBuildDate").text = datetime.now(timezone.utc).strftime(
-        "%a, %d %b %Y %H:%M:%S +0000"
-    )
+        "%a, %d %b %Y %H:%M:%S +0000")
 
     for e in entries:
         item = ET.SubElement(channel, "item")
@@ -246,101 +321,91 @@ def build_rss(entries: list[dict], cfg: dict) -> str:
 # ---------------------------------------------------------------------------
 
 def main():
-    parser = argparse.ArgumentParser(description="Semantic paper feed filter")
-    parser.add_argument("--config", default="config/config.yaml", help="Path to config file")
-    parser.add_argument("--dry-run", action="store_true", help="Print stats only, don't write output")
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--config", default="config/config.yaml")
+    parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
     cfg = load_config(args.config)
-    threshold = cfg.get("threshold", 0.25)
-    top_n = cfg.get("top_n", 10)
     max_age_days = cfg.get("output", {}).get("max_age_days", 7)
-    passthrough = set(cfg.get("passthrough_feeds", []))
-    out_cfg = cfg.get("output", {})
-    out_file = out_cfg.get("filename", "filtered_feed.xml")
+    core_threshold = cfg.get("core_threshold", 0.30)
+    explore_threshold = cfg.get("explore_threshold", 0.18)
+    top_n = cfg.get("top_n", 5)
+    out = cfg.get("output", {})
 
-    # Load model (cached after first run)
     log.info("Loading sentence-transformer model...")
     model = SentenceTransformer("all-MiniLM-L6-v2")
 
-    # Build interest profile
-    profile = build_interest_profile(cfg, model)
-    log.info("Interest profile ready.")
+    log.info("=== Building core profile (Zotero) ===")
+    core_profile = build_zotero_profile(cfg, model)
 
-    # Fetch and filter per-feed
-    filtered = []
-    passthrough_entries = []
-    total_fetched = 0
-    total_above_threshold = 0
+    log.info("=== Building explore profile (description) ===")
+    explore_profile = build_explore_profile(cfg, model)
 
-    for feed_cfg in cfg.get("feeds", []):
-        entries = fetch_feed(feed_cfg, max_age_days)
-        total_fetched += len(entries)
+    # --- Core feed ---
+    log.info("=== Processing core feeds ===")
+    core_entries = []
+    for feed_cfg in cfg.get("core_feeds", []):
+        entries = filter_feed_entries(feed_cfg, max_age_days, core_profile,
+                                      model, core_threshold, top_n)
+        core_entries.extend(entries)
 
-        if feed_cfg["name"] in passthrough:
-            passthrough_entries.extend(entries)
-            continue
+    # Deduplicate across feeds by id, re-sort
+    seen = {}
+    for e in core_entries:
+        if e["id"] not in seen or e["score"] > seen[e["id"]]["score"]:
+            seen[e["id"]] = e
+    core_entries = sorted(seen.values(), key=lambda x: x["score"], reverse=True)
 
-        # Deduplicate within this feed by title
-        seen = set()
-        unique = []
-        for e in entries:
-            key = e["title"].lower()[:80]
-            if key not in seen:
-                seen.add(key)
-                unique.append(e)
+    # --- Explore feed ---
+    log.info("=== Processing explore feeds ===")
+    explore_entries = []
+    for feed_cfg in cfg.get("explore_feeds", []):
+        entries = filter_feed_entries(feed_cfg, max_age_days, explore_profile,
+                                      model, explore_threshold, top_n)
+        explore_entries.extend(entries)
 
-        if not unique:
-            continue
+    # Deduplicate, exclude anything already in core feed
+    core_ids = {e["id"] for e in core_entries}
+    seen = {}
+    for e in explore_entries:
+        if e["id"] not in core_ids and (e["id"] not in seen or e["score"] > seen[e["id"]]["score"]):
+            seen[e["id"]] = e
+    explore_entries = sorted(seen.values(), key=lambda x: x["score"], reverse=True)
 
-        # Score this feed independently
-        scored = score_entries(unique, profile, model)
-        scored.sort(key=lambda x: x["score"], reverse=True)
-
-        # Per-feed filter: above threshold + always keep top_n
-        above = [e for e in scored if e["score"] >= threshold]
-        total_above_threshold += len(above)
-
-        # Always include top_n from this feed as a floor
-        top = scored[:top_n]
-        combined = {e["id"]: e for e in above}
-        for e in top:
-            combined[e["id"]] = e
-
-        feed_filtered = sorted(combined.values(), key=lambda x: x["score"], reverse=True)
-        log.info(f"  {feed_cfg['name']}: {len(unique)} unique → {len(above)} above threshold → {len(feed_filtered)} in feed")
-        filtered.extend(feed_filtered)
-
-    # Sort all filtered entries by score, newest within same score
-    filtered.sort(key=lambda x: x["score"], reverse=True)
-
-    # Add passthrough entries (journals) at the end, unscored
-    for e in passthrough_entries:
-        e["score"] = 1.0  # mark as passthrough
-        filtered.append(e)
-
-    log.info(f"Total fetched: {total_fetched} | Above threshold: {total_above_threshold} | In feed: {len(filtered)}")
+    log.info(f"Core feed: {len(core_entries)} entries")
+    log.info(f"Explore feed: {len(explore_entries)} entries")
 
     if args.dry_run:
-        log.info("Dry run — top 10 results:")
-        for e in filtered[:10]:
+        log.info("Core top 5:")
+        for e in core_entries[:5]:
+            log.info(f"  [{e['score']:.3f}] {e['title'][:80]}")
+        log.info("Explore top 5:")
+        for e in explore_entries[:5]:
             log.info(f"  [{e['score']:.3f}] {e['title'][:80]}")
         return
 
-    rss_content = build_rss(filtered, cfg)
-    Path(out_file).write_text(rss_content, encoding="utf-8")
-    log.info(f"Written: {out_file} ({len(filtered)} items)")
+    # Write feeds
+    core_file = out.get("core_filename", "filtered_feed.xml")
+    explore_file = out.get("explore_filename", "explore_feed.xml")
 
-    # Write a small JSON summary for debugging
-    summary = {
+    Path(core_file).write_text(
+        build_rss(core_entries, out.get("core_title", "Core Feed"),
+                  out.get("core_description", "")), encoding="utf-8")
+    log.info(f"Written: {core_file}")
+
+    Path(explore_file).write_text(
+        build_rss(explore_entries, out.get("explore_title", "Explore Feed"),
+                  out.get("explore_description", "")), encoding="utf-8")
+    log.info(f"Written: {explore_file}")
+
+    Path("feed_summary.json").write_text(json.dumps({
         "generated": datetime.now(timezone.utc).isoformat(),
-        "total_fetched": total_fetched,
-        "above_threshold": total_above_threshold,
-        "in_feed": len(filtered),
-        "threshold": threshold,
-        "top_n_per_feed": top_n,
-    }
-    Path(out_file.replace(".xml", "_summary.json")).write_text(json.dumps(summary, indent=2))
+        "core_entries": len(core_entries),
+        "explore_entries": len(explore_entries),
+        "core_threshold": core_threshold,
+        "explore_threshold": explore_threshold,
+    }, indent=2))
 
 
 if __name__ == "__main__":
