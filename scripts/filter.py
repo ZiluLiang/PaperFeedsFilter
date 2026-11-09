@@ -1,14 +1,14 @@
 """
-paper-filter: Semantic RSS filter for academic preprints.
+paper-filter: Semantic RSS filter for academic preprints and journals.
 
-Produces two RSS feeds:
-  - Core feed:    high threshold, scored against Zotero library profile
-  - Explore feed: lower threshold, scored against exploration description
+Produces three RSS feeds:
+  - Preprint feed:  scored against Zotero profile, preprint sources only
+  - Journal feed:   scored against Zotero profile, journal sources only
+  - Explore feed:   scored against exploration description, adjacent sources
 """
 
 import os
 import re
-import sys
 import csv
 import json
 import hashlib
@@ -52,6 +52,28 @@ def profile_from_description(description: str, model: SentenceTransformer) -> np
     return model.encode([description], normalize_embeddings=True)[0]
 
 
+def profile_from_ris(ris_path: str, model: SentenceTransformer) -> np.ndarray:
+    log.info(f"Building profile from RIS: {ris_path}")
+    texts, current_title, current_abstract = [], "", ""
+    with open(ris_path, encoding="utf-8") as f:
+        for line in f:
+            line = line.rstrip()
+            if line.startswith("%T "):
+                current_title = line[3:].strip()
+            elif line.startswith("%X "):
+                current_abstract = line[3:].strip()
+            elif line == "" and current_title:
+                texts.append(f"{current_title}. {current_abstract}".strip())
+                current_title = current_abstract = ""
+    if current_title:
+        texts.append(f"{current_title}. {current_abstract}".strip())
+    if not texts:
+        raise ValueError("No entries found in RIS file.")
+    log.info(f"  {len(texts)} entries found.")
+    vecs = model.encode(texts, normalize_embeddings=True, show_progress_bar=True, batch_size=64)
+    return vecs.mean(axis=0)
+
+
 def profile_from_bibtex(bib_path: str, model: SentenceTransformer) -> np.ndarray:
     log.info(f"Building profile from BibTeX: {bib_path}")
     texts, current_title, current_abstract = [], "", ""
@@ -89,28 +111,6 @@ def profile_from_csv(csv_path: str, model: SentenceTransformer) -> np.ndarray:
     return vecs.mean(axis=0)
 
 
-def profile_from_ris(ris_path: str, model: SentenceTransformer) -> np.ndarray:
-    log.info(f"Building profile from RIS: {ris_path}")
-    texts, current_title, current_abstract = [], "", ""
-    with open(ris_path, encoding="utf-8") as f:
-        for line in f:
-            line = line.rstrip()
-            if line.startswith("%T "):
-                current_title = line[3:].strip()
-            elif line.startswith("%X "):
-                current_abstract = line[3:].strip()
-            elif line == "" and current_title:
-                texts.append(f"{current_title}. {current_abstract}".strip())
-                current_title = current_abstract = ""
-    if current_title:
-        texts.append(f"{current_title}. {current_abstract}".strip())
-    if not texts:
-        raise ValueError("No entries found in RIS file.")
-    log.info(f"  {len(texts)} entries found.")
-    vecs = model.encode(texts, normalize_embeddings=True, show_progress_bar=True, batch_size=64)
-    return vecs.mean(axis=0)
-
-
 def build_zotero_profile(cfg: dict, model: SentenceTransformer) -> np.ndarray:
     path = cfg.get("zotero_export")
     if path and Path(path).exists():
@@ -128,73 +128,10 @@ def build_zotero_profile(cfg: dict, model: SentenceTransformer) -> np.ndarray:
     return profile_from_description(desc, model)
 
 
-def generate_exploration_description(cfg: dict) -> str:
-    """Use Claude API to infer adjacent interests from Zotero library.
-    Saves the result to config/exploration_description.txt so it only runs once
-    (delete that file to regenerate).
-    """
-    import requests
-
-    cache_path = Path("config/exploration_description.txt")
-    if cache_path.exists():
-        log.info("Loading cached exploration description.")
-        return cache_path.read_text(encoding="utf-8").strip()
-
-    log.info("Generating exploration description from Zotero library via Claude API...")
-
-    # Load titles from Zotero
-    zotero_path = cfg.get("zotero_export", "")
-    titles = []
-    if zotero_path and Path(zotero_path).exists():
-        with open(zotero_path, encoding="utf-8") as f:
-            for line in f:
-                if line.startswith("%T "):
-                    titles.append(line[3:].strip())
-
-    if not titles:
-        raise ValueError("Could not read titles from Zotero export.")
-
-    # Sample up to 200 titles to keep prompt size reasonable
-    import random
-    random.seed(42)
-    sample = random.sample(titles, min(200, len(titles)))
-    titles_text = "\n".join(f"- {t}" for t in sample)
-
-    prompt = f"""Here are a sample of {len(sample)} paper titles from a researcher's personal library:
-
-{titles_text}
-
-Based on these titles, please:
-1. Briefly characterise this researcher's core interests in 2-3 sentences.
-2. Then write a 4-6 sentence description of ADJACENT fields and topics they don't currently read much about, but would likely find intellectually interesting given their existing interests. Focus on areas that would genuinely surprise and expand their reading — not just more of the same.
-
-Write only the adjacent fields description (point 2), in plain prose, as if describing what a curious version of this researcher might want to explore next. Do not use bullet points or headers."""
-
-    response = requests.post(
-        "https://api.anthropic.com/v1/messages",
-        headers={"Content-Type": "application/json"},
-        json={
-            "model": "claude-sonnet-4-6",
-            "max_tokens": 400,
-            "messages": [{"role": "user", "content": prompt}]
-        },
-        timeout=60
-    )
-    response.raise_for_status()
-    data = response.json()
-    description = data["content"][0]["text"].strip()
-
-    log.info(f"Generated exploration description:\n{description}")
-    cache_path.write_text(description, encoding="utf-8")
-    log.info(f"Saved to {cache_path}")
-    return description
-
-
 def build_explore_profile(cfg: dict, model: SentenceTransformer) -> np.ndarray:
-    # Use manual description if provided, otherwise auto-generate from Zotero
     desc = cfg.get("exploration_description", "").strip()
     if not desc:
-        desc = generate_exploration_description(cfg)
+        raise ValueError("exploration_description is empty in config.yaml.")
     return profile_from_description(desc, model)
 
 # ---------------------------------------------------------------------------
@@ -233,10 +170,18 @@ def fetch_feed(feed_cfg: dict, max_age_days: int) -> list[dict]:
         link = e.get("link", "")
         entry_id = e.get("id", link) or hashlib.md5(title.encode()).hexdigest()
 
+        # Extract authors
+        authors = []
+        if hasattr(e, "authors") and e.authors:
+            authors = [a.get("name", "") for a in e.authors if a.get("name")]
+        elif e.get("author"):
+            authors = [e["author"]]
+
         entries.append({
             "id": entry_id,
             "title": title,
             "abstract": abstract,
+            "authors": authors,
             "link": link,
             "published": pub.isoformat() if pub else "",
             "source": name,
@@ -261,31 +206,44 @@ def score_entries(entries: list[dict], profile: np.ndarray, model: SentenceTrans
     return entries
 
 
-def filter_feed_entries(feed_cfg: dict, max_age_days: int, profile: np.ndarray,
-                        model: SentenceTransformer, threshold: float, top_n: int) -> list[dict]:
-    entries = fetch_feed(feed_cfg, max_age_days)
-    if not entries:
-        return []
+def process_feeds(feed_list: list[dict], max_age_days: int, profile: np.ndarray,
+                  model: SentenceTransformer, threshold: float, top_n: int,
+                  exclude_ids: set = None) -> list[dict]:
+    """Fetch, score and filter a list of feeds. Returns deduplicated sorted entries."""
+    all_entries = []
+    exclude_ids = exclude_ids or set()
 
-    # Deduplicate by title
-    seen, unique = set(), []
-    for e in entries:
-        key = e["title"].lower()[:80]
-        if key not in seen:
-            seen.add(key)
-            unique.append(e)
+    for feed_cfg in feed_list:
+        entries = fetch_feed(feed_cfg, max_age_days)
+        if not entries:
+            continue
 
-    scored = score_entries(unique, profile, model)
-    scored.sort(key=lambda x: x["score"], reverse=True)
+        # Deduplicate within feed
+        seen, unique = set(), []
+        for e in entries:
+            key = e["title"].lower()[:80]
+            if key not in seen:
+                seen.add(key)
+                unique.append(e)
 
-    above = [e for e in scored if e["score"] >= threshold]
-    combined = {e["id"]: e for e in above}
-    for e in scored[:top_n]:
-        combined[e["id"]] = e
+        scored = score_entries(unique, profile, model)
+        scored.sort(key=lambda x: x["score"], reverse=True)
 
-    result = sorted(combined.values(), key=lambda x: x["score"], reverse=True)
-    log.info(f"  → {len(unique)} unique | {len(above)} above threshold | {len(result)} in output")
-    return result
+        above = [e for e in scored if e["score"] >= threshold]
+        combined = {e["id"]: e for e in above}
+        for e in scored[:top_n]:
+            combined[e["id"]] = e
+
+        result = sorted(combined.values(), key=lambda x: x["score"], reverse=True)
+        log.info(f"  → {len(unique)} unique | {len(above)} above threshold | {len(result)} in output")
+        all_entries.extend(result)
+
+    # Deduplicate across feeds, exclude already-seen ids
+    seen = {}
+    for e in all_entries:
+        if e["id"] not in exclude_ids and (e["id"] not in seen or e["score"] > seen[e["id"]]["score"]):
+            seen[e["id"]] = e
+    return sorted(seen.values(), key=lambda x: x["score"], reverse=True)
 
 # ---------------------------------------------------------------------------
 # RSS output
@@ -303,13 +261,20 @@ def build_rss(entries: list[dict], title: str, description: str) -> str:
     for e in entries:
         item = ET.SubElement(channel, "item")
         score_pct = int(e["score"] * 100)
-        ET.SubElement(item, "title").text = f"[{score_pct}%] [{e['source']}] {e['title']}"
+
+        ET.SubElement(item, "title").text = e["title"]
         ET.SubElement(item, "link").text = e["link"]
         ET.SubElement(item, "guid").text = e["id"]
+
+        authors = e.get("authors", [])
+        author_str = ", ".join(authors) if authors else ""
         body = e["abstract"] or "(no abstract)"
-        ET.SubElement(item, "description").text = (
-            f"<b>Relevance: {score_pct}%</b> | <b>Source:</b> {e['source']}<br/><br/>{body}"
-        )
+        desc_parts = [f"<b>Relevance: {score_pct}% | Source: {e['source']}</b>"]
+        if author_str:
+            desc_parts.append(f"<i>{author_str}</i>")
+        desc_parts.append(body)
+        ET.SubElement(item, "description").text = "<br/>".join(desc_parts)
+
         if e["published"]:
             ET.SubElement(item, "pubDate").text = e["published"]
 
@@ -339,69 +304,59 @@ def main():
     log.info("=== Building core profile (Zotero) ===")
     core_profile = build_zotero_profile(cfg, model)
 
-    log.info("=== Building explore profile (description) ===")
+    log.info("=== Building explore profile ===")
     explore_profile = build_explore_profile(cfg, model)
 
-    # --- Core feed ---
-    log.info("=== Processing core feeds ===")
-    core_entries = []
-    for feed_cfg in cfg.get("core_feeds", []):
-        entries = filter_feed_entries(feed_cfg, max_age_days, core_profile,
-                                      model, core_threshold, top_n)
-        core_entries.extend(entries)
+    # --- Preprint feed ---
+    log.info("=== Processing preprint feeds ===")
+    preprint_entries = process_feeds(
+        cfg.get("preprint_feeds", []), max_age_days,
+        core_profile, model, core_threshold, top_n)
 
-    # Deduplicate across feeds by id, re-sort
-    seen = {}
-    for e in core_entries:
-        if e["id"] not in seen or e["score"] > seen[e["id"]]["score"]:
-            seen[e["id"]] = e
-    core_entries = sorted(seen.values(), key=lambda x: x["score"], reverse=True)
+    # --- Journal feed ---
+    log.info("=== Processing journal feeds ===")
+    journal_entries = process_feeds(
+        cfg.get("journal_feeds", []), max_age_days,
+        core_profile, model, core_threshold, top_n)
 
-    # --- Explore feed ---
+    # --- Explore feed (exclude anything already in preprint or journal feeds) ---
     log.info("=== Processing explore feeds ===")
-    explore_entries = []
-    for feed_cfg in cfg.get("explore_feeds", []):
-        entries = filter_feed_entries(feed_cfg, max_age_days, explore_profile,
-                                      model, explore_threshold, top_n)
-        explore_entries.extend(entries)
+    core_ids = {e["id"] for e in preprint_entries} | {e["id"] for e in journal_entries}
+    explore_entries = process_feeds(
+        cfg.get("explore_feeds", []), max_age_days,
+        explore_profile, model, explore_threshold, top_n,
+        exclude_ids=core_ids)
 
-    # Deduplicate, exclude anything already in core feed
-    core_ids = {e["id"] for e in core_entries}
-    seen = {}
-    for e in explore_entries:
-        if e["id"] not in core_ids and (e["id"] not in seen or e["score"] > seen[e["id"]]["score"]):
-            seen[e["id"]] = e
-    explore_entries = sorted(seen.values(), key=lambda x: x["score"], reverse=True)
-
-    log.info(f"Core feed: {len(core_entries)} entries")
-    log.info(f"Explore feed: {len(explore_entries)} entries")
+    log.info(f"Preprint feed: {len(preprint_entries)} entries")
+    log.info(f"Journal feed:  {len(journal_entries)} entries")
+    log.info(f"Explore feed:  {len(explore_entries)} entries")
 
     if args.dry_run:
-        log.info("Core top 5:")
-        for e in core_entries[:5]:
-            log.info(f"  [{e['score']:.3f}] {e['title'][:80]}")
-        log.info("Explore top 5:")
-        for e in explore_entries[:5]:
-            log.info(f"  [{e['score']:.3f}] {e['title'][:80]}")
+        for label, entries in [("Preprint", preprint_entries),
+                                ("Journal", journal_entries),
+                                ("Explore", explore_entries)]:
+            log.info(f"{label} top 5:")
+            for e in entries[:5]:
+                log.info(f"  [{e['score']:.3f}] {e['title'][:80]}")
         return
 
     # Write feeds
-    core_file = out.get("core_filename", "filtered_feed.xml")
-    explore_file = out.get("explore_filename", "explore_feed.xml")
+    Path(out.get("preprint_filename", "preprint_feed.xml")).write_text(
+        build_rss(preprint_entries, out.get("preprint_title", "Preprint Feed"),
+                  out.get("preprint_description", "")), encoding="utf-8")
 
-    Path(core_file).write_text(
-        build_rss(core_entries, out.get("core_title", "Core Feed"),
-                  out.get("core_description", "")), encoding="utf-8")
-    log.info(f"Written: {core_file}")
+    Path(out.get("journal_filename", "journal_feed.xml")).write_text(
+        build_rss(journal_entries, out.get("journal_title", "Journal Feed"),
+                  out.get("journal_description", "")), encoding="utf-8")
 
-    Path(explore_file).write_text(
+    Path(out.get("explore_filename", "explore_feed.xml")).write_text(
         build_rss(explore_entries, out.get("explore_title", "Explore Feed"),
                   out.get("explore_description", "")), encoding="utf-8")
-    log.info(f"Written: {explore_file}")
 
     Path("feed_summary.json").write_text(json.dumps({
         "generated": datetime.now(timezone.utc).isoformat(),
-        "core_entries": len(core_entries),
+        "preprint_entries": len(preprint_entries),
+        "journal_entries": len(journal_entries),
         "explore_entries": len(explore_entries),
         "core_threshold": core_threshold,
         "explore_threshold": explore_threshold,

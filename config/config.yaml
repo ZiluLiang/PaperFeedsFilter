@@ -6,8 +6,6 @@
 zotero_export: "config/MyLibrary.txt"
 
 # --- Exploration profile ---
-# Describes adjacent areas outside your core reading domain.
-# Edit this whenever your curiosities shift. If left empty, the explore feed is disabled.
 exploration_description: |
   I am curious about learning across multiple timescales — from trial-by-trial adaptation
   and curriculum-driven skill acquisition, to the gradual emergence of structured knowledge
@@ -23,28 +21,25 @@ exploration_description: |
   in interactive settings.
 
 # --- Thresholds ---
-core_threshold: 0.30       # higher — only papers closely matching your Zotero profile
-explore_threshold: 0.18    # lower — catches adjacent/surprising papers
-top_n: 5                   # min papers per feed per output (applied to both)
+core_threshold: 0.30       # papers closely matching your Zotero profile
+explore_threshold: 0.18    # adjacent/surprising papers
+top_n: 5                   # min papers per feed per source (applied to all outputs)
 
 # --- Feeds ---
-# core_feeds: filtered against your Zotero profile → core feed
-# explore_feeds: filtered against exploration profile → explore feed
-# A feed can appear in both if you want.
 #
 # KEEP IN INOREADER DIRECTLY (already topic-specific, low volume):
-#   - Nature Neuroscience:         https://www.nature.com/neuro.rss
-#   - Nature Reviews Neuroscience: https://www.nature.com/nrn.rss
-#   - Neuron:                      https://www.cell.com/neuron/inpress.rss
-#   - Cell:                        https://www.cell.com/cell/inpress.rss
+#   - Nature Neuroscience:          https://www.nature.com/neuro.rss
+#   - Nature Reviews Neuroscience:  https://www.nature.com/nrn.rss
+#   - Neuron:                       https://www.cell.com/neuron/inpress.rss
+#   - Cell:                         https://www.cell.com/cell/inpress.rss
 #   - Trends in Cognitive Sciences: https://www.cell.com/cognitive-sciences/inpress.rss
-#   - Trends in Neurosciences:     https://www.cell.com/neurosciences/inpress.rss
-#   - Annual Reviews Neuroscience: https://www.annualreviews.org/rss/content/journals/neuro/latestarticles?fmt=rss
-#   - Annual Reviews Psychology:   https://www.annualreviews.org/rss/content/journals/psych/latestarticles?fmt=rss
-#   - Psychological Bulletin:      https://psycnet.apa.org/journals/bul.rss
+#   - Trends in Neurosciences:      https://www.cell.com/neurosciences/inpress.rss
+#   - Annual Reviews Neuroscience:  https://www.annualreviews.org/rss/content/journals/neuro/latestarticles?fmt=rss
+#   - Annual Reviews Psychology:    https://www.annualreviews.org/rss/content/journals/psych/latestarticles?fmt=rss
+#   - Psychological Bulletin:       https://psycnet.apa.org/journals/bul.rss
 
-core_feeds:
-  # Preprints
+# Preprint feeds — semantically filtered → preprint output feed
+preprint_feeds:
   - name: "arXiv AI"
     url: "https://rss.arxiv.org/rss/cs.AI"
   - name: "arXiv Machine Learning"
@@ -57,9 +52,17 @@ core_feeds:
     url: "https://connect.biorxiv.org/biorxiv_xml.php?subject=neuroscience"
   - name: "bioRxiv Psychology"
     url: "https://connect.biorxiv.org/biorxiv_xml.php?subject=psychology"
+  - name: "bioRxiv Animal Behavior and Cognition"
+    url: "https://connect.biorxiv.org/biorxiv_xml.php?subject=animal-behavior-and-cognition"
+  - name: "medRxiv Psychiatry and Clinical Psychology"
+    url: "https://connect.medrxiv.org/medrxiv_xml.php?subject=psychiatry-and-clinical-psychology"
   - name: "PsyArXiv"
     url: "https://psyarxiv.com/feed/"
-  # Broad journals
+  - name: "SocArXiv"
+    url: "https://share.osf.io/api/v2/feeds/atom/?filter[sources]=socarxiv"
+
+# Journal feeds — semantically filtered → journal output feed
+journal_feeds:
   - name: "Nature"
     url: "https://www.nature.com/nature.rss"
   - name: "Science"
@@ -75,19 +78,16 @@ core_feeds:
   - name: "eLife"
     url: "https://elifesciences.org/rss/recent.xml"
 
+# Explore feeds — filtered against exploration description → explore output feed
 explore_feeds:
-  # Adjacent preprint categories not in core
   - name: "arXiv Computer Vision"
     url: "https://rss.arxiv.org/rss/cs.CV"
   - name: "arXiv Economics"
     url: "https://rss.arxiv.org/rss/econ.GN"
-  - name: "arXiv Physics & Society"
+  - name: "arXiv Physics and Society"
     url: "https://rss.arxiv.org/rss/physics.soc-ph"
-  - name: "arXiv Quantitative Biology"
-    url: "https://rss.arxiv.org/rss/q-bio.PE"
-  - name: "bioRxiv Animal Behavior"
+  - name: "bioRxiv Animal Behavior and Cognition"
     url: "https://connect.biorxiv.org/biorxiv_xml.php?subject=animal-behavior-and-cognition"
-  # Broad journals also scanned for surprises
   - name: "Nature"
     url: "https://www.nature.com/nature.rss"
   - name: "Science"
@@ -97,10 +97,13 @@ explore_feeds:
 
 # --- Output ---
 output:
-  core_filename: "filtered_feed.xml"
+  preprint_filename: "preprint_feed.xml"
+  journal_filename: "journal_feed.xml"
   explore_filename: "explore_feed.xml"
-  core_title: "Zilu's Core Paper Feed"
+  preprint_title: "Zilu's Filtered Preprint Feed"
+  journal_title: "Zilu's Filtered Journal Feed"
   explore_title: "Zilu's Explore Feed"
-  core_description: "Papers closely matching your Zotero research profile"
+  preprint_description: "Semantically filtered preprints matched to your Zotero profile"
+  journal_description: "Semantically filtered journal articles matched to your Zotero profile"
   explore_description: "Adjacent and surprising papers outside your usual domain"
   max_age_days: 7
