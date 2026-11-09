@@ -4,12 +4,12 @@
     <title>Zilu's Core Paper Feed</title>
     <description>Papers closely matching your Zotero research profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Mon, 09 Nov 2026 15:12:42 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 15:42:40 +0000</lastBuildDate>
     <item>
-      <title>[40%] [bioRxiv Neuroscience] Compositional computations in the primate frontal cortex</title>
-      <link>https://www.biorxiv.org/content/10.64898/2026.11.05.764642v1?rss=1</link>
-      <guid>https://www.biorxiv.org/content/10.64898/2026.11.05.764642v1?rss=1</guid>
-      <description>&lt;b&gt;Relevance: 40%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; bioRxiv Neuroscience&lt;br/&gt;&lt;br/&gt;A hallmark of intelligence is the ability to apply familiar operations to new inputs without relearning. How neural circuits carry a learned computation into states never visited during training remains unclear. Here we combined neural recordings, circuit modeling and human experiments to investigate compositional generalization. Monkeys learned to combine a start location with a displacement specified by the direction and duration of an optic-flow stimulus, then encountered novel combinations of these familiar inputs. Frontal population activity separated the computation into spatial and temporal components: start location and flow direction established the neural state, from which activity evolved along shared timing dynamics. Novel combinations elicited accurate responses when trajectories maintained this organization, whereas departures predicted systematic behavioral biases. Circuit models revealed a three-way alignment problem: input representations, recurrent dynamics and readout operations must jointly implement the required computation. Mismatches produced systematic biases that increased with distance from trained conditions. Humans exhibited similar biases when familiar sensory cues and spatial transformations were linked through an unfamiliar mapping. Together, these findings show how the coordination of reusable neural resources supports new computations, and how its disruption produces predictable failures of generalization.</description>
+      <title>[36%] [bioRxiv Neuroscience] Human medial frontal neurons represent integrated semantic content and sensory evidence to inform decision-making</title>
+      <link>https://www.biorxiv.org/content/10.64898/2026.11.06.764954v1?rss=1</link>
+      <guid>https://www.biorxiv.org/content/10.64898/2026.11.06.764954v1?rss=1</guid>
+      <description>&lt;b&gt;Relevance: 36%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; bioRxiv Neuroscience&lt;br/&gt;&lt;br/&gt;Humans can reconfigure how they act on the world from a single verbal instruction. Central to this capacity is the ability to represent what an instruction specifies and to bring that content to bear on incoming sensory evidence. However, little is known about where in the human brain instruction content is encoded, how it combines with sensory evidence to produce a choice, and how this integration relates to behavior. Here, we characterized single-neuron and population responses recorded in the ventral temporal cortex, medial temporal lobe, medial frontal cortex and ventromedial prefrontal cortex of neurosurgical patients performing a verbal instruction task. On each trial, a written instruction specified which stimulus feature was relevant and whether the correct response was to choose or to reject the stimulus that best matched it, so that the same image pair required opposite responses under different instructions. Only medial frontal populations jointly encoded the instructed task, and the target feature, whereas ventral temporal populations encoded stimulus features along axes that generalized across instruction conditions. Choice representation emerged first in ventromedial prefrontal and then in medial frontal cortex during stimulus presentation, before a motor response could be prepared. Shuffling instruction content selectively degraded prediction of medial frontal population activity, whereas shuffling stimulus identity selectively degraded ventral temporal activity. To ask how these representations could be computed, we trained a vision-language model with separable visual and linguistic streams converging on a recurrent decision module to perform the same task. Its visual embeddings predicted held-out ventral temporal activity and its recurrent activations revealed a task solution space that predicted medial frontal activity, and the strength of this alignment tracked behavioral accuracy. These results identify a cortical hierarchy in which medial frontal circuitry represents the content of verbal goals and acts on a ventral temporal substrate whose representational axes remain stable, and indicate that functional hierarchies discovered in artificial networks can serve as predictive models of human neural circuitry.</description>
     </item>
     <item>
       <title>[35%] [arXiv Neurons and Cognition] A multi-scale information geometry reveals the structure of mutual information in neural populations</title>
@@ -17,6 +17,12 @@
       <guid>oai:arXiv.org:2605.06304v2</guid>
       <description>&lt;b&gt;Relevance: 35%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; arXiv Neurons and Cognition&lt;br/&gt;&lt;br/&gt;arXiv:2605.06304v2 Announce Type: replace Abstract: Understanding how neural population responses represent sensory information is a central problem in systems neuroscience. One approach is to define a representational geometry on stimulus space in which distances reflect how reliably stimuli can be distinguished from neural activity. However, different constructions of these distances can lead to qualitatively different conclusions about the neural code. Here, we show that a unique Riemannian representational geometry emerges from first principles governing how distances contract as stimulus resolution is lost through coarse-graining. This results in a multi-scale extension of the Fisher information metric, capturing encoding structure from fine stimulus details to coarse global distinctions. The resulting geometry is exactly related to the mutual information encoded by the population: well-encoded stimulus directions (those contributing more to mutual information) are expanded, whereas poorly encoded directions are contracted. The metric tensor can be estimated using diffusion models, making the framework practical for large neural populations and high-dimensional stimuli. Applied to visual cortical responses to natural images, the eigenvectors of the metric tensor identify stimulus variations that contribute most to the encoded stimulus information, yielding interpretable features that are robust to modelling choices. Together, these results provide a principled, information-theoretic framework for characterising neural population codes.</description>
       <pubDate>2026-11-09T00:00:00-05:00</pubDate>
+    </item>
+    <item>
+      <title>[35%] [Current Biology] The representation of object-concept primitives across the macaque brain</title>
+      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</link>
+      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</guid>
+      <description>&lt;b&gt;Relevance: 35%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; Current Biology&lt;br/&gt;&lt;br/&gt;Loggia et al. train macaques for years on color-shape associations, then use fMRI while the monkeys “hold in mind” features cued by their associates. The results suggest a whole-brain blueprint for object concepts: retinotopic cortex encodes perception, anterior IT uses color as a concept scaffold, and frontal cortex mediates decisions.</description>
     </item>
     <item>
       <title>[34%] [bioRxiv Neuroscience] Disentanglement of persistent and dynamic neural substrates of working memory</title>
@@ -49,12 +55,6 @@
       <link>https://www.biorxiv.org/content/10.64898/2026.11.04.764437v1?rss=1</link>
       <guid>https://www.biorxiv.org/content/10.64898/2026.11.04.764437v1?rss=1</guid>
       <description>&lt;b&gt;Relevance: 33%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; bioRxiv Neuroscience&lt;br/&gt;&lt;br/&gt;Recognition decisions occur across memory episodes that vary vastly in scale, from compact single-item episodes to extended experiences involving hundreds of items. To test how memory scale shapes the neural mechanisms underlying old/new judgments, we recorded EEG while participants performed a recognition memory task across set sizes ranging from 1 to 128 items (spanning 2 to 256 recognition judgments). Classic electrophysiological signatures of recognition, including frontal and parietal old/new effects, persisted continuously across set sizes. Furthermore, multivariate neural classifiers trained on small memory scales generalized robustly across set sizes. Rather than revealing distinct neural formats, increasing memory scale produced systematic, continuous shifts in the timing and strength of a shared recognition response: signals emerged progressively later and weaker at larger memory scales. Temporal-alignment and cross-correlation analyses demonstrated that responses across scales followed a common waveform trajectory, with timing shifts propagating into motor response preparation. Finally, individual difference analyses revealed that this common recognition format exhibits scale-dependent behavioral relevance, tracking working-memory capacity at smaller scales and long-term memory performance at larger scales. Together, these findings demonstrate that recognition signals share a common neural format across scale while changing dynamically in timing, strength, and behavioral relevance, providing evidence for convergence onto a shared recognition architecture.</description>
-    </item>
-    <item>
-      <title>[33%] [bioRxiv Neuroscience] Increased Cognitive Load Expands, Stabilizes, and Aligns Visual Representation Across the Human Brain</title>
-      <link>https://www.biorxiv.org/content/10.64898/2026.11.05.764028v1?rss=1</link>
-      <guid>https://www.biorxiv.org/content/10.64898/2026.11.05.764028v1?rss=1</guid>
-      <description>&lt;b&gt;Relevance: 33%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; bioRxiv Neuroscience&lt;br/&gt;&lt;br/&gt;Cognitive load refers to the mental effort required to perform a task. While previous research has extensively examined its detrimental effects on neural and behavioral performance, much less is known about how the brain actively adapts to heightened demands. Across two fMRI experiments involving visual n-back tasks, we identified several fundamental properties of this adaptive process. First, higher load enhanced and expanded visual representations beyond localized visual regions, leading to widespread visual coding. At the global scale, heightened load promoted cross-regional coordination by increasing representational alignment and strengthening information encoded in interregional functional connectivity patterns. Beyond facilitating stronger visual representation, increased load also reduced neural pattern variability, which led to more stable information coding. Finally, load was encoded independently of other task-relevant information as a separate brain state, supporting its overarching role in guiding visual processing. Together, these findings revealed that the brain adapts to heightened cognitive demands by globally reorganizing neural processing to support flexible cognition.</description>
     </item>
     <item>
       <title>[32%] [bioRxiv Neuroscience] The mouse midbrain periaqueductal gray is organized into target-specific output populations</title>
@@ -153,6 +153,12 @@
       <pubDate>2026-11-09T00:00:00-05:00</pubDate>
     </item>
     <item>
+      <title>[29%] [Nature Human Behaviour] Long-term development of a motor memory</title>
+      <link>https://www.nature.com/articles/s41562-026-02622-1</link>
+      <guid>https://www.nature.com/articles/s41562-026-02622-1</guid>
+      <description>&lt;b&gt;Relevance: 29%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; Nature Human Behaviour&lt;br/&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02622-1 Franklin et al. examine how simple motor adaptation is developed with thousands of training trials over multiple weeks to study the long-term development of a motor memory.</description>
+    </item>
+    <item>
       <title>[29%] [arXiv Neurons and Cognition] Platonic Representations in the Human Brain: Unsupervised Recovery of Universal Geometry</title>
       <link>https://arxiv.org/abs/2605.20496</link>
       <guid>oai:arXiv.org:2605.20496v2</guid>
@@ -199,12 +205,6 @@
       <description>&lt;b&gt;Relevance: 28%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; Current Biology&lt;br/&gt;&lt;br/&gt;Lv et al. show that the human anteroventral thalamus carries environment-specific virtual head direction information during memory-guided spatial orientation, providing direct intracranial evidence that bridges animal head direction models and human navigation.</description>
     </item>
     <item>
-      <title>[28%] [Nature Human Behaviour] Turing-like tests for language and vision demonstrate a narrowing gap between humans and AI</title>
-      <link>https://www.nature.com/articles/s41562-026-02590-6</link>
-      <guid>https://www.nature.com/articles/s41562-026-02590-6</guid>
-      <description>&lt;b&gt;Relevance: 28%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; Nature Human Behaviour&lt;br/&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 26 October 2026; doi:10.1038/s41562-026-02590-6 Zhang et al. systematically compare humans and AI across three language and three vision tasks.</description>
-    </item>
-    <item>
       <title>[26%] [Current Biology] Electrical synapses mediate visual orientation behavior</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01270-4?rss=yes</link>
       <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01270-4?rss=yes</guid>
@@ -215,12 +215,6 @@
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01331-X?rss=yes</link>
       <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01331-X?rss=yes</guid>
       <description>&lt;b&gt;Relevance: 26%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; Current Biology&lt;br/&gt;&lt;br/&gt;Hofmann et al. show that alerting sounds recruit HD neurons in the thalamocortical HD circuit and enhance the fidelity of the HD representation. These findings reveal a link between sensory-induced arousal and the neural circuits underlying spatial navigation.</description>
-    </item>
-    <item>
-      <title>[25%] [Current Biology] Brain-wide activity imaging with electron microscopy reveals a distributed brain network for processing threatening somatosensory stimuli</title>
-      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01354-0?rss=yes</link>
-      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01354-0?rss=yes</guid>
-      <description>&lt;b&gt;Relevance: 25%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; Current Biology&lt;br/&gt;&lt;br/&gt;Randel et al. present a novel methodology for combining whole-brain activity imaging with subsequent volume electron microscopy imaging of the same brain to visualize neuronal projections and identify neurons with interesting activity. They apply this approach to identify a distributed brain network for processing threatening somatosensory stimuli.</description>
     </item>
     <item>
       <title>[23%] [PNAS] In-context learning as a retraining-free paradigm for constitutive modeling</title>
@@ -255,12 +249,6 @@
       <pubDate>2026-11-06T00:00:00+00:00</pubDate>
     </item>
     <item>
-      <title>[20%] [Nature Human Behaviour] Generative AI and the temporary upskilling of knowledge workers</title>
-      <link>https://www.nature.com/articles/s41562-026-02566-6</link>
-      <guid>https://www.nature.com/articles/s41562-026-02566-6</guid>
-      <description>&lt;b&gt;Relevance: 20%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; Nature Human Behaviour&lt;br/&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 26 October 2026; doi:10.1038/s41562-026-02566-6 This randomized trial by Wiles et al. shows that generative AI helps knowledge workers perform data science tasks outside their skill set, but workers do not retain the underlying knowledge when the tool is removed.</description>
-    </item>
-    <item>
       <title>[20%] [PNAS] Forniceal deep brain stimulation improves memory in Rett syndrome mice by promoting the maturation of newborn hippocampal neurons</title>
       <link>https://www.pnas.org/doi/abs/10.1073/pnas.2535887123?af=R</link>
       <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2535887123?af=R</guid>
@@ -291,10 +279,10 @@
       <description>&lt;b&gt;Relevance: 18%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; PNAS&lt;br/&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 44, November 2026. SignificanceAcquisition of motor skills during infancy is critical for a child’s ability to interact with the physical and social environment and motor impairments are frequent in individuals with neurodevelopmental disorders. Here, we studied the neural ...</description>
     </item>
     <item>
-      <title>[18%] [Nature Human Behaviour] Large language models for computational social science</title>
-      <link>https://www.nature.com/articles/s41562-026-02539-9</link>
-      <guid>https://www.nature.com/articles/s41562-026-02539-9</guid>
-      <description>&lt;b&gt;Relevance: 18%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; Nature Human Behaviour&lt;br/&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 26 October 2026; doi:10.1038/s41562-026-02539-9 This Review from Evans et al. documents the distinct roles that LLMs now have in computational social science and provides an overview of recent LLM-supported advances across fields including economics, psychology, political science, sociology and anthropology.</description>
+      <title>[18%] [Nature Human Behaviour] AI ‘slop’ is a social judgement</title>
+      <link>https://www.nature.com/articles/s41562-026-02639-6</link>
+      <guid>https://www.nature.com/articles/s41562-026-02639-6</guid>
+      <description>&lt;b&gt;Relevance: 18%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; Nature Human Behaviour&lt;br/&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02639-6 Artificial intelligence (AI)-generated content increasingly saturates our information environment. Efforts to detect and remove it are failing. We propose that calling AI-generated content ‘slop’ is best understood as a social judgement: what a community recognizes as unwanted AI content. Studying AI slop this way makes it tractable, measurable and governable.</description>
     </item>
     <item>
       <title>[18%] [Nature] Fine-tuning brain stimulation to fight Parkinson’s disease</title>
@@ -337,6 +325,12 @@
       <link>https://www.nature.com/articles/s41562-026-02599-x</link>
       <guid>https://www.nature.com/articles/s41562-026-02599-x</guid>
       <description>&lt;b&gt;Relevance: 11%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; Nature Human Behaviour&lt;br/&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 26 October 2026; doi:10.1038/s41562-026-02599-x Using the variation in DNA sharing between 500,000 sibling pairs with diverse genetic ancestries, Yengo et al. estimate the heritability of 14 complex traits.</description>
+    </item>
+    <item>
+      <title>[5%] [Nature Human Behaviour] A natural field experiment on the effectiveness of economic sanctions before and after the Russian invasion of Ukraine</title>
+      <link>https://www.nature.com/articles/s41562-026-02591-5</link>
+      <guid>https://www.nature.com/articles/s41562-026-02591-5</guid>
+      <description>&lt;b&gt;Relevance: 5%&lt;/b&gt; | &lt;b&gt;Source:&lt;/b&gt; Nature Human Behaviour&lt;br/&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02591-5 A field experiment by Findley et al. finds that financial sanctions on Russian officials had little effect on access to banking and corporate services before the 2022 invasion of Ukraine, but significantly reduced access afterwards.</description>
     </item>
     <item>
       <title>[-1%] [Science] Quantum gases below 10 picokelvin in space | Science</title>
