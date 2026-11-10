@@ -4,7 +4,7 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Mon, 09 Nov 2026 15:53:44 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 14:39:40 +0000</lastBuildDate>
     <item>
       <title>The representation of object-concept primitives across the macaque brain</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</link>
@@ -81,13 +81,6 @@
       <description>&lt;b&gt;Relevance: 23% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kanhao Zhao, Hua Xie, Gregory A. Fonzo, Nancy B. Carlisle, Tovia Jacobs, Ricardo S. Osorio, Arpana Church, Feng Vankee Lin, Yu Zhang, Alzheimer’s Disease Neuroimaging Initiative&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 45, November 2026.</description>
     </item>
     <item>
-      <title>Spyglass is a framework for reproducible and shareable neuroscience research</title>
-      <link>https://elifesciences.org/articles/108089</link>
-      <guid>https://dx.doi.org/10.7554/eLife.108089</guid>
-      <description>&lt;b&gt;Relevance: 22% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Alessio Paolo Buccino, Alison E Comrie, Andrew Tritt, Caleb Kemere, Chris Brozdowski, Cristofer Holobetz, Daniel P Gramling, Dimitri Yatsenko, Donghoon Shin, Emily Monroe, Emrey Broyles, Eric L Denovellis, Jeff Soules, Jennifer A Guidera, Jeremy Magland, Ji Hyun Bak, Joshua Chu, Kyu Hyun Lee, Loren Frank, Michael E Coulter, Oliver Rübel, Philip Adenekan, Rhino Nevers, Ryan Ly, Samuel Garcia, Samuel R Bray, Sharon Chiang, Thinh Nguyen, Xulu Sun&lt;/i&gt;&lt;br/&gt;Scientific progress depends on reliable and reproducible results. Progress can be accelerated when data are shared and re-analyzed to address new questions. Current approaches to storing and analyzing neural data involve bespoke formats and software that make replication and reuse of data difficult. To address these challenges, we created Spyglass, an open-source data management and analysis framework written in Python. Spyglass provides reproducible pipelines for common neuroscience analyses and sharing of raw data, intermediate analyses, and final results within and across labs. Spyglass uses the Neurodata Without Borders (NWB) standard and includes pipelines for spectral filtering, spike sorting, pose tracking, and neural decoding. Spyglass can be extended to apply existing and newly developed pipelines to datasets from multiple sources. We demonstrate these features in the context of a cross-laboratory replication by applying advanced state space decoding algorithms to publicly available data. New users can try out Spyglass on a Jupyter Hub hosted by HHMI and 2i2c: https://spyglass.hhmi.2i2c.cloud/ .</description>
-      <pubDate>2026-11-03T00:00:00+00:00</pubDate>
-    </item>
-    <item>
       <title>The resource elasticity of control</title>
       <link>https://elifesciences.org/articles/105507</link>
       <guid>https://dx.doi.org/10.7554/eLife.105507</guid>
@@ -95,10 +88,23 @@
       <pubDate>2026-11-06T00:00:00+00:00</pubDate>
     </item>
     <item>
+      <title>Students need AI-free spaces to learn core skills</title>
+      <link>https://www.nature.com/articles/d41586-026-03644-5</link>
+      <guid>https://www.nature.com/articles/d41586-026-03644-5</guid>
+      <description>&lt;b&gt;Relevance: 21% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Pablo Neira-Castro&lt;/i&gt;&lt;br/&gt;Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03644-5 Students need AI-free spaces to learn core skills</description>
+    </item>
+    <item>
       <title>Forniceal deep brain stimulation improves memory in Rett syndrome mice by promoting the maturation of newborn hippocampal neurons</title>
       <link>https://www.pnas.org/doi/abs/10.1073/pnas.2535887123?af=R</link>
       <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2535887123?af=R</guid>
       <description>&lt;b&gt;Relevance: 20% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Qi WangBin TangZhenyu WuHuda Y. ZoghbiJianrong Tangahttps://ror.org/05cz92x43Jan and Dan Duncan Neurological Research Institute at Texas Children’s Hospital, Houston, TX 77030bhttps://ror.org/02pttbw34Department of Pediatrics, Division of Neurology, Baylor College of Medicine, Houston, TX 77030chttps://ror.org/02pttbw34Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030dhttps://ror.org/02pttbw34Program in Developmental Biology, Baylor College of Medicine, Houston, TX 77030ehttps://ror.org/02pttbw34Department of Neuroscience, Baylor College of Medicine, Houston, TX 77030fhttps://ror.org/02pttbw34HHMI, Baylor College of Medicine, Houston, TX 77030&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 44, November 2026. SignificanceDeep brain stimulation (DBS) has long been known for its efficacy in mitigating movement disorders. More recently, it has shown promise for addressing disorders of learning and memory: for example, DBS of the fornix rescues hippocampal memory ...</description>
+    </item>
+    <item>
+      <title>Estimating bone marrow adiposity from head MRI and identifying its genetic architecture</title>
+      <link>https://elifesciences.org/articles/101499</link>
+      <guid>https://dx.doi.org/10.7554/eLife.101499</guid>
+      <description>&lt;b&gt;Relevance: 20% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kevin O'Connell, Lars T Westlye, Martin Falck, Ole A Andreassen, Oleksandr Frei, Pål Marius Bjørnstad, Srdjan Djurovic, Stener Nerland, Timothy Hughes, Tobias Kaufmann&lt;/i&gt;&lt;br/&gt;Bone marrow (BM) adiposity changes radically through the lifespan, but this phenomenon is poorly characterized and understood in humans. Large datasets of magnetic resonance imaging (MRI) scans of the head have been collected to study the human brain, but also contain unexploited information about other organs. We developed an artificial neural network that localizes calvarial BM in T1-weighted MRI head scans, enabling us to study its composition in several large MRI datasets, and to model sex-dimorphic age trajectories, including the effect of menopause. We revealed high heritability in single-nucleotide polymorphism and twin data, and identified 41 genetic loci significantly associated with the trait, including six sex-specific loci. Integrating mapped genes with existing BM single-cell RNA-sequencing data revealed patterns of adipogenic lineage differentiation and lipid loading. Finally, we identified significant genetic correlations with several human traits, including cognitive ability and Parkinson’s disease, which is intriguing in light of the recently discovered channels that link calvarial BM to the meninges.</description>
+      <pubDate>2026-11-04T00:00:00+00:00</pubDate>
     </item>
     <item>
       <title>fMRI-guided focal transcranial magnetic stimulation of anterior cingulate cortex reduces opioid seeking and restores connectivity</title>
@@ -113,6 +119,12 @@
       <description>&lt;b&gt;Relevance: 19% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kathryn C. O’Nell, Kiara L. Sanchez, Emily S. Finn&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 45, November 2026.</description>
     </item>
     <item>
+      <title>Why are we conscious? Nature investigates the theories</title>
+      <link>https://www.nature.com/articles/d41586-026-03413-4</link>
+      <guid>https://www.nature.com/articles/d41586-026-03413-4</guid>
+      <description>&lt;b&gt;Relevance: 18% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Amanda Heidt&lt;/i&gt;&lt;br/&gt;Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03413-4 Scientists have yet to reveal how the human brain produces the subjective experience we perceive as consciousness, but research has pushed the field in exciting directions.</description>
+    </item>
+    <item>
       <title>Ddx3x deficiency in mice impairs corticofugal motor circuits and causes motor deficits that are attenuated by early-life exercise</title>
       <link>https://www.pnas.org/doi/abs/10.1073/pnas.2535732123?af=R</link>
       <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2535732123?af=R</guid>
@@ -123,6 +135,24 @@
       <link>https://www.nature.com/articles/s41562-026-02639-6</link>
       <guid>https://www.nature.com/articles/s41562-026-02639-6</guid>
       <description>&lt;b&gt;Relevance: 18% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Richard Jean So, Hoyt Long, Cody Kommers, Mina Lee, Emily Wenger, Peter West, Eamon Duede, Ari Holtzman, Chenhao Tan&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02639-6 Artificial intelligence (AI)-generated content increasingly saturates our information environment. Efforts to detect and remove it are failing. We propose that calling AI-generated content ‘slop’ is best understood as a social judgement: what a community recognizes as unwanted AI content. Studying AI slop this way makes it tractable, measurable and governable.</description>
+    </item>
+    <item>
+      <title>Fine-tuning brain stimulation to fight Parkinson’s disease</title>
+      <link>https://www.nature.com/articles/d41586-026-03168-y</link>
+      <guid>https://www.nature.com/articles/d41586-026-03168-y</guid>
+      <description>&lt;b&gt;Relevance: 18% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Liam Drew&lt;/i&gt;&lt;br/&gt;Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03168-y Neuroscientists are developing a new type of brain implant that will decode every movement and symptom of people with this neurodegenerative condition, seeking better ways to ease symptoms.</description>
+    </item>
+    <item>
+      <title>Six highlights from Parkinson’s disease research</title>
+      <link>https://www.nature.com/articles/d41586-026-03172-2</link>
+      <guid>https://www.nature.com/articles/d41586-026-03172-2</guid>
+      <description>&lt;b&gt;Relevance: 17% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Rachel Nuwer&lt;/i&gt;&lt;br/&gt;Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03172-2 Targeting a new network, addressing gait issues and other advances from recent studies.</description>
+    </item>
+    <item>
+      <title>How a once-controversial idea is advancing understanding of Parkinson’s disease</title>
+      <link>https://www.nature.com/articles/d41586-026-03169-x</link>
+      <guid>https://www.nature.com/articles/d41586-026-03169-x</guid>
+      <description>&lt;b&gt;Relevance: 17% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Rachel Nuwer&lt;/i&gt;&lt;br/&gt;Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03169-x The disease is thought to be divided into two subtypes, depending on where it originates in the body — the gut or the brain.</description>
     </item>
     <item>
       <title>Lighting up necrotic neurons from traumatic brain injury with magnetic quantum dots to decode the cellular origin of MRI</title>
@@ -166,6 +196,13 @@
       <guid>https://www.science.org/doi/10.1126/science.aea5324</guid>
       <description>&lt;b&gt;Relevance: -1% | Source: Science&lt;/b&gt;&lt;br/&gt;Ultracold atom platforms enable low temperatures and long free evolution times, which are crucial for fundamental physics tests and atom interferometry. The lowest equivalent temperature reported in such a system is 38 pK with a free expansion time of 2 ...</description>
       <pubDate>2026-11-05T09:01:00-05:00</pubDate>
+    </item>
+    <item>
+      <title>Melting and resistivity of iron at Earth core conditions using pulsed Joule heating | Science</title>
+      <link>https://www.science.org/doi/10.1126/science.aeh5267</link>
+      <guid>https://www.science.org/doi/10.1126/science.aeh5267</guid>
+      <description>&lt;b&gt;Relevance: -7% | Source: Science&lt;/b&gt;&lt;br/&gt;The melting temperature and electrical resistivity of iron at high pressure are essential for understanding Earth’s core. Here we use a new high-pressure method – microsecond pulsed Joule heating in diamond anvil cells – to identify melting and measure ...</description>
+      <pubDate>2026-11-08T09:01:00-05:00</pubDate>
     </item>
   </channel>
 </rss>
