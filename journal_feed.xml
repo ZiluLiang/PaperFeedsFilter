@@ -4,7 +4,7 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Tue, 10 Nov 2026 14:39:40 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 13:51:58 +0000</lastBuildDate>
     <item>
       <title>The representation of object-concept primitives across the macaque brain</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</link>
@@ -12,17 +12,17 @@
       <description>&lt;b&gt;Relevance: 35% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Spencer R. Loggia, Helen E. Feibes, Stuart Duffield, Karthik Kasi, Bevil R. Conway&lt;/i&gt;&lt;br/&gt;Loggia et al. train macaques for years on color-shape associations, then use fMRI while the monkeys “hold in mind” features cued by their associates. The results suggest a whole-brain blueprint for object concepts: retinotopic cortex encodes perception, anterior IT uses color as a concept scaffold, and frontal cortex mediates decisions.</description>
     </item>
     <item>
-      <title>Neuromodulation-inspired gated associative memory networks: Extended memory retrieval and emergent multistability</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2607559123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2607559123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 33% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Daiki GotoHector Manuel Lopez RiosMonika ScholzSuriyanarayanan Vaikuntanathanahttps://ror.org/024mw5h28Department of Physics, The University of Chicago, Chicago, IL 60637bhttps://ror.org/024mw5h28The James Franck Institute, The University of Chicago, Chicago, IL 60637chttps://ror.org/024mw5h28Department of Chemistry, The University of Chicago, Chicago, IL 60637dhttps://ror.org/02yjyfs84Max Planck Research Group Neural Information Flow, Max Planck Institute for Neurobiology of Behavior-Caesar, Bonn 53175, Germany&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 44, November 2026. SignificanceNeuromodulators such as neuropeptides and bioamines regulate behavioral states across species, yet their collective computational consequences remain poorly understood theoretically. We show that a single biologically motivated mechanism for ...</description>
-    </item>
-    <item>
       <title>Dual-feature selectivity enables bidirectional coding in visual cortical neurons</title>
       <link>https://elifesciences.org/articles/109861</link>
       <guid>https://dx.doi.org/10.7554/eLife.109861</guid>
       <description>&lt;b&gt;Relevance: 33% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Alexander Ecker, Andreas Savas Tolias, Cate Nealley, Edgar Walker, Emmanouil Froudarakis, Fabian H Sinz, Gabby Garcia, Hasan Atakan Bedel, Kandan Ramakrishnan, Katrin Franke, Kelli Restivo, Konstantin Friedrich Willeke, Maria Diamantaki, Nikos Karantzas, Paul Fahey, Pavithra Elumalai, Saumil Patel, Sophia Sanborn, Tori Shinn&lt;/i&gt;&lt;br/&gt;Sensory neurons are traditionally viewed as feature detectors that respond with an increase in firing rate to preferred stimuli while remaining unresponsive to others. Here, we identify a dual-feature encoding strategy in macaque visual cortex, wherein many neurons in areas V1 and V4 are selectively tuned to two distinct visual features—one that enhances and one that suppresses activity—around an elevated baseline firing rate. By combining neuronal recordings with functional digital twin models—deep learning-based predictive models of biological neurons—we were able to systematically identify each neuron’s preferred and non-preferred features. These feature pairs served as anchors for a continuous, low-dimensional axis in natural image similarity space, along which neuronal activity varied approximately linearly. Within a single visual area, visual features that strongly or weakly activated individual neurons also had a high probability of modulating the activity of other neurons, suggesting a shared feature selectivity across the population that structures stimulus encoding. We show that this encoding strategy is conserved across species, present in both primary and lateral visual areas of mouse cortex. Dual-feature selectivity is consistent with recent anatomical evidence for feature-specific inhibitory connectivity, complementing the feature-detector principle through circuit mechanisms in which selective excitation and inhibition may together enhance the representational capacity of the neuronal population.</description>
       <pubDate>2026-11-09T00:00:00+00:00</pubDate>
+    </item>
+    <item>
+      <title>Long-term training continually fine tunes motor memories</title>
+      <link>https://www.nature.com/articles/s41562-026-02637-8</link>
+      <guid>https://www.nature.com/articles/s41562-026-02637-8</guid>
+      <description>&lt;b&gt;Relevance: 31% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 11 November 2026; doi:10.1038/s41562-026-02637-8 Humans’ rapid adaptation to new dynamics is a crucial ability for interacting with the world. By combining the controlled manipulations of sensorimotor adaptation studies with the long-term learning approach of complex tasks, this study shows that the learned motor memory is continually tuned, and that retention increases with long-term training.</description>
     </item>
     <item>
       <title>Long-term development of a motor memory</title>
@@ -69,10 +69,34 @@
       <description>&lt;b&gt;Relevance: 26% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Florian Hofmann, Eduardo Blanco-Hernández, Giuseppe Balsamo, Steffen R. Hage, Andrea Burgalossi, Patricia Preston-Ferrer&lt;/i&gt;&lt;br/&gt;Hofmann et al. show that alerting sounds recruit HD neurons in the thalamocortical HD circuit and enhance the fidelity of the HD representation. These findings reveal a link between sensory-induced arousal and the neural circuits underlying spatial navigation.</description>
     </item>
     <item>
-      <title>In-context learning as a retraining-free paradigm for constitutive modeling</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2620983123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2620983123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 23% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Lingfeng LiZhuoyuan LiShun LiKaixin ZhanHuajian GaoChang Qing ChenLiu Yangahttps://ror.org/03cve4549Department of Engineering Mechanics, Tsinghua University, Beijing 100084, Chinabhttps://ror.org/01tgyzw49Department of Mathematics, National University of Singapore, Singapore 119076, Singaporechttps://ror.org/01tgyzw49Institute for Functional Intelligent Materials, National University of Singapore, Singapore 117544, Singaporedhttps://ror.org/02v51f717School of Mathematical Sciences, Peking University, Beijing 100871, Chinaehttps://ror.org/03cve4549Mechano-X Institute, Tsinghua University, Beijing 100084, China&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 44, November 2026. SignificanceConstitutive modeling underpins computational mechanics, yet most existing approaches follow a modeling-by-optimization paradigm in which each new material requires calibration or retraining. Here we demonstrate that constitutive modeling can ...</description>
+      <title>Respiratory phase orchestrates human olfactory cortical dynamics</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2619920123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2619920123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 25% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Alisa Y. HathawayTodd P. Colemanahttps://ror.org/00f54p054Department of Electrical Engineering, Stanford University, Stanford, CA 94305bhttps://ror.org/00f54p054Department of Bioengineering, Stanford University, Stanford, CA 94305&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. SignificanceDiagnosing smell loss in patients with cognitive disorders remains challenging because conventional tests demand complex responses that measure memory and literacy instead of basic sensory function. We present a task-free alternative where ...</description>
+    </item>
+    <item>
+      <title>In-group neural alignment serves as a biomarker of social identity</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2624145123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2624145123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 24% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Yohay ZviNitai KeremEldad AvivYaara YeshurunaSagol School of Neuroscience, Tel-Aviv University, Tel Aviv 6997801, IsraelbSchool of Psychological Sciences, Tel-Aviv University, Tel Aviv 6997801, Israel&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. In this study, we propose a perspective on neural synchronization. Beyond reflecting shared understanding between individuals, we suggest it serves as a biological marker of social homogeneity. We examined fMRI neural responses of 42 participants (21 ...</description>
+    </item>
+    <item>
+      <title>Intrinsically motivated humans and agents in open-world exploration</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2612366123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2612366123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 24% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Aly LidayanYuqing DuEliza KosoyMaria RufovaPieter AbbeelAlison GopnikaBerkeley AI Research Lab, Computer Science Department, University of California Berkeley, Berkeley, CA 94706bPsychology Department, University of California Berkeley, Berkeley, CA 94706&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. SignificanceHow and why do we spontaneously explore the environment—even without any external rewards? What could lead artificial agents to spontaneously explore in the way that humans do? One idea is that people seek intrinsic rewards such as entropy, ...</description>
+    </item>
+    <item>
+      <title>Binding sites as dynamic hubs of coevolution encoded information flow</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2612667123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2612667123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 24% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kemal DemirtaşBurak ErmanTürkan Haliloğluahttps://ror.org/03z9tma90Department of Chemical Engineering, Bogazici University, Istanbul 34342, Türkiyebhttps://ror.org/03z9tma90Polymer Research Center and Department of Chemical Engineering, Bogazici University, Istanbul 34342, Türkiyechttps://ror.org/00jzwgz36Department of Chemical and Biological Engineering, Koc University, Istanbul 34450, Türkiye&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. SignificanceAllosteric regulation is central to protein function, yet how it is encoded in evolutionary sequence remains unclear. This study demonstrates that coevolutionary signals inherently capture the architecture of allosteric communication. By ...</description>
+    </item>
+    <item>
+      <title>A causal account of the neural origins of mental fatigue</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2534136123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2534136123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 23% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Hongmei XiaGizem VuralAntonia SusnjarHelge J. ZöllnerRebekka S. MattesAlexander Soutschekahttps://ror.org/05591te55Neuro-Cognitive Psychology, Department of Psychology, Ludwig-Maximilians-Universität München, Munich 80802, Germanybhttps://ror.org/024z2rq82Comparative Psychology, Institute of Experimental Psychology, Heinrich-Heine-University Düsseldorf, Düsseldorf 40225, GermanycDepartment of Radiology, Department of Radiology, Harvard Medical School, Boston, MA 02115dhttps://ror.org/002pd6e78Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Boston, MA 02114ehttps://ror.org/00za53h95Russell H. Morgan Department of Radiology and Radiological Science, The Johns Hopkins University School of Medicine, Baltimore, MD 21205fhttps://ror.org/05q6tgt32F. M. Kirby Research Center for Functional Brain Imaging, Kennedy Krieger Institute, Baltimore, MD 21205ghttps://ror.org/03pvr2g57Department for Psychiatry, Psychosomatics, and Psychotherapy, University Hospital Würzburg, Würzburg 97080, Germany&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. SignificanceMental fatigue is an ubiquitous experience that limits individual and societal productivity, especially in knowledge-based economies where cognitive performance drives growth. The origins of mental fatigue are controversially debated: While ...</description>
     </item>
     <item>
       <title>A functional connectome identifies vulnerability to cognitive decline and Alzheimer’s disease progression</title>
@@ -94,41 +118,17 @@
       <description>&lt;b&gt;Relevance: 21% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Pablo Neira-Castro&lt;/i&gt;&lt;br/&gt;Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03644-5 Students need AI-free spaces to learn core skills</description>
     </item>
     <item>
-      <title>Forniceal deep brain stimulation improves memory in Rett syndrome mice by promoting the maturation of newborn hippocampal neurons</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2535887123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2535887123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 20% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Qi WangBin TangZhenyu WuHuda Y. ZoghbiJianrong Tangahttps://ror.org/05cz92x43Jan and Dan Duncan Neurological Research Institute at Texas Children’s Hospital, Houston, TX 77030bhttps://ror.org/02pttbw34Department of Pediatrics, Division of Neurology, Baylor College of Medicine, Houston, TX 77030chttps://ror.org/02pttbw34Department of Molecular and Human Genetics, Baylor College of Medicine, Houston, TX 77030dhttps://ror.org/02pttbw34Program in Developmental Biology, Baylor College of Medicine, Houston, TX 77030ehttps://ror.org/02pttbw34Department of Neuroscience, Baylor College of Medicine, Houston, TX 77030fhttps://ror.org/02pttbw34HHMI, Baylor College of Medicine, Houston, TX 77030&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 44, November 2026. SignificanceDeep brain stimulation (DBS) has long been known for its efficacy in mitigating movement disorders. More recently, it has shown promise for addressing disorders of learning and memory: for example, DBS of the fornix rescues hippocampal memory ...</description>
-    </item>
-    <item>
-      <title>Estimating bone marrow adiposity from head MRI and identifying its genetic architecture</title>
-      <link>https://elifesciences.org/articles/101499</link>
-      <guid>https://dx.doi.org/10.7554/eLife.101499</guid>
-      <description>&lt;b&gt;Relevance: 20% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kevin O'Connell, Lars T Westlye, Martin Falck, Ole A Andreassen, Oleksandr Frei, Pål Marius Bjørnstad, Srdjan Djurovic, Stener Nerland, Timothy Hughes, Tobias Kaufmann&lt;/i&gt;&lt;br/&gt;Bone marrow (BM) adiposity changes radically through the lifespan, but this phenomenon is poorly characterized and understood in humans. Large datasets of magnetic resonance imaging (MRI) scans of the head have been collected to study the human brain, but also contain unexploited information about other organs. We developed an artificial neural network that localizes calvarial BM in T1-weighted MRI head scans, enabling us to study its composition in several large MRI datasets, and to model sex-dimorphic age trajectories, including the effect of menopause. We revealed high heritability in single-nucleotide polymorphism and twin data, and identified 41 genetic loci significantly associated with the trait, including six sex-specific loci. Integrating mapped genes with existing BM single-cell RNA-sequencing data revealed patterns of adipogenic lineage differentiation and lipid loading. Finally, we identified significant genetic correlations with several human traits, including cognitive ability and Parkinson’s disease, which is intriguing in light of the recently discovered channels that link calvarial BM to the meninges.</description>
-      <pubDate>2026-11-04T00:00:00+00:00</pubDate>
-    </item>
-    <item>
-      <title>fMRI-guided focal transcranial magnetic stimulation of anterior cingulate cortex reduces opioid seeking and restores connectivity</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2619013123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2619013123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 20% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Zilu MaYing DuanHieu NguyenSabrina LinMd Mohaiminul HaqueDanni WangSamantha HoffmanAidan CarneyTaylor ScottEleni VarlasElliot SteinZheng-Xiong XiYavin ShahamHanbing LuYihong YangaNeuroimaging Research Branch, Intramural Research Program, National Institute on Drug Abuse, National Institutes of Health, Baltimore, MD 21224bSchool of Electrical Engineering, International University, VNU-HCM, Ho Chi Minh City 71309, Vietnamchttps://ror.org/00waaqh38Viet Nam National University Ho Chi Minh City, Ho Chi Minh City 71309, Vietnamdhttps://ror.org/043mer456Department of Electrical and Electronic Engineering, University of Nebraska-Lincoln, Lincoln, NE 68588eMolecular Targets and Medication Discovery Branch, Intramural Research Program, National Institute on Drug Abuse, National Institutes of Health, Baltimore, MD 21224fBehavioral Neuroscience Branch, Intramural Research Program, National Institute on Drug Abuse, National Institutes of Health, Baltimore, MD 21224&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 44, November 2026. SignificanceA major challenge in developing brain stimulation therapies for opioid addiction is identifying which neural circuits to target and tracking how stimulation reshapes relapse-related circuit function. Using a rat model of oxycodone relapse ...</description>
+      <title>Dopaminergic neurons linking threat processing to cardiac modulation and locomotor responses</title>
+      <link>https://elifesciences.org/articles/111256</link>
+      <guid>https://dx.doi.org/10.7554/eLife.111256</guid>
+      <description>&lt;b&gt;Relevance: 20% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ayako Ogasawara, Daisuke Jinkoma, Kazuo Emoto, Masato Tsuji, Yuki Uemura&lt;/i&gt;&lt;br/&gt;Heartbeat and behavior are tightly coordinated during defensive states, yet the neuronal mechanisms linking threat processing to cardiac modulation—and the potential contribution of cardiac dynamics to behavioral output—remain poorly understood. Here, using simultaneous recordings of heartbeat and behavior in tethered Drosophila , we show that mechanical threat triggers locomotion together with rapid cardiac deceleration. We identify two pairs of dopaminergic neurons, termed DA-WED neurons, that mediate this cardiac response. Silencing these neurons markedly attenuates threat-induced cardiac deceleration, whereas optogenetic activation induces cardiac deceleration in the absence of threat. Two-photon calcium imaging further shows that DA-WED neurons are activated by mechanical threat, and manipulating their activity bidirectionally modulates threat-induced locomotion. Linking cardiac dynamics to behavior, direct optogenetic manipulation of cardiomyocytes that quantitatively reproduces threat-evoked cardiac deceleration is accompanied by increased locomotion. Together, these results identify a dopaminergic descending pathway that links threat processing to cardiac modulation and suggest that cardiac dynamics may contribute to shaping defensive behavior.</description>
+      <pubDate>2026-11-05T00:00:00+00:00</pubDate>
     </item>
     <item>
       <title>Pink noise in dyads’ semantic similarity trajectories predicts conversation enjoyment</title>
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aeb2684?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeb2684?af=R</guid>
       <description>&lt;b&gt;Relevance: 19% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kathryn C. O’Nell, Kiara L. Sanchez, Emily S. Finn&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 45, November 2026.</description>
-    </item>
-    <item>
-      <title>Why are we conscious? Nature investigates the theories</title>
-      <link>https://www.nature.com/articles/d41586-026-03413-4</link>
-      <guid>https://www.nature.com/articles/d41586-026-03413-4</guid>
-      <description>&lt;b&gt;Relevance: 18% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Amanda Heidt&lt;/i&gt;&lt;br/&gt;Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03413-4 Scientists have yet to reveal how the human brain produces the subjective experience we perceive as consciousness, but research has pushed the field in exciting directions.</description>
-    </item>
-    <item>
-      <title>Ddx3x deficiency in mice impairs corticofugal motor circuits and causes motor deficits that are attenuated by early-life exercise</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2535732123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2535732123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 18% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Lauren DierdorffIkrame El KhaldiMarta Garcia-FornWei WangJeronimo LukinCorinne M. SmithAdele MossaZhuhao WuSilvia De Rubeisahttps://ror.org/04a9tmd77Seaver Autism Center for Research and Treatment, Icahn School of Medicine at Mount Sinai, New York, NY 10029bhttps://ror.org/04a9tmd77Department of Psychiatry, Icahn School of Medicine at Mount Sinai, New York, NY 10029chttps://ror.org/04a9tmd77Department of Neuroscience, Icahn School of Medicine at Mount Sinai, New York, NY 10029dhttps://ror.org/04a9tmd77The Mindich Child Health and Development Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029ehttps://ror.org/04a9tmd77The Friedman Brain Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029fhttps://ror.org/04a9tmd77The Alper Center for Neural Development and Regeneration Friedman Brain Institute, Icahn School of Medicine at Mount Sinai, New York, NY 10029ghttps://ror.org/02r109517Helen &amp; Robert Appel Alzheimer’s Disease Research Institute, Feil Family Brain and Mind Research Institute, Weill Cornell Medicine, New York, NY 10021hhttps://ror.org/04a9tmd77Department of Pharmacological Sciences, Icahn School of Medicine at Mount Sinai, New York, NY 10029ihttps://ror.org/04a9tmd77Department of Graduate Education, Icahn School of Medicine at Mount Sinai, New York, NY 10029&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 44, November 2026. SignificanceAcquisition of motor skills during infancy is critical for a child’s ability to interact with the physical and social environment and motor impairments are frequent in individuals with neurodevelopmental disorders. Here, we studied the neural ...</description>
     </item>
     <item>
       <title>AI ‘slop’ is a social judgement</title>
@@ -155,6 +155,12 @@
       <description>&lt;b&gt;Relevance: 17% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Rachel Nuwer&lt;/i&gt;&lt;br/&gt;Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03169-x The disease is thought to be divided into two subtypes, depending on where it originates in the body — the gut or the brain.</description>
     </item>
     <item>
+      <title>AI has transformed maths — this is how we got here</title>
+      <link>https://www.nature.com/articles/d41586-026-03627-6</link>
+      <guid>https://www.nature.com/articles/d41586-026-03627-6</guid>
+      <description>&lt;b&gt;Relevance: 17% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Anil Ananthaswamy&lt;/i&gt;&lt;br/&gt;Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03627-6 The story of how maths came to run the world, and created the artificial-intelligence models that might surpass human mathematicians.</description>
+    </item>
+    <item>
       <title>Lighting up necrotic neurons from traumatic brain injury with magnetic quantum dots to decode the cellular origin of MRI</title>
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aej0686?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aej0686?af=R</guid>
@@ -177,12 +183,6 @@
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aef3222?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aef3222?af=R</guid>
       <description>&lt;b&gt;Relevance: 13% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Achyut J. Raghavendra, Kenaan Elbash, Marlon Diaz, Osamah J. Saeedi, Zhuolin Liu, Daniel X. Hammer&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 45, November 2026.</description>
-    </item>
-    <item>
-      <title>Within-family heritability estimates for behavioural and disease phenotypes from 500,000 sibling pairs of diverse ancestries</title>
-      <link>https://www.nature.com/articles/s41562-026-02599-x</link>
-      <guid>https://www.nature.com/articles/s41562-026-02599-x</guid>
-      <description>&lt;b&gt;Relevance: 11% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Loic Yengo, Yanyu Liang, Xin Wang, Julie M. Granka, David M. Evans, Julia Sidorenko, Peter M. Visscher&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 26 October 2026; doi:10.1038/s41562-026-02599-x Using the variation in DNA sharing between 500,000 sibling pairs with diverse genetic ancestries, Yengo et al. estimate the heritability of 14 complex traits.</description>
     </item>
     <item>
       <title>A natural field experiment on the effectiveness of economic sanctions before and after the Russian invasion of Ukraine</title>
