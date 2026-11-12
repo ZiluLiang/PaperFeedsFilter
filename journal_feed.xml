@@ -4,7 +4,7 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Wed, 11 Nov 2026 13:51:58 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 14:54:56 +0000</lastBuildDate>
     <item>
       <title>The representation of object-concept primitives across the macaque brain</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</link>
@@ -23,6 +23,12 @@
       <link>https://www.nature.com/articles/s41562-026-02637-8</link>
       <guid>https://www.nature.com/articles/s41562-026-02637-8</guid>
       <description>&lt;b&gt;Relevance: 31% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 11 November 2026; doi:10.1038/s41562-026-02637-8 Humans’ rapid adaptation to new dynamics is a crucial ability for interacting with the world. By combining the controlled manipulations of sensorimotor adaptation studies with the long-term learning approach of complex tasks, this study shows that the learned motor memory is continually tuned, and that retention increases with long-term training.</description>
+    </item>
+    <item>
+      <title>Lateral orbitofrontal cortex enables new learning to overwrite previously acquired information</title>
+      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01427-2?rss=yes</link>
+      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01427-2?rss=yes</guid>
+      <description>&lt;b&gt;Relevance: 31% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Maedeh Mahmoudi, Joanne M. Gladding, Michael D. Kendig, Alessandro Castorina, Karly M. Turner, Octavia Soegyono, Laura A. Bradfield&lt;/i&gt;&lt;br/&gt;Mahmoudi et al. show here that contingency degradation is resistant to spontaneous recovery and reinstatement and that its learning, but not retrieval, depends on the lateral orbitofrontal cortex. Together, these findings suggest that unlike extinction, degradation overwrites initial learning and offers a potential approach to the development of relapse-resistant treatments.</description>
     </item>
     <item>
       <title>Long-term development of a motor memory</title>
@@ -44,17 +50,17 @@
       <pubDate>2026-11-06T00:00:00+00:00</pubDate>
     </item>
     <item>
-      <title>Distinct neural representations of perceptual and numerical absence in the human brain</title>
-      <link>https://elifesciences.org/articles/112088</link>
-      <guid>https://dx.doi.org/10.7554/eLife.112088</guid>
-      <description>&lt;b&gt;Relevance: 28% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Benjy Barnett, Stephen M Fleming&lt;/i&gt;&lt;br/&gt;The ability to represent absences is fundamental to human perception and cognition. Sensitivity to non-numerical absences depends on inferring a lack of sensory evidence, enabling the recognition of a lack of environmental resources or other objects. In turn, encoding numerical absence as a concept – in the form of the number zero – has enabled a multitude of technological and mathematical advances. Whether perceptual and conceptual absences rely on overlapping or distinct neural representations in the human brain, however, remains unknown. We employed three different tasks together with magnetoencephalography to characterise neural representations of absence evoked within perceptual and numerical domains. Using multivariate decoding and Bayes factor analyses, we replicate previous findings of shared representations of numerical absence across symbolic and non-symbolic formats. In contrast, we show that these representations of numerical absence are distinct from those evoked by non-numerical absences. This result held even after controlling for stimulus-level confounds which generate surface-level similarities between perceptual absences and non-symbolic empty sets. Our results extend a boundary between perception and cognition to the domain of absence and provide insight into the different mechanisms employed by the human brain to both perceive and conceive of absences.</description>
-      <pubDate>2026-11-05T00:00:00+00:00</pubDate>
-    </item>
-    <item>
       <title>Environment-specific virtual head direction representation in the human anteroventral thalamus during memory-guided spatial orientation</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01330-8?rss=yes</link>
       <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01330-8?rss=yes</guid>
       <description>&lt;b&gt;Relevance: 28% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Pengcheng Lv, Dong Chen, Chao Zhang, Kai Zhang, Liang Wang&lt;/i&gt;&lt;br/&gt;Lv et al. show that the human anteroventral thalamus carries environment-specific virtual head direction information during memory-guided spatial orientation, providing direct intracranial evidence that bridges animal head direction models and human navigation.</description>
+    </item>
+    <item>
+      <title>Cholinergic blockade reveals a role for human hippocampal theta in memory encoding but not retrieval</title>
+      <link>https://elifesciences.org/articles/108972</link>
+      <guid>https://dx.doi.org/10.7554/eLife.108972</guid>
+      <description>&lt;b&gt;Relevance: 27% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Bradley C Lega, David McDonagh, Erfan Zabeh, Jennifer Kriegel, Joshua Jacobs, Tamara Gedankien&lt;/i&gt;&lt;br/&gt;Cholinergic dysfunction is a hallmark of Alzheimer’s disease and other memory disorders. Yet, the neurophysiological mechanisms linking cholinergic signaling to memory remain poorly understood. In this study, we administered scopolamine, a muscarinic cholinergic antagonist, to neurosurgical patients with intracranial electrodes as they performed an associative recognition memory task. When scopolamine was present at encoding, we observed disruptions to hippocampal slow theta oscillations (2–4 Hz), with selective impairments to recollection-based memory. However, when scopolamine was present during retrieval alone, we observed disruptions to slow theta without impaired memory performance. These disruptions included dose-dependent reductions in theta power, theta phase reset, and encoding–retrieval pattern reinstatement. Together, our results challenge the notion that theta oscillations are necessary for memory retrieval, and instead suggest that theta universally reflects an encoding-related neural state. These findings motivate updates to current models of acetylcholine’s role in memory and may inform future therapies targeting rhythmic biomarkers of memory dysfunction.</description>
+      <pubDate>2026-11-11T00:00:00+00:00</pubDate>
     </item>
     <item>
       <title>Electrical synapses mediate visual orientation behavior</title>
@@ -63,10 +69,11 @@
       <description>&lt;b&gt;Relevance: 26% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Giovanni Frighetto, Mark Dombrovski, Lesly M. Palacios Castillo, Pratap Meera, Parmis S. Mirshahidi, Pegah S. Mirshahidi, Piero Sanfilippo, Andrea Vaccari, Pratyush Kandimalla, Volker Hartenstein, Yerbol Z. Kurmangaliyev, S. Lawrence Zipursky, Mark A. Frye&lt;/i&gt;&lt;br/&gt;Frighetto et al. reveal a neural circuit in the fly optic lobe that mediates saccadic orientation toward visual objects. Electrical synapses are a key feature of this visual pathway and are required for proper computation of visual signals and the resulting behavioral response.</description>
     </item>
     <item>
-      <title>Alerting acoustic stimuli enhance the internal representation of head direction</title>
-      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01331-X?rss=yes</link>
-      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01331-X?rss=yes</guid>
-      <description>&lt;b&gt;Relevance: 26% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Florian Hofmann, Eduardo Blanco-Hernández, Giuseppe Balsamo, Steffen R. Hage, Andrea Burgalossi, Patricia Preston-Ferrer&lt;/i&gt;&lt;br/&gt;Hofmann et al. show that alerting sounds recruit HD neurons in the thalamocortical HD circuit and enhance the fidelity of the HD representation. These findings reveal a link between sensory-induced arousal and the neural circuits underlying spatial navigation.</description>
+      <title>Learning-associated flexibility of cortical taste coding is impaired in Shank3 knockout mice</title>
+      <link>https://elifesciences.org/articles/108988</link>
+      <guid>https://dx.doi.org/10.7554/eLife.108988</guid>
+      <description>&lt;b&gt;Relevance: 26% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Chi-Hong Wu, Gina G Turrigiano&lt;/i&gt;&lt;br/&gt;The ability to update the valence of sensory perception to influence behavior is crucial for survival. A common phenotype in autism spectrum disorders (ASDs) is defects in sensory processing, but whether these defects impair flexible sensory encoding is largely unexplored. In particular, how genetic risk factors such as Shank3 deletion affect the adaptability of cortical taste processing and downstream behavior is unknown. To address this gap, we performed two-photon calcium imaging during a conditioned taste aversion (CTA) learning paradigm, an ethologically relevant form of associative learning that depends on taste processing in the gustatory cortex (GC), to examine how Shank3 knockout alters taste-related neuronal activity in GC and influences CTA learning. We found that GC neurons in Shank3 knockout mice exhibited reduced stimulus-evoked suppression and increased trial-to-trial correlated variability during the acquisition of CTA memory. These activity changes, which likely reduced signal-to-noise ratio in GC, were associated with slower CTA acquisition in Shank3 knockout mice. In both genotypes, CTA learning enhanced, while subsequent extinction reduced, taste discriminability in GC, and both extinction and the associated reduction in discriminability were faster in Shank3 knockout than in wild-type mice. Together, these results show that Shank3 loss is associated with destabilized cortical activity dynamics in GC, which may contribute to inefficient encoding and maintenance of learned taste aversion. These findings show that loss of Shank3 compromises the ability of animals to update behavior to incorporate negative outcomes, and suggest this loss of flexibility may be an important feature of monogenic ASDs.</description>
+      <pubDate>2026-11-12T00:00:00+00:00</pubDate>
     </item>
     <item>
       <title>Respiratory phase orchestrates human olfactory cortical dynamics</title>
@@ -99,12 +106,6 @@
       <description>&lt;b&gt;Relevance: 23% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Hongmei XiaGizem VuralAntonia SusnjarHelge J. ZöllnerRebekka S. MattesAlexander Soutschekahttps://ror.org/05591te55Neuro-Cognitive Psychology, Department of Psychology, Ludwig-Maximilians-Universität München, Munich 80802, Germanybhttps://ror.org/024z2rq82Comparative Psychology, Institute of Experimental Psychology, Heinrich-Heine-University Düsseldorf, Düsseldorf 40225, GermanycDepartment of Radiology, Department of Radiology, Harvard Medical School, Boston, MA 02115dhttps://ror.org/002pd6e78Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Boston, MA 02114ehttps://ror.org/00za53h95Russell H. Morgan Department of Radiology and Radiological Science, The Johns Hopkins University School of Medicine, Baltimore, MD 21205fhttps://ror.org/05q6tgt32F. M. Kirby Research Center for Functional Brain Imaging, Kennedy Krieger Institute, Baltimore, MD 21205ghttps://ror.org/03pvr2g57Department for Psychiatry, Psychosomatics, and Psychotherapy, University Hospital Würzburg, Würzburg 97080, Germany&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. SignificanceMental fatigue is an ubiquitous experience that limits individual and societal productivity, especially in knowledge-based economies where cognitive performance drives growth. The origins of mental fatigue are controversially debated: While ...</description>
     </item>
     <item>
-      <title>A functional connectome identifies vulnerability to cognitive decline and Alzheimer’s disease progression</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aed9351?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aed9351?af=R</guid>
-      <description>&lt;b&gt;Relevance: 23% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kanhao Zhao, Hua Xie, Gregory A. Fonzo, Nancy B. Carlisle, Tovia Jacobs, Ricardo S. Osorio, Arpana Church, Feng Vankee Lin, Yu Zhang, Alzheimer’s Disease Neuroimaging Initiative&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 45, November 2026.</description>
-    </item>
-    <item>
       <title>The resource elasticity of control</title>
       <link>https://elifesciences.org/articles/105507</link>
       <guid>https://dx.doi.org/10.7554/eLife.105507</guid>
@@ -118,17 +119,10 @@
       <description>&lt;b&gt;Relevance: 21% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Pablo Neira-Castro&lt;/i&gt;&lt;br/&gt;Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03644-5 Students need AI-free spaces to learn core skills</description>
     </item>
     <item>
-      <title>Dopaminergic neurons linking threat processing to cardiac modulation and locomotor responses</title>
-      <link>https://elifesciences.org/articles/111256</link>
-      <guid>https://dx.doi.org/10.7554/eLife.111256</guid>
-      <description>&lt;b&gt;Relevance: 20% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ayako Ogasawara, Daisuke Jinkoma, Kazuo Emoto, Masato Tsuji, Yuki Uemura&lt;/i&gt;&lt;br/&gt;Heartbeat and behavior are tightly coordinated during defensive states, yet the neuronal mechanisms linking threat processing to cardiac modulation—and the potential contribution of cardiac dynamics to behavioral output—remain poorly understood. Here, using simultaneous recordings of heartbeat and behavior in tethered Drosophila , we show that mechanical threat triggers locomotion together with rapid cardiac deceleration. We identify two pairs of dopaminergic neurons, termed DA-WED neurons, that mediate this cardiac response. Silencing these neurons markedly attenuates threat-induced cardiac deceleration, whereas optogenetic activation induces cardiac deceleration in the absence of threat. Two-photon calcium imaging further shows that DA-WED neurons are activated by mechanical threat, and manipulating their activity bidirectionally modulates threat-induced locomotion. Linking cardiac dynamics to behavior, direct optogenetic manipulation of cardiomyocytes that quantitatively reproduces threat-evoked cardiac deceleration is accompanied by increased locomotion. Together, these results identify a dopaminergic descending pathway that links threat processing to cardiac modulation and suggest that cardiac dynamics may contribute to shaping defensive behavior.</description>
-      <pubDate>2026-11-05T00:00:00+00:00</pubDate>
-    </item>
-    <item>
-      <title>Pink noise in dyads’ semantic similarity trajectories predicts conversation enjoyment</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeb2684?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeb2684?af=R</guid>
-      <description>&lt;b&gt;Relevance: 19% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kathryn C. O’Nell, Kiara L. Sanchez, Emily S. Finn&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 45, November 2026.</description>
+      <title>DeepMind's ultra-powerful AI for genome mapping wows scientists</title>
+      <link>https://www.nature.com/articles/d41586-026-03673-0</link>
+      <guid>https://www.nature.com/articles/d41586-026-03673-0</guid>
+      <description>&lt;b&gt;Relevance: 18% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ewen Callaway&lt;/i&gt;&lt;br/&gt;Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03673-0 AlphaGenome 2 can predict the types of cells where a DNA variant is likely to act.</description>
     </item>
     <item>
       <title>AI ‘slop’ is a social judgement</title>
@@ -137,40 +131,34 @@
       <description>&lt;b&gt;Relevance: 18% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Richard Jean So, Hoyt Long, Cody Kommers, Mina Lee, Emily Wenger, Peter West, Eamon Duede, Ari Holtzman, Chenhao Tan&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02639-6 Artificial intelligence (AI)-generated content increasingly saturates our information environment. Efforts to detect and remove it are failing. We propose that calling AI-generated content ‘slop’ is best understood as a social judgement: what a community recognizes as unwanted AI content. Studying AI slop this way makes it tractable, measurable and governable.</description>
     </item>
     <item>
-      <title>Fine-tuning brain stimulation to fight Parkinson’s disease</title>
-      <link>https://www.nature.com/articles/d41586-026-03168-y</link>
-      <guid>https://www.nature.com/articles/d41586-026-03168-y</guid>
-      <description>&lt;b&gt;Relevance: 18% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Liam Drew&lt;/i&gt;&lt;br/&gt;Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03168-y Neuroscientists are developing a new type of brain implant that will decode every movement and symptom of people with this neurodegenerative condition, seeking better ways to ease symptoms.</description>
+      <title>AI’s energy paradox: will the AI boom strain energy systems or be the source of solutions?</title>
+      <link>https://www.nature.com/articles/d41586-026-03412-5</link>
+      <guid>https://www.nature.com/articles/d41586-026-03412-5</guid>
+      <description>&lt;b&gt;Relevance: 17% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Melissa Hobson&lt;/i&gt;&lt;br/&gt;Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03412-5 Ginelle Greene-Dewasmes is leading a community of interdisciplinary specialists exploring how to make the energy use of artificial intelligence net-positive.</description>
     </item>
     <item>
-      <title>Six highlights from Parkinson’s disease research</title>
-      <link>https://www.nature.com/articles/d41586-026-03172-2</link>
-      <guid>https://www.nature.com/articles/d41586-026-03172-2</guid>
-      <description>&lt;b&gt;Relevance: 17% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Rachel Nuwer&lt;/i&gt;&lt;br/&gt;Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03172-2 Targeting a new network, addressing gait issues and other advances from recent studies.</description>
+      <title>The role of network connectivity and transcriptomic vulnerability in shaping gray matter atrophy in multiple sclerosis</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeg3412?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeg3412?af=R</guid>
+      <description>&lt;b&gt;Relevance: 17% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Mar Barrantes-Cepas, Mario Tranfa, David R. van Nederpelt, Ismail Koubiyr, Luigi Lorenzini, Birgit Helmlinger, Stefan Ropele, Daniela Pinter, Christian Enzinger, Tomas Uher, Manuela Vaneckova, Joep Killestein, Eva M. M. Strijbis, Martijn D. Steenwijk, Hugo Vrenken, Frederik Barkhof, Menno M. Schoonheim, Giuseppe Pontillo&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
     </item>
     <item>
-      <title>How a once-controversial idea is advancing understanding of Parkinson’s disease</title>
-      <link>https://www.nature.com/articles/d41586-026-03169-x</link>
-      <guid>https://www.nature.com/articles/d41586-026-03169-x</guid>
-      <description>&lt;b&gt;Relevance: 17% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Rachel Nuwer&lt;/i&gt;&lt;br/&gt;Nature, Published online: 04 November 2026; doi:10.1038/d41586-026-03169-x The disease is thought to be divided into two subtypes, depending on where it originates in the body — the gut or the brain.</description>
+      <title>Incomplete synaptic vesicle priming functionally disconnects CA1 pyramidal cells</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aej3501?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aej3501?af=R</guid>
+      <description>&lt;b&gt;Relevance: 15% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Noemi Holderith and Zoltan Nusser&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
     </item>
     <item>
-      <title>AI has transformed maths — this is how we got here</title>
-      <link>https://www.nature.com/articles/d41586-026-03627-6</link>
-      <guid>https://www.nature.com/articles/d41586-026-03627-6</guid>
-      <description>&lt;b&gt;Relevance: 17% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Anil Ananthaswamy&lt;/i&gt;&lt;br/&gt;Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03627-6 The story of how maths came to run the world, and created the artificial-intelligence models that might surpass human mathematicians.</description>
+      <title>Evolutionarily reinforced GC-rich motif enables non-AUG translation in mammals under eIF1/5MP-mediated fidelity control</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aek4290?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aek4290?af=R</guid>
+      <description>&lt;b&gt;Relevance: 15% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Haruyuki Furukawa, Abhineet Banerjee, Antonin Tidu, Nirmala Bardiya, Susumu Ishiguro, Chingakham Ranjit Singh, Hitomi Yagi, Hiroyuki Hiraishi, Grant Brooke, Antoine Perret, Kinsley Ochsner, Hailey Casey, Grace Sakai, Megan Freeman, Anastasia Meyer, Keat Robinson, William Finnane, Payton Henderson, Takeru Kameda, Yuichi Togashi, Toshinobu Fujiwara, Franck Martin, Hiroaki Kato, Kazuyuki Takai, Katsura Asano&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
     </item>
     <item>
-      <title>Lighting up necrotic neurons from traumatic brain injury with magnetic quantum dots to decode the cellular origin of MRI</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aej0686?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aej0686?af=R</guid>
-      <description>&lt;b&gt;Relevance: 16% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Mingxia Jiao, Xin Zhao, Jingyun Wang, Wanru Tian, Yao Li, Xuan Cheng, Kun Zhang, Xiliang Luo, Peisen Zhang, Mingyuan Gao&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 45, November 2026.</description>
-    </item>
-    <item>
-      <title>Common transcriptional changes in the brain during hibernation and Alzheimer’s disease</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeg3486?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeg3486?af=R</guid>
-      <description>&lt;b&gt;Relevance: 15% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Pablo Largo-Barrientos, Roman Praschberger, Gonzalo León-Espinosa, Pieter-Jan Bultynck, Anastasia Mallopoulou, João F. Machado, Suresh Poovathingal, Kristofer Davie, Patrik Verstreken&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 45, November 2026.</description>
+      <title>The public trusts scientists with AI — more than it does anyone else</title>
+      <link>https://www.nature.com/articles/d41586-026-03578-y</link>
+      <guid>https://www.nature.com/articles/d41586-026-03578-y</guid>
+      <description>&lt;b&gt;Relevance: 15% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Elliot Yates&lt;/i&gt;&lt;br/&gt;Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03578-y Public confidence in scientists’ use of generative artificial intelligence remains high, but that trust comes with conditions.</description>
     </item>
     <item>
       <title>AI governance needs to consider users’ emotional responses</title>
@@ -179,23 +167,28 @@
       <description>&lt;b&gt;Relevance: 15% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Daniel Västfjäll&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 26 October 2026; doi:10.1038/s41562-026-02620-3 People will often trust or distrust an artificial intelligence (AI) output because of how it makes them feel, rather than how reliable it is. AI governance frameworks should require that platforms disclose design choices that target user emotions, allow users control over these, and include features aimed to calibrate trust.</description>
     </item>
     <item>
-      <title>On-going retinal neuronal degeneration despite clinical stability in glaucoma</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aef3222?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aef3222?af=R</guid>
-      <description>&lt;b&gt;Relevance: 13% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Achyut J. Raghavendra, Kenaan Elbash, Marlon Diaz, Osamah J. Saeedi, Zhuolin Liu, Daniel X. Hammer&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 45, November 2026.</description>
+      <title>Carlo Rovelli says fundamental physics is overrated</title>
+      <link>https://www.nature.com/articles/d41586-026-03626-7</link>
+      <guid>https://www.nature.com/articles/d41586-026-03626-7</guid>
+      <description>&lt;b&gt;Relevance: 14% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Chris Stokel-Walker&lt;/i&gt;&lt;br/&gt;Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03626-7 The theoretical physicist unpacks the need for more humility in science and whether artificial intelligence could ever become conscious.</description>
+    </item>
+    <item>
+      <title>Inhibition of aberrant astrocyte activity restores auditory sensorimotor function in zebrafish spen mutants</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeg8139?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeg8139?af=R</guid>
+      <description>&lt;b&gt;Relevance: 14% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Yan Gao, Anna Shipman, Peng Sun, Na Zhang, Eliot T. Smith, Itallia Pacentine, Alex Nechiporuk, Teresa Nicolson&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
+    </item>
+    <item>
+      <title>Neuromelanin-inspired metal-selenomelanin nanonetworks restore neuronal excitability in radiation-induced brain injury</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aei6265?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aei6265?af=R</guid>
+      <description>&lt;b&gt;Relevance: 11% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ruotong Deng, Ke Li, Rui Duan, Xinyue Zhang, Botian Gu, Lanqun Mao, Wei Cao&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
     </item>
     <item>
       <title>A natural field experiment on the effectiveness of economic sanctions before and after the Russian invasion of Ukraine</title>
       <link>https://www.nature.com/articles/s41562-026-02591-5</link>
       <guid>https://www.nature.com/articles/s41562-026-02591-5</guid>
       <description>&lt;b&gt;Relevance: 5% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Michael G. Findley, Daniel L. Nielson, J. C. Sharman&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02591-5 A field experiment by Findley et al. finds that financial sanctions on Russian officials had little effect on access to banking and corporate services before the 2022 invasion of Ukraine, but significantly reduced access afterwards.</description>
-    </item>
-    <item>
-      <title>Quantum gases below 10 picokelvin in space | Science</title>
-      <link>https://www.science.org/doi/10.1126/science.aea5324</link>
-      <guid>https://www.science.org/doi/10.1126/science.aea5324</guid>
-      <description>&lt;b&gt;Relevance: -1% | Source: Science&lt;/b&gt;&lt;br/&gt;Ultracold atom platforms enable low temperatures and long free evolution times, which are crucial for fundamental physics tests and atom interferometry. The lowest equivalent temperature reported in such a system is 38 pK with a free expansion time of 2 ...</description>
-      <pubDate>2026-11-05T09:01:00-05:00</pubDate>
     </item>
     <item>
       <title>Melting and resistivity of iron at Earth core conditions using pulsed Joule heating | Science</title>
