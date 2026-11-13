@@ -4,7 +4,7 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Thu, 12 Nov 2026 14:54:56 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 14:19:16 +0000</lastBuildDate>
     <item>
       <title>The representation of object-concept primitives across the macaque brain</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</link>
@@ -41,13 +41,6 @@
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01278-9?rss=yes</link>
       <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01278-9?rss=yes</guid>
       <description>&lt;b&gt;Relevance: 29% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Anthony M. Crown, Annie H. Wu, Lindsey Hofflander, Gilad Barnea&lt;/i&gt;&lt;br/&gt;Crown et al. describe a behavioral correlate between optomotor steering maneuvers and the navigational circuitry of the fly brain. Several populations of columnar neurons contribute different aspects of these maneuvers, and their influence is most evident when the fly moves over timescales of several seconds.</description>
-    </item>
-    <item>
-      <title>Expectation-driven gain modulation of preparatory spatial attention</title>
-      <link>https://elifesciences.org/articles/110315</link>
-      <guid>https://dx.doi.org/10.7554/eLife.110315</guid>
-      <description>&lt;b&gt;Relevance: 28% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Dirk van Moorselaar, Stefan van der Stigchel&lt;/i&gt;&lt;br/&gt;The visual system can flexibly adjust attentional deployment to match task demands, but whether observers can proactively modulate the spatial scope of attention based on expectations about upcoming search difficulty remains unclear. According to the zoom lens model, attention can narrow or broaden its spatial extent, with narrower focus enhancing processing efficiency, a mechanism that would benefit target discrimination in crowded displays. We tested whether observers adjust attentional scope when expecting sparse versus dense search arrays by combining spatial cueing with block-wise manipulations of display density expectations. Participants performed a visual search task in which endogenous cues predicted target location, while blocks predominantly contained either sparse (1 target, 3 distractors) or dense (1 target, 7 distractors) displays. We applied inverted encoding models to broadband EEG data to reconstruct spatial channel tuning functions, enabling precise characterization of both the locus and breadth of attentional deployment. Behaviorally, expecting difficult searches selectively improved accuracy at cued locations without costs elsewhere. Consistent with this selective benefit, neural measurements revealed that expectancy enhanced the amplitude of spatially selective responses at the attended location but did not alter tuning width. These findings demonstrate that expectations about search difficulty modulate attention through gain-based signal enhancement rather than adjustments to spatial scope, revealing that preparatory attentional control operates via amplitude modulation within a stable spatial focus. This mechanism complements reactive attentional adjustments and provides an efficient means for the visual system to optimize processing under predictable task demands.</description>
-      <pubDate>2026-11-06T00:00:00+00:00</pubDate>
     </item>
     <item>
       <title>Environment-specific virtual head direction representation in the human anteroventral thalamus during memory-guided spatial orientation</title>
@@ -106,23 +99,22 @@
       <description>&lt;b&gt;Relevance: 23% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Hongmei XiaGizem VuralAntonia SusnjarHelge J. ZöllnerRebekka S. MattesAlexander Soutschekahttps://ror.org/05591te55Neuro-Cognitive Psychology, Department of Psychology, Ludwig-Maximilians-Universität München, Munich 80802, Germanybhttps://ror.org/024z2rq82Comparative Psychology, Institute of Experimental Psychology, Heinrich-Heine-University Düsseldorf, Düsseldorf 40225, GermanycDepartment of Radiology, Department of Radiology, Harvard Medical School, Boston, MA 02115dhttps://ror.org/002pd6e78Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Boston, MA 02114ehttps://ror.org/00za53h95Russell H. Morgan Department of Radiology and Radiological Science, The Johns Hopkins University School of Medicine, Baltimore, MD 21205fhttps://ror.org/05q6tgt32F. M. Kirby Research Center for Functional Brain Imaging, Kennedy Krieger Institute, Baltimore, MD 21205ghttps://ror.org/03pvr2g57Department for Psychiatry, Psychosomatics, and Psychotherapy, University Hospital Würzburg, Würzburg 97080, Germany&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. SignificanceMental fatigue is an ubiquitous experience that limits individual and societal productivity, especially in knowledge-based economies where cognitive performance drives growth. The origins of mental fatigue are controversially debated: While ...</description>
     </item>
     <item>
-      <title>The resource elasticity of control</title>
-      <link>https://elifesciences.org/articles/105507</link>
-      <guid>https://dx.doi.org/10.7554/eLife.105507</guid>
-      <description>&lt;b&gt;Relevance: 22% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Aviv Emanuel, Eran Eldar, Levi Solomyak&lt;/i&gt;&lt;br/&gt;The ability to determine how much the environment can be controlled through our actions has long been viewed as fundamental to adaptive behavior. While traditional accounts treat controllability as a fixed property of the environment, we argue that real-world controllability often depends on the effort, time, and money we are able and willing to invest. In such cases, controllability can be said to be elastic to invested resources. Here, we propose that inferring this elasticity is essential for efficient resource allocation, and thus, elasticity misestimations result in maladaptive behavior. To test this hypothesis, we developed a novel treasure hunt game where participants encountered environments with varying degrees of controllability and elasticity. Across two pre-registered studies ( N =514), we first demonstrate that people infer elasticity and adapt their resource allocation accordingly. We then present a computational model that explains how people make this inference and identify individual elasticity biases that lead to suboptimal resource allocation. Finally, we show that overestimation of elasticity is associated with elevated psychopathology involving an impaired sense of control. These findings establish the elasticity of control as a distinct cognitive construct guiding adaptive behavior and a computational marker for control-related maladaptive behavior.</description>
-      <pubDate>2026-11-06T00:00:00+00:00</pubDate>
-    </item>
-    <item>
       <title>Students need AI-free spaces to learn core skills</title>
       <link>https://www.nature.com/articles/d41586-026-03644-5</link>
       <guid>https://www.nature.com/articles/d41586-026-03644-5</guid>
       <description>&lt;b&gt;Relevance: 21% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Pablo Neira-Castro&lt;/i&gt;&lt;br/&gt;Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03644-5 Students need AI-free spaces to learn core skills</description>
     </item>
     <item>
-      <title>DeepMind's ultra-powerful AI for genome mapping wows scientists</title>
+      <title>Massive atlas of brain region linked to a host of diseases is the most detailed yet</title>
+      <link>https://www.nature.com/articles/d41586-026-03565-3</link>
+      <guid>https://www.nature.com/articles/d41586-026-03565-3</guid>
+      <description>&lt;b&gt;Relevance: 21% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Miryam Naddaf&lt;/i&gt;&lt;br/&gt;Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03565-3 A global team profiled nearly 26 million brain cells from the basal ganglia to build a cross-species reference database that will help to understand conditions from Parkinson’s disease to addiction.</description>
+    </item>
+    <item>
+      <title>DeepMind’s ultra-powerful AI for genome mapping wows scientists</title>
       <link>https://www.nature.com/articles/d41586-026-03673-0</link>
       <guid>https://www.nature.com/articles/d41586-026-03673-0</guid>
-      <description>&lt;b&gt;Relevance: 18% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ewen Callaway&lt;/i&gt;&lt;br/&gt;Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03673-0 AlphaGenome 2 can predict the types of cells where a DNA variant is likely to act.</description>
+      <description>&lt;b&gt;Relevance: 19% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ewen Callaway&lt;/i&gt;&lt;br/&gt;Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03673-0 AlphaGenome 2 can predict the types of cell in which a DNA variant is likely to act.</description>
     </item>
     <item>
       <title>AI ‘slop’ is a social judgement</title>
@@ -143,6 +135,20 @@
       <description>&lt;b&gt;Relevance: 17% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Mar Barrantes-Cepas, Mario Tranfa, David R. van Nederpelt, Ismail Koubiyr, Luigi Lorenzini, Birgit Helmlinger, Stefan Ropele, Daniela Pinter, Christian Enzinger, Tomas Uher, Manuela Vaneckova, Joep Killestein, Eva M. M. Strijbis, Martijn D. Steenwijk, Hugo Vrenken, Frederik Barkhof, Menno M. Schoonheim, Giuseppe Pontillo&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
     </item>
     <item>
+      <title>Midbrain somatostatin-expressing cells control pain-suppression during defensive states</title>
+      <link>https://elifesciences.org/articles/106826</link>
+      <guid>https://dx.doi.org/10.7554/eLife.106826</guid>
+      <description>&lt;b&gt;Relevance: 17% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Coline Riffault, Cyril Herry, Daniel Jercog, Delphine Girard, Emmanuel Valjent, Frank Aby, Juliette Viellard, Laia Castell, Marc Landry, Nanci Winke, Pascal Fossat, Rabia Bouali-Benazzouz, Stephane Valerio, Zoe Grivet&lt;/i&gt;&lt;br/&gt;In threatening situations, animals exhibit a broad range of behavioral and autonomic responses. As such, a crucial adaptive response is the inhibition of pain, which facilitates relevant defensive behaviors that promote survival. Whereas the structures and mechanisms involved in fear and pain behaviors are well documented, little is known about the precise neuronal mechanisms mediating the emotional regulation of endogenous pain-suppression. Here, we used a combination of behavioral, anatomical, optogenetic, and electrophysiological approaches to investigate, in male mice, the role of somatostatin-expressing cells in the ventrolateral periaqueductal gray matter (SST + vlPAG cells) in the control of analgesia induced during defensive states. Our data indicate that optogenetic inhibition of SST + vlPAG cells promotes analgesia irrespective of animal defensive state. In contrast, optogenetic activation of long-range SST + vlPAG cells that project to the rostral ventromedial medulla (RVM) abolishes the analgesia mediated by fear behavior. Together, these results identify a novel circuit mechanism composed of long-range SST + vlPAG cells projecting to the RVM that regulate analgesia elicited during defensive states.</description>
+      <pubDate>2026-11-10T00:00:00+00:00</pubDate>
+    </item>
+    <item>
+      <title>Cis -regulation and natural selection in the evolution of human DNA methylation</title>
+      <link>https://elifesciences.org/articles/110575</link>
+      <guid>https://dx.doi.org/10.7554/eLife.110575</guid>
+      <description>&lt;b&gt;Relevance: 16% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Alexander L Starr, David Gokhman, Hunter B Fraser, Zhenzhen Ma&lt;/i&gt;&lt;br/&gt;The vast collection of human-specific traits—such as our unique morphology, cognition, behavior, and diseases—has long been attributed to gene expression divergence between us and our closest living relatives, chimpanzees. Theory suggests that changes to cis -regulatory elements such as promoters and enhancers may drive evolutionary adaptation, and DNA methylation is a key factor in transcriptional cis -regulation. However, we still lack an understanding of (1) how species-specific methylation patterns arise; (2) their downstream effects; and (3) whether they are a common target of natural selection. In this study, we investigated these three questions. By combining a novel hypothesis testing framework with DNA methylation data from six human and chimpanzee cell types, as well as fused interspecies hybrid cells, we disentangled cis - vs. trans -acting methylation divergence across the genome. Across cell types, we found that methylation divergence is primarily driven in cis , which can be linked in some cases to nearby sequence variants such as CpG gains and losses. Although less common, regions with trans -acting methylation divergence were enriched for specific transcription factor (TF) binding motifs, suggesting a role of TFs such as FOXM1 in these differences. Having established these causes of methylation divergence, we then examined the functional consequences of differential methylation. Although methylation lacks a consistent relationship with transcription, we observed that associations between methylation and gene expression are stronger for genes with cis -regulatory divergence. Moreover, we identified lineage-specific selection shaping promoter methylation at the level of entire pathways, including those associated with human-specific traits such as speech, cognition, and susceptibility to infection with hepatitis C. Collectively, our findings provide a mechanistic framework suggesting that DNA methylation may occupy a key position, mediating the effects of both cis - and trans -acting factors on transcriptional networks, including those contributing to human-specific traits.</description>
+      <pubDate>2026-11-12T00:00:00+00:00</pubDate>
+    </item>
+    <item>
       <title>Incomplete synaptic vesicle priming functionally disconnects CA1 pyramidal cells</title>
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aej3501?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aej3501?af=R</guid>
@@ -155,28 +161,22 @@
       <description>&lt;b&gt;Relevance: 15% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Haruyuki Furukawa, Abhineet Banerjee, Antonin Tidu, Nirmala Bardiya, Susumu Ishiguro, Chingakham Ranjit Singh, Hitomi Yagi, Hiroyuki Hiraishi, Grant Brooke, Antoine Perret, Kinsley Ochsner, Hailey Casey, Grace Sakai, Megan Freeman, Anastasia Meyer, Keat Robinson, William Finnane, Payton Henderson, Takeru Kameda, Yuichi Togashi, Toshinobu Fujiwara, Franck Martin, Hiroaki Kato, Kazuyuki Takai, Katsura Asano&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
     </item>
     <item>
-      <title>The public trusts scientists with AI — more than it does anyone else</title>
-      <link>https://www.nature.com/articles/d41586-026-03578-y</link>
-      <guid>https://www.nature.com/articles/d41586-026-03578-y</guid>
-      <description>&lt;b&gt;Relevance: 15% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Elliot Yates&lt;/i&gt;&lt;br/&gt;Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03578-y Public confidence in scientists’ use of generative artificial intelligence remains high, but that trust comes with conditions.</description>
-    </item>
-    <item>
       <title>AI governance needs to consider users’ emotional responses</title>
       <link>https://www.nature.com/articles/s41562-026-02620-3</link>
       <guid>https://www.nature.com/articles/s41562-026-02620-3</guid>
       <description>&lt;b&gt;Relevance: 15% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Daniel Västfjäll&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 26 October 2026; doi:10.1038/s41562-026-02620-3 People will often trust or distrust an artificial intelligence (AI) output because of how it makes them feel, rather than how reliable it is. AI governance frameworks should require that platforms disclose design choices that target user emotions, allow users control over these, and include features aimed to calibrate trust.</description>
     </item>
     <item>
-      <title>Carlo Rovelli says fundamental physics is overrated</title>
-      <link>https://www.nature.com/articles/d41586-026-03626-7</link>
-      <guid>https://www.nature.com/articles/d41586-026-03626-7</guid>
-      <description>&lt;b&gt;Relevance: 14% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Chris Stokel-Walker&lt;/i&gt;&lt;br/&gt;Nature, Published online: 09 November 2026; doi:10.1038/d41586-026-03626-7 The theoretical physicist unpacks the need for more humility in science and whether artificial intelligence could ever become conscious.</description>
-    </item>
-    <item>
       <title>Inhibition of aberrant astrocyte activity restores auditory sensorimotor function in zebrafish spen mutants</title>
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aeg8139?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeg8139?af=R</guid>
       <description>&lt;b&gt;Relevance: 14% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Yan Gao, Anna Shipman, Peng Sun, Na Zhang, Eliot T. Smith, Itallia Pacentine, Alex Nechiporuk, Teresa Nicolson&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
+    </item>
+    <item>
+      <title>Give biologists the space to be curious, not just better tools</title>
+      <link>https://www.nature.com/articles/d41586-026-03669-w</link>
+      <guid>https://www.nature.com/articles/d41586-026-03669-w</guid>
+      <description>&lt;b&gt;Relevance: 12% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Edith Heard&lt;/i&gt;&lt;br/&gt;Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03669-w Technology is making biological studies more powerful than ever. But people are the real force behind discovery.</description>
     </item>
     <item>
       <title>Neuromelanin-inspired metal-selenomelanin nanonetworks restore neuronal excitability in radiation-induced brain injury</title>
@@ -191,11 +191,39 @@
       <description>&lt;b&gt;Relevance: 5% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Michael G. Findley, Daniel L. Nielson, J. C. Sharman&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02591-5 A field experiment by Findley et al. finds that financial sanctions on Russian officials had little effect on access to banking and corporate services before the 2022 invasion of Ukraine, but significantly reduced access afterwards.</description>
     </item>
     <item>
-      <title>Melting and resistivity of iron at Earth core conditions using pulsed Joule heating | Science</title>
-      <link>https://www.science.org/doi/10.1126/science.aeh5267</link>
-      <guid>https://www.science.org/doi/10.1126/science.aeh5267</guid>
-      <description>&lt;b&gt;Relevance: -7% | Source: Science&lt;/b&gt;&lt;br/&gt;The melting temperature and electrical resistivity of iron at high pressure are essential for understanding Earth’s core. Here we use a new high-pressure method – microsecond pulsed Joule heating in diamond anvil cells – to identify melting and measure ...</description>
-      <pubDate>2026-11-08T09:01:00-05:00</pubDate>
+      <title>A cellular atlas of the preinvasive breast cancer microenvironment | Science</title>
+      <link>https://www.science.org/doi/10.1126/science.aef4622</link>
+      <guid>https://www.science.org/doi/10.1126/science.aef4622</guid>
+      <description>&lt;b&gt;Relevance: 1% | Source: Science&lt;/b&gt;&lt;br/&gt;Ductal carcinoma in situ (DCIS) is the most common preinvasive breast cancer, however our knowledge of the DCIS tumor microenvironment (TME) remains limited. We constructed a comprehensive atlas of the TME in estrogen-receptor positive DCIS using fresh ...</description>
+      <pubDate>2026-11-12T09:01:00-05:00</pubDate>
+    </item>
+    <item>
+      <title>The cryosphere beyond a planetary safe operating space | Science</title>
+      <link>https://www.science.org/doi/10.1126/science.aef5636</link>
+      <guid>https://www.science.org/doi/10.1126/science.aef5636</guid>
+      <description>&lt;b&gt;Relevance: 0% | Source: Science&lt;/b&gt;&lt;br/&gt;The cryosphere plays a vital role in regulating planetary dynamics and habitability, yet it remains unclear whether its essential functions remain within a safe operating space (SOS) amid Anthropocene change. Here, we propose a cryosphere SOS and ...</description>
+      <pubDate>2026-11-12T09:01:00-05:00</pubDate>
+    </item>
+    <item>
+      <title>Early epidemiological and spatial assessment of the Bundibugyo virus outbreak 2026 | Science</title>
+      <link>https://www.science.org/doi/10.1126/science.aej4586</link>
+      <guid>https://www.science.org/doi/10.1126/science.aej4586</guid>
+      <description>&lt;b&gt;Relevance: -3% | Source: Science&lt;/b&gt;&lt;br/&gt;A Bundibugyo virus outbreak was first reported on May 15th, 2026 in Ituri province, Democratic Republic of the Congo, with multiple cases reported across health zones during the early phase of the outbreak and suggestions of circulation weeks prior to ...</description>
+      <pubDate>2026-11-12T09:01:00-05:00</pubDate>
+    </item>
+    <item>
+      <title>Hantavirus pulmonary syndrome outbreak linked to cruise ship travel in April–May 2026 | Science</title>
+      <link>https://www.science.org/doi/10.1126/science.aej1376</link>
+      <guid>https://www.science.org/doi/10.1126/science.aej1376</guid>
+      <description>&lt;b&gt;Relevance: -4% | Source: Science&lt;/b&gt;&lt;br/&gt;In April 2026, a hantavirus pulmonary syndrome (HPS) outbreak caused by Andes virus (ANDV) occurred on a cruise ship. ANDV genome sequences were obtained for 10 of the 13 identified cases during a cross-country investigation established to share initial ...</description>
+      <pubDate>2026-11-12T09:01:00-05:00</pubDate>
+    </item>
+    <item>
+      <title>Long-term local circulation of an Andes virus lineage in northern Patagonia is linked to the M/V Hondius outbreak | Science</title>
+      <link>https://www.science.org/doi/10.1126/science.aej1679</link>
+      <guid>https://www.science.org/doi/10.1126/science.aej1679</guid>
+      <description>&lt;b&gt;Relevance: -5% | Source: Science&lt;/b&gt;&lt;br/&gt;In 2026, a hantavirus pulmonary syndrome (HPS) outbreak caused by Andes virus (ANDV) occurred on a cruise ship. Analyses revealed an unexpected relationship to an outbreak in Argentina in 2018. Retrospective investigation clarified the 2018 outbreak ...</description>
+      <pubDate>2026-11-12T09:01:00-05:00</pubDate>
     </item>
   </channel>
 </rss>
