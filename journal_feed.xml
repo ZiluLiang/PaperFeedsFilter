@@ -4,7 +4,7 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Fri, 13 Nov 2026 14:19:16 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 13:15:56 +0000</lastBuildDate>
     <item>
       <title>The representation of object-concept primitives across the macaque brain</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</link>
@@ -81,6 +81,12 @@
       <description>&lt;b&gt;Relevance: 24% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Yohay ZviNitai KeremEldad AvivYaara YeshurunaSagol School of Neuroscience, Tel-Aviv University, Tel Aviv 6997801, IsraelbSchool of Psychological Sciences, Tel-Aviv University, Tel Aviv 6997801, Israel&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. In this study, we propose a perspective on neural synchronization. Beyond reflecting shared understanding between individuals, we suggest it serves as a biological marker of social homogeneity. We examined fMRI neural responses of 42 participants (21 ...</description>
     </item>
     <item>
+      <title>Symmetry as a common origin of hierarchical emergence and abstraction</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeh0773?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeh0773?af=R</guid>
+      <description>&lt;b&gt;Relevance: 24% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Fernando E. Rosas&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
+    </item>
+    <item>
       <title>Intrinsically motivated humans and agents in open-world exploration</title>
       <link>https://www.pnas.org/doi/abs/10.1073/pnas.2612366123?af=R</link>
       <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2612366123?af=R</guid>
@@ -105,16 +111,35 @@
       <description>&lt;b&gt;Relevance: 21% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Pablo Neira-Castro&lt;/i&gt;&lt;br/&gt;Nature, Published online: 10 November 2026; doi:10.1038/d41586-026-03644-5 Students need AI-free spaces to learn core skills</description>
     </item>
     <item>
+      <title>This AI ‘mechanic’ can peer inside the black box of other neural networks</title>
+      <link>https://www.nature.com/articles/d41586-026-03679-8</link>
+      <guid>https://www.nature.com/articles/d41586-026-03679-8</guid>
+      <description>&lt;b&gt;Relevance: 21% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Elizabeth Gibney&lt;/i&gt;&lt;br/&gt;Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03679-8 Being able to target and debug systems could improve artificial-intelligence safety and utility.</description>
+    </item>
+    <item>
       <title>Massive atlas of brain region linked to a host of diseases is the most detailed yet</title>
       <link>https://www.nature.com/articles/d41586-026-03565-3</link>
       <guid>https://www.nature.com/articles/d41586-026-03565-3</guid>
       <description>&lt;b&gt;Relevance: 21% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Miryam Naddaf&lt;/i&gt;&lt;br/&gt;Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03565-3 A global team profiled nearly 26 million brain cells from the basal ganglia to build a cross-species reference database that will help to understand conditions from Parkinson’s disease to addiction.</description>
     </item>
     <item>
+      <title>The zoo of the gene networks capable of pattern formation by extracellular signaling</title>
+      <link>https://elifesciences.org/articles/107563</link>
+      <guid>https://dx.doi.org/10.7554/eLife.107563</guid>
+      <description>&lt;b&gt;Relevance: 20% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Isaac Salazar-Ciudad, Kevin Martinez Anhom&lt;/i&gt;&lt;br/&gt;A fundamental question of developmental biology is pattern formation, or how cells with specific gene expression end up in specific locations in the body to form tissues, organs, and, overall functional anatomy. Pattern formation involves communication through extracellular signals and complex intracellular gene networks integrating these signals to determine cell responses (e.g. further signaling, cell division, cell differentiation, etc.). In this article, we address two questions: (1) Are there any logical or mathematical principles determining which gene network topologies can lead to pattern formation by cell signaling over space in multicellular systems? (2) Can gene network topologies be classified into a small number of classes that entail similar dynamics and pattern transformation capacities? We combine logical arguments and mathematical proofs to show that, despite the large amount of formally possible gene network topologies, all gene network topologies capable of pattern formation fall into only three fundamental classes and their combinations. Additionally, we show that gene networks within each class share the same logic on how they lead to pattern formation, and hence, lead to similar patterns. We characterize the main features of each class. This zoo includes the complete gene networks that, to the best of our knowledge, have been experimentally reported to lead to pattern formation as well as other gene networks that have not yet been found experimentally.</description>
+      <pubDate>2026-11-13T00:00:00+00:00</pubDate>
+    </item>
+    <item>
       <title>DeepMind’s ultra-powerful AI for genome mapping wows scientists</title>
       <link>https://www.nature.com/articles/d41586-026-03673-0</link>
       <guid>https://www.nature.com/articles/d41586-026-03673-0</guid>
       <description>&lt;b&gt;Relevance: 19% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ewen Callaway&lt;/i&gt;&lt;br/&gt;Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03673-0 AlphaGenome 2 can predict the types of cell in which a DNA variant is likely to act.</description>
+    </item>
+    <item>
+      <title>Single-nucleus multiomic profiling uncovers epigenetic dysregulation driving hippocampal vulnerability in Alzheimer’s disease</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aee4760?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aee4760?af=R</guid>
+      <description>&lt;b&gt;Relevance: 19% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Quyuan Tao, Ting Luo, Pan Wang, Maorui Jiang, Zilin Lai, Bufan Jin, Yuyang Liu, Youzhe He, Yanrong Wei, Yue Gao, Langjian Zhu, Heyang Du, Lifang Wang, Yujie Peng, Yong Hou, Shiping Liu, Longqi Liu, Jing Zhang, Lei Han&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
     </item>
     <item>
       <title>AI ‘slop’ is a social judgement</title>
@@ -142,13 +167,6 @@
       <pubDate>2026-11-10T00:00:00+00:00</pubDate>
     </item>
     <item>
-      <title>Cis -regulation and natural selection in the evolution of human DNA methylation</title>
-      <link>https://elifesciences.org/articles/110575</link>
-      <guid>https://dx.doi.org/10.7554/eLife.110575</guid>
-      <description>&lt;b&gt;Relevance: 16% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Alexander L Starr, David Gokhman, Hunter B Fraser, Zhenzhen Ma&lt;/i&gt;&lt;br/&gt;The vast collection of human-specific traits—such as our unique morphology, cognition, behavior, and diseases—has long been attributed to gene expression divergence between us and our closest living relatives, chimpanzees. Theory suggests that changes to cis -regulatory elements such as promoters and enhancers may drive evolutionary adaptation, and DNA methylation is a key factor in transcriptional cis -regulation. However, we still lack an understanding of (1) how species-specific methylation patterns arise; (2) their downstream effects; and (3) whether they are a common target of natural selection. In this study, we investigated these three questions. By combining a novel hypothesis testing framework with DNA methylation data from six human and chimpanzee cell types, as well as fused interspecies hybrid cells, we disentangled cis - vs. trans -acting methylation divergence across the genome. Across cell types, we found that methylation divergence is primarily driven in cis , which can be linked in some cases to nearby sequence variants such as CpG gains and losses. Although less common, regions with trans -acting methylation divergence were enriched for specific transcription factor (TF) binding motifs, suggesting a role of TFs such as FOXM1 in these differences. Having established these causes of methylation divergence, we then examined the functional consequences of differential methylation. Although methylation lacks a consistent relationship with transcription, we observed that associations between methylation and gene expression are stronger for genes with cis -regulatory divergence. Moreover, we identified lineage-specific selection shaping promoter methylation at the level of entire pathways, including those associated with human-specific traits such as speech, cognition, and susceptibility to infection with hepatitis C. Collectively, our findings provide a mechanistic framework suggesting that DNA methylation may occupy a key position, mediating the effects of both cis - and trans -acting factors on transcriptional networks, including those contributing to human-specific traits.</description>
-      <pubDate>2026-11-12T00:00:00+00:00</pubDate>
-    </item>
-    <item>
       <title>Incomplete synaptic vesicle priming functionally disconnects CA1 pyramidal cells</title>
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aej3501?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aej3501?af=R</guid>
@@ -165,24 +183,6 @@
       <link>https://www.nature.com/articles/s41562-026-02620-3</link>
       <guid>https://www.nature.com/articles/s41562-026-02620-3</guid>
       <description>&lt;b&gt;Relevance: 15% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Daniel Västfjäll&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 26 October 2026; doi:10.1038/s41562-026-02620-3 People will often trust or distrust an artificial intelligence (AI) output because of how it makes them feel, rather than how reliable it is. AI governance frameworks should require that platforms disclose design choices that target user emotions, allow users control over these, and include features aimed to calibrate trust.</description>
-    </item>
-    <item>
-      <title>Inhibition of aberrant astrocyte activity restores auditory sensorimotor function in zebrafish spen mutants</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeg8139?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeg8139?af=R</guid>
-      <description>&lt;b&gt;Relevance: 14% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Yan Gao, Anna Shipman, Peng Sun, Na Zhang, Eliot T. Smith, Itallia Pacentine, Alex Nechiporuk, Teresa Nicolson&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
-    </item>
-    <item>
-      <title>Give biologists the space to be curious, not just better tools</title>
-      <link>https://www.nature.com/articles/d41586-026-03669-w</link>
-      <guid>https://www.nature.com/articles/d41586-026-03669-w</guid>
-      <description>&lt;b&gt;Relevance: 12% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Edith Heard&lt;/i&gt;&lt;br/&gt;Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03669-w Technology is making biological studies more powerful than ever. But people are the real force behind discovery.</description>
-    </item>
-    <item>
-      <title>Neuromelanin-inspired metal-selenomelanin nanonetworks restore neuronal excitability in radiation-induced brain injury</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aei6265?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aei6265?af=R</guid>
-      <description>&lt;b&gt;Relevance: 11% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ruotong Deng, Ke Li, Rui Duan, Xinyue Zhang, Botian Gu, Lanqun Mao, Wei Cao&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
     </item>
     <item>
       <title>A natural field experiment on the effectiveness of economic sanctions before and after the Russian invasion of Ukraine</title>
