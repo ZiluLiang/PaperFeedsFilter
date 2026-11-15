@@ -4,7 +4,7 @@
     <title>Zilu's Filtered Preprint Feed</title>
     <description>Semantically filtered preprints matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Sat, 14 Nov 2026 13:15:56 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 13:43:54 +0000</lastBuildDate>
     <item>
       <title>Identifying aligned tensor decompositions across heterogeneous neural datasets</title>
       <link>https://www.biorxiv.org/content/10.64898/2026.11.12.766278v1?rss=1</link>
@@ -16,6 +16,12 @@
       <link>https://www.biorxiv.org/content/10.64898/2026.11.11.765952v1?rss=1</link>
       <guid>https://www.biorxiv.org/content/10.64898/2026.11.11.765952v1?rss=1</guid>
       <description>&lt;b&gt;Relevance: 34% | Source: bioRxiv Neuroscience&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Choi, D., Han, H.-B.&lt;/i&gt;&lt;br/&gt;Working memory (WM) requires neural circuits to change how they interact as information is encoded, maintained and used. Directional oscillatory interactions in the medial temporal lobe (MTL) contribute to memory processing, but how these interactions are spatially organized during verbal WM remains unclear. Here, we analyzed intracranial electroencephalogram and neuronal spiking recorded from the human MTL during a verbal Sternberg task. Theta- and gamma-band activities in MTL showed predominant directionality in the posterior-to-anterior axis during WM encoding, but this direction was reversed to anterior-to-posterior during retrieval. Theta activities reflecting the WM load were more prevalent in left than right MTL, and theta in left MTL coordinated spike timings more strongly. Moreover, interhemispheric interactions showed a predominant left-to-right influence, with posterior-to-anterior interactions enhanced during encoding and anterior-to-posterior interactions enhanced during retrieval. Together, these findings suggest that verbal WM engages a spatially organized MTL network in which the predominant direction of oscillatory interactions changes across task phases.</description>
+    </item>
+    <item>
+      <title>Complex Spatial and Temporal Organization of Functional Brain Networks</title>
+      <link>https://www.biorxiv.org/content/10.64898/2026.11.12.766207v1?rss=1</link>
+      <guid>https://www.biorxiv.org/content/10.64898/2026.11.12.766207v1?rss=1</guid>
+      <description>&lt;b&gt;Relevance: 34% | Source: bioRxiv Neuroscience&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Sassenberg, T. A., Wilson, S., DeYoung, C. G.&lt;/i&gt;&lt;br/&gt;Recent research exploring brain-behavior associations has relied on the language of complex systems to understand how stable behavioral individual differences emerge from brain function. At the same time, advances in neuroimaging have provided greater insight into both the topological and temporal properties of macroscale cortical networks. These new approaches offer a potential avenue for understanding how functional activity in the brain might behave in a manner that aligns with complex-systems interpretations of psychological traits. The present study used resting-state data from the Human Connectome project (N = 994) to explore associations between the spatial and temporal features of functional brain networks. Using an adaptive frequency approach to explore brain function at different timescales together with a family of methods from complex systems theory, we identified patterns of brain state organization reflecting a state-trait continuum, with more stable trait-like dynamics and greater functional coupling between networks in lower frequency oscillations. Additionally, we found evidence of greater coupling across timescales in brain networks associated with higher-order cognition. This research supports interpretations of brain organization as a spatiotemporal hierarchy and provides future avenues for exploring brain-behavior associations from a complex system perspective.</description>
     </item>
     <item>
       <title>State-dependent structure-function coupling reflects dynamic engagement of the brain's structural scaffold</title>
@@ -30,40 +36,34 @@
       <description>&lt;b&gt;Relevance: 31% | Source: bioRxiv Neuroscience&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Serrano-Fernandez, L., Parga, N.&lt;/i&gt;&lt;br/&gt;Neural population geometry constrains how task variables are represented and read out into behavior. We propose a variational principle in which learning balances task accuracy and representational smoothness under stimulus-dependent weighting. This balance links stimulus statistics to the shape of a latent neural coordinate. For magnitude estimation, the principle predicts distortions near the edges of bounded ensembles, global affine contraction for Gaussian ensembles, and warping toward high-probability regions for bimodal ensembles. We test the bounded-uniform case in recurrent neural networks trained to reproduce time intervals. Their learned geometries occupy three regimes as the boundary distortions change from too narrow to resolve, to measurable, to extending across the stimulus range. A shape parameter selected from an empirical neural coordinate predicts the nonlinear component of mean behavior through an affine readout, with only behavioral gain and offset fitted afterward. In this bounded-uniform setting, the variational coordinate and Bayesian least-squares mean response have closely matching shapes after affine normalization. These results suggest a variational account of how stimulus statistics shape neural geometry and yield Bayesian-like behavior.</description>
     </item>
     <item>
-      <title>Non-invasive temporal interference stimulation targeting the hippocampus enhances fast motor memory consolidation</title>
-      <link>https://www.biorxiv.org/content/10.64898/2026.11.11.766003v1?rss=1</link>
-      <guid>https://www.biorxiv.org/content/10.64898/2026.11.11.766003v1?rss=1</guid>
-      <description>&lt;b&gt;Relevance: 26% | Source: bioRxiv Neuroscience&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Pan, X., Taylor, J., Violante, I. R., Grossman, N., Inman, C., King, B. R., Albouy, G.&lt;/i&gt;&lt;br/&gt;Converging neuroimaging evidence indicates that the hippocampus is involved in motor sequence learning (MSL) and its consolidation at multiple timescales. However, direct evidence for a causal role of the hippocampus in these processes in healthy humans remains scarce, partly due to the inability of conventional non-invasive brain stimulation techniques to reach this deep brain structure. Here, we used temporal interference stimulation (TIS) - a technique enabling non-invasive stimulation targeted toward deep brain regions - to probe the functional role of the hippocampus in MSL and its consolidation. In two separate experiments, sixty-four young healthy adults (36 females) received, in within-subject counterbalanced designs, active (5 Hz envelope) or control (0 Hz envelope) hippocampal-targeted TIS either during active practice of an MSL task (task-TIS experiment, n = 32) or during the short rest periods interleaved with task practice known to support rapid forms of consolidation (rest-TIS experiment, n = 32). Consolidation was assessed at both the micro timescale (i.e., over the short "micro-offline" rest intervals interspersed with task practice) and macro timescale (i.e., over a 24-hour "macro-offline" retention interval). Our results indicate that TIS targeting the hippocampus during inter-practice rest periods - but not during task practice - significantly enhanced micro-offline gains in performance as compared to control stimulation. While this effect did not carry over to the 24-hour retention interval at the group level, participants with greater stimulation-induced micro-offline gains showed larger overnight performance improvements. These findings provide the first direct evidence that experimental interventions targeting the hippocampus modulate offline motor memory consolidation processes.</description>
+      <title>Two routes to the lexicon: A meta-analysis of theta and alpha oscillations in vocabulary learning</title>
+      <link>https://osf.io/cx39m</link>
+      <guid>https://osf.io/cx39m</guid>
+      <description>&lt;b&gt;Relevance: 27% | Source: SocArXiv&lt;/b&gt;&lt;br/&gt;&lt;i&gt;huan wang&lt;/i&gt;&lt;br/&gt;This preregistration outlines a systematic review and meta-analysis investigating the associations between theta (≈4–8 Hz) and alpha (≈8–13 Hz) oscillatory activity and vocabulary learning outcomes, as measured by electroencephalography (EEG) and magnetoencephalography (MEG). Vocabulary learning is a core component of language acquisition, and prior work suggests that theta and alpha bands may support encoding, consolidation, and retrieval processes. However, effect sizes across studies are heterogeneous, and no quantitative synthesis has yet reconciled findings across EEG and MEG modalities. This meta-analysis will estimate pooled effect sizes, quantify heterogeneity, and examine methodological and theoretical moderators.</description>
     </item>
     <item>
-      <title>Does a texture-defined frame enlarge the Medusa effect for faces? A preregistered online study with Gabor texture boundaries</title>
-      <link>https://osf.io/9s8gd</link>
-      <guid>https://osf.io/9s8gd</guid>
-      <description>&lt;b&gt;Relevance: 21% | Source: SocArXiv&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Yuki Yamada&lt;/i&gt;&lt;br/&gt;The Medusa effect is the tendency to attribute more mind to a person depicted at a lower level of representation (L1) than to a person depicted at a higher level (L2) (Will et al., 2021; Han et al., 2024, 2026). In this online study, Japanese participants view images of two faces on a wall filled with oriented Gabor elements and rate each person on experience, agency, and realness on a 0-10 scale. In the boundary condition, the elements inside a rectangular window around the face on one side (L2) are rotated by 90 degrees, so that a rectangle is perceived from the texture difference alone, without a luminance edge. In the no-boundary condition, all elements have the same orientation. We predict that the Medusa effect (L1 rating minus L2 rating) is larger in the boundary condition than in the no-boundary condition. This study is run in the same session as a separately preregistered study on Kanizsa illusory frames. The sample size is determined by a sequential Bayes factor design.</description>
+      <title>Auditory Attention Reorganizes the Phase of Steady-State Evoked Responses</title>
+      <link>https://osf.io/7aky3</link>
+      <guid>https://osf.io/7aky3</guid>
+      <description>&lt;b&gt;Relevance: 26% | Source: SocArXiv&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Adi Korisky&lt;/i&gt;&lt;br/&gt;This project accompanies the manuscript “Auditory Attention Reorganizes the Phase of Steady-State Evoked Responses.” The study investigates how selective auditory attention influences the temporal organization of neural activity using the Selective Temporal Alignment of Components (STAC) framework. Across two independent experiments involving children aged 10–14 years, we used an audiovisual selective attention paradigm combined with high-density EEG and Reliable Components Analysis (RCA) to identify neural response components with distinct sensitivity to attentional modulation. Our findings reveal a dissociation between a predominantly stimulus-driven component (RC1), which exhibits stable temporal alignment with rhythmic auditory stimulation, and an attention-sensitive component (RC2), which demonstrates systematic phase shifts as a function of attentional allocation. This repository provides de-identified EEG data from a subset of participants to support transparency, reproducibility, and further investigation of component-specific attentional dynamics. The complete dataset is not publicly shared due to privacy and ethical considerations associated with research involving minors.</description>
     </item>
     <item>
-      <title>Reasoning &amp; Feedback (base rate)</title>
-      <link>https://osf.io/k462s</link>
-      <guid>https://osf.io/k462s</guid>
-      <description>&lt;b&gt;Relevance: 20% | Source: SocArXiv&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Zoe Purcell&lt;/i&gt;&lt;br/&gt;Does feedback affect confidence, response times, or performance on reasoning tasks?</description>
+      <title>Hierarchical Cue Weighting in Speech and Emotion Perception</title>
+      <link>https://osf.io/xaj7q</link>
+      <guid>https://osf.io/xaj7q</guid>
+      <description>&lt;b&gt;Relevance: 24% | Source: SocArXiv&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Yi Lin&lt;/i&gt;&lt;br/&gt;No description provided.</description>
     </item>
     <item>
-      <title>Reactivation-dependent amnesia for contextual fear memories in rodents: Assessment of publication bias</title>
-      <link>https://osf.io/apu9t</link>
-      <guid>https://osf.io/apu9t</guid>
-      <description>&lt;b&gt;Relevance: 19% | Source: SocArXiv&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Laura Luyten et al.&lt;/i&gt;&lt;br/&gt;Research on memory reconsolidation has been booming in the last two decades, with numerous high-impact publications reporting promising amnestic interventions in rodents and humans. However, our own recently- published failed replication attempts of reactivation-dependent amnesia for fear memories in rats suggest that such amnestic effects are not always readily found and that they depend on subtle and possibly uncontrollable parameters. The discrepancy between our observations and published studies in rodents suggests that the literature in this field might be biased. The aim of the current study was to gauge the presence of publication bias in a well-delineated part of the reconsolidation literature. To this end, we performed a systematic review of the literature on reactivation-dependent amnesia for contextual fear memories in rodents, followed by a statistical assessment of publication bias in this sample. In addition, relevant researchers were contacted for unpublished results, which were included in the current analyses. The obtained results support the presence of publication bias, suggesting that the literature provides an overly optimistic overall estimate of the size and reproducibility of amnestic effects. Reactivation-dependent amnesia for contextual fear memories in rodents is thus less robust than what is projected by the literature. The moderate success of clinical studies may be in line with this conclusion, rather than reflecting translational issues. For the field to evolve, replication and non- biased publication of obtained results are essential. A set of tools that can create opportunities to increase transparency, reproducibility and credibility of research findings is provided.</description>
+      <title>The brain networks of alternative use task: A meta-analytic connectivity modeling analysis</title>
+      <link>https://osf.io/79kc6</link>
+      <guid>https://osf.io/79kc6</guid>
+      <description>&lt;b&gt;Relevance: 24% | Source: SocArXiv&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Xin Wu&lt;/i&gt;&lt;br/&gt;No description provided.</description>
     </item>
     <item>
-      <title>Earned autonomy for AI agents: freeze of the confirmed verdicts before the public draw</title>
-      <link>https://osf.io/u26kr</link>
-      <guid>https://osf.io/u26kr</guid>
-      <description>&lt;b&gt;Relevance: 19% | Source: SocArXiv&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Otsoa Dubief&lt;/i&gt;&lt;br/&gt;Freeze, by SHA-256 fingerprints, of every input of the final confirmatory computation of the study preregistered at https://osf.io/vycge/, before the public random draw of the calibration and confirmation sets.</description>
-    </item>
-    <item>
-      <title>Learning in an Interorganizational Context</title>
-      <link>https://osf.io/8wjr2</link>
-      <guid>https://osf.io/8wjr2</guid>
-      <description>&lt;b&gt;Relevance: 18% | Source: SocArXiv&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Astrid Lacroix&lt;/i&gt;&lt;br/&gt;No description provided.</description>
+      <title>Electrophysiological indexes of ingroup bias in a group Stroop task: evidence from an event-related potential study</title>
+      <link>https://osf.io/fg5u2</link>
+      <guid>https://osf.io/fg5u2</guid>
+      <description>&lt;b&gt;Relevance: 24% | Source: SocArXiv&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Xin Wu&lt;/i&gt;&lt;br/&gt;No description provided.</description>
     </item>
   </channel>
 </rss>
