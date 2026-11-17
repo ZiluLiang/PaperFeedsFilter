@@ -4,7 +4,7 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Mon, 16 Nov 2026 15:18:11 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 15:46:16 +0000</lastBuildDate>
     <item>
       <title>The representation of object-concept primitives across the macaque brain</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</link>
@@ -30,22 +30,23 @@
       <description>&lt;b&gt;Relevance: 31% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Maedeh Mahmoudi, Joanne M. Gladding, Michael D. Kendig, Alessandro Castorina, Karly M. Turner, Octavia Soegyono, Laura A. Bradfield&lt;/i&gt;&lt;br/&gt;Mahmoudi et al. show here that contingency degradation is resistant to spontaneous recovery and reinstatement and that its learning, but not retrieval, depends on the lateral orbitofrontal cortex. Together, these findings suggest that unlike extinction, degradation overwrites initial learning and offers a potential approach to the development of relapse-resistant treatments.</description>
     </item>
     <item>
+      <title>A theory of generalized vector coding and subicular function</title>
+      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01450-8?rss=yes</link>
+      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01450-8?rss=yes</guid>
+      <description>&lt;b&gt;Relevance: 31% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Fei Wang, Andrej Bicanski&lt;/i&gt;&lt;br/&gt;Wang and Bicanski propose a theory of subicular coding. Discontinuities in the world drive geometric representations in the subiculum, including boundary vector cells and corner cells. The framework generalizes to other domains, natural environments, and population responses, explaining seemingly different neural correlates as manifestations of the same principle.</description>
+    </item>
+    <item>
       <title>Long-term development of a motor memory</title>
       <link>https://www.nature.com/articles/s41562-026-02622-1</link>
       <guid>https://www.nature.com/articles/s41562-026-02622-1</guid>
       <description>&lt;b&gt;Relevance: 29% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;David W. Franklin, Pascal Nietschmann, Sae Franklin&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02622-1 Franklin et al. examine how simple motor adaptation is developed with thousands of training trials over multiple weeks to study the long-term development of a motor memory.</description>
     </item>
     <item>
-      <title>Selective control of course correction over long timescales in the Drosophila central complex</title>
-      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01278-9?rss=yes</link>
-      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01278-9?rss=yes</guid>
-      <description>&lt;b&gt;Relevance: 29% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Anthony M. Crown, Annie H. Wu, Lindsey Hofflander, Gilad Barnea&lt;/i&gt;&lt;br/&gt;Crown et al. describe a behavioral correlate between optomotor steering maneuvers and the navigational circuitry of the fly brain. Several populations of columnar neurons contribute different aspects of these maneuvers, and their influence is most evident when the fly moves over timescales of several seconds.</description>
-    </item>
-    <item>
-      <title>Environment-specific virtual head direction representation in the human anteroventral thalamus during memory-guided spatial orientation</title>
-      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01330-8?rss=yes</link>
-      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01330-8?rss=yes</guid>
-      <description>&lt;b&gt;Relevance: 28% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Pengcheng Lv, Dong Chen, Chao Zhang, Kai Zhang, Liang Wang&lt;/i&gt;&lt;br/&gt;Lv et al. show that the human anteroventral thalamus carries environment-specific virtual head direction information during memory-guided spatial orientation, providing direct intracranial evidence that bridges animal head direction models and human navigation.</description>
+      <title>Hierarchical neural circuit theory of normalization and inter-areal communication</title>
+      <link>https://elifesciences.org/articles/111297</link>
+      <guid>https://dx.doi.org/10.7554/eLife.111297</guid>
+      <description>&lt;b&gt;Relevance: 29% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Asit Pal, David J Heeger, Shivang Rawat, Stefano Martiniani&lt;/i&gt;&lt;br/&gt;The primate brain exhibits a hierarchical, modular architecture with conserved microcircuits executing canonical computations across reciprocally connected cortical areas. We present a hierarchical neural circuit theory with feedback connections that dynamically implements divisive normalization across its hierarchy. In a two-stage instantiation (V1 ↔ V2), increasing feedback from V2 to V1 amplifies responses in both areas. We analytically derive power spectra (V1) and coherence spectra (V1-V2) as functions of frequency ( f ) and compare them with experimental observations: peaks in both spectra shift to higher frequencies with increased stimulus contrast, and power decays as 1/ f 4 at high frequencies. The closed-form spectra are validated against direct stochastic simulation of the full nonlinear circuit across contrasts. The theory further predicts distinctive spectral signatures of feedback and input gain modulation. Crucially, the theory offers a unified view of inter-areal communication, defined as the ability to linearly predict neural activity in one brain area from neural activity in another, with emergent features consistent with empirical observations of both communication subspaces and inter-areal coherence. It admits a low-dimensional communication subspace, where inter-areal communication is lower-dimensional than within-area communication. It further predicts that: (1) increasing feedback strength enhances inter-areal communication and diminishes within-area communication, without altering the subspace dimensionality; (2) communication is strongest, and the subspace dimensionality lowest, at the frequencies at which V1-V2 coherence peaks; (3) normalization reduces the subspace dimensionality. Finally, a three-area (V1 ↔ V4 and V1 ↔ V5) instantiation of the theory demonstrates that differential feedback from higher to lower cortical areas dictates their dynamic functional connectivity. Altogether, our theory provides a robust and analytically tractable framework for generating experimentally testable predictions about normalization, inter-areal communication, and functional connectivity.</description>
+      <pubDate>2026-11-17T00:00:00+00:00</pubDate>
     </item>
     <item>
       <title>Cholinergic blockade reveals a role for human hippocampal theta in memory encoding but not retrieval</title>
@@ -55,10 +56,10 @@
       <pubDate>2026-11-11T00:00:00+00:00</pubDate>
     </item>
     <item>
-      <title>Electrical synapses mediate visual orientation behavior</title>
-      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01270-4?rss=yes</link>
-      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01270-4?rss=yes</guid>
-      <description>&lt;b&gt;Relevance: 26% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Giovanni Frighetto, Mark Dombrovski, Lesly M. Palacios Castillo, Pratap Meera, Parmis S. Mirshahidi, Pegah S. Mirshahidi, Piero Sanfilippo, Andrea Vaccari, Pratyush Kandimalla, Volker Hartenstein, Yerbol Z. Kurmangaliyev, S. Lawrence Zipursky, Mark A. Frye&lt;/i&gt;&lt;br/&gt;Frighetto et al. reveal a neural circuit in the fly optic lobe that mediates saccadic orientation toward visual objects. Electrical synapses are a key feature of this visual pathway and are required for proper computation of visual signals and the resulting behavioral response.</description>
+      <title>Alerting acoustic stimuli enhance the internal representation of head direction</title>
+      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01331-X?rss=yes</link>
+      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01331-X?rss=yes</guid>
+      <description>&lt;b&gt;Relevance: 26% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Florian Hofmann, Eduardo Blanco-Hernández, Giuseppe Balsamo, Steffen R. Hage, Andrea Burgalossi, Patricia Preston-Ferrer&lt;/i&gt;&lt;br/&gt;Hofmann et al. show that alerting sounds recruit HD neurons in the thalamocortical HD circuit and enhance the fidelity of the HD representation. These findings reveal a link between sensory-induced arousal and the neural circuits underlying spatial navigation.</description>
     </item>
     <item>
       <title>Learning-associated flexibility of cortical taste coding is impaired in Shank3 knockout mice</title>
@@ -72,6 +73,12 @@
       <link>https://www.pnas.org/doi/abs/10.1073/pnas.2619920123?af=R</link>
       <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2619920123?af=R</guid>
       <description>&lt;b&gt;Relevance: 25% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Alisa Y. HathawayTodd P. Colemanahttps://ror.org/00f54p054Department of Electrical Engineering, Stanford University, Stanford, CA 94305bhttps://ror.org/00f54p054Department of Bioengineering, Stanford University, Stanford, CA 94305&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. SignificanceDiagnosing smell loss in patients with cognitive disorders remains challenging because conventional tests demand complex responses that measure memory and literacy instead of basic sensory function. We present a task-free alternative where ...</description>
+    </item>
+    <item>
+      <title>Brain-wide activity imaging with electron microscopy reveals a distributed brain network for processing threatening somatosensory stimuli</title>
+      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01354-0?rss=yes</link>
+      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01354-0?rss=yes</guid>
+      <description>&lt;b&gt;Relevance: 25% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Nadine Randel, Chen Wang, Michael S. Clayton, Kun Wang, Song Pang, C. Shan Xu, Andrew S. Champion, Harald F. Hess, Albert Cardona, Philipp J. Keller, Marta Zlatic&lt;/i&gt;&lt;br/&gt;Randel et al. present a novel methodology for combining whole-brain activity imaging with subsequent volume electron microscopy imaging of the same brain to visualize neuronal projections and identify neurons with interesting activity. They apply this approach to identify a distributed brain network for processing threatening somatosensory stimuli.</description>
     </item>
     <item>
       <title>In-group neural alignment serves as a biomarker of social identity</title>
@@ -102,6 +109,12 @@
       <link>https://www.pnas.org/doi/abs/10.1073/pnas.2534136123?af=R</link>
       <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2534136123?af=R</guid>
       <description>&lt;b&gt;Relevance: 23% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Hongmei XiaGizem VuralAntonia SusnjarHelge J. ZöllnerRebekka S. MattesAlexander Soutschekahttps://ror.org/05591te55Neuro-Cognitive Psychology, Department of Psychology, Ludwig-Maximilians-Universität München, Munich 80802, Germanybhttps://ror.org/024z2rq82Comparative Psychology, Institute of Experimental Psychology, Heinrich-Heine-University Düsseldorf, Düsseldorf 40225, GermanycDepartment of Radiology, Department of Radiology, Harvard Medical School, Boston, MA 02115dhttps://ror.org/002pd6e78Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Boston, MA 02114ehttps://ror.org/00za53h95Russell H. Morgan Department of Radiology and Radiological Science, The Johns Hopkins University School of Medicine, Baltimore, MD 21205fhttps://ror.org/05q6tgt32F. M. Kirby Research Center for Functional Brain Imaging, Kennedy Krieger Institute, Baltimore, MD 21205ghttps://ror.org/03pvr2g57Department for Psychiatry, Psychosomatics, and Psychotherapy, University Hospital Würzburg, Würzburg 97080, Germany&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. SignificanceMental fatigue is an ubiquitous experience that limits individual and societal productivity, especially in knowledge-based economies where cognitive performance drives growth. The origins of mental fatigue are controversially debated: While ...</description>
+    </item>
+    <item>
+      <title>The world’s most precious brain samples — and what they teach us about being human</title>
+      <link>https://www.nature.com/articles/d41586-026-03711-x</link>
+      <guid>https://www.nature.com/articles/d41586-026-03711-x</guid>
+      <description>&lt;b&gt;Relevance: 23% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Rachel Fieldhouse&lt;/i&gt;&lt;br/&gt;Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03711-x How do human neurons behave in their natural environment? To answer that question, you need rare brain samples taken from living humans — and very steady hands.</description>
     </item>
     <item>
       <title>This AI ‘mechanic’ can peer inside the black box of other neural networks</title>
@@ -153,13 +166,6 @@
       <description>&lt;b&gt;Relevance: 17% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Mar Barrantes-Cepas, Mario Tranfa, David R. van Nederpelt, Ismail Koubiyr, Luigi Lorenzini, Birgit Helmlinger, Stefan Ropele, Daniela Pinter, Christian Enzinger, Tomas Uher, Manuela Vaneckova, Joep Killestein, Eva M. M. Strijbis, Martijn D. Steenwijk, Hugo Vrenken, Frederik Barkhof, Menno M. Schoonheim, Giuseppe Pontillo&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
     </item>
     <item>
-      <title>Midbrain somatostatin-expressing cells control pain-suppression during defensive states</title>
-      <link>https://elifesciences.org/articles/106826</link>
-      <guid>https://dx.doi.org/10.7554/eLife.106826</guid>
-      <description>&lt;b&gt;Relevance: 17% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Coline Riffault, Cyril Herry, Daniel Jercog, Delphine Girard, Emmanuel Valjent, Frank Aby, Juliette Viellard, Laia Castell, Marc Landry, Nanci Winke, Pascal Fossat, Rabia Bouali-Benazzouz, Stephane Valerio, Zoe Grivet&lt;/i&gt;&lt;br/&gt;In threatening situations, animals exhibit a broad range of behavioral and autonomic responses. As such, a crucial adaptive response is the inhibition of pain, which facilitates relevant defensive behaviors that promote survival. Whereas the structures and mechanisms involved in fear and pain behaviors are well documented, little is known about the precise neuronal mechanisms mediating the emotional regulation of endogenous pain-suppression. Here, we used a combination of behavioral, anatomical, optogenetic, and electrophysiological approaches to investigate, in male mice, the role of somatostatin-expressing cells in the ventrolateral periaqueductal gray matter (SST + vlPAG cells) in the control of analgesia induced during defensive states. Our data indicate that optogenetic inhibition of SST + vlPAG cells promotes analgesia irrespective of animal defensive state. In contrast, optogenetic activation of long-range SST + vlPAG cells that project to the rostral ventromedial medulla (RVM) abolishes the analgesia mediated by fear behavior. Together, these results identify a novel circuit mechanism composed of long-range SST + vlPAG cells projecting to the RVM that regulate analgesia elicited during defensive states.</description>
-      <pubDate>2026-11-10T00:00:00+00:00</pubDate>
-    </item>
-    <item>
       <title>Usage frequency predicts lexicalization across languages</title>
       <link>https://www.nature.com/articles/s41562-026-02625-y</link>
       <guid>https://www.nature.com/articles/s41562-026-02625-y</guid>
@@ -183,12 +189,6 @@
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aek4290?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aek4290?af=R</guid>
       <description>&lt;b&gt;Relevance: 15% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Haruyuki Furukawa, Abhineet Banerjee, Antonin Tidu, Nirmala Bardiya, Susumu Ishiguro, Chingakham Ranjit Singh, Hitomi Yagi, Hiroyuki Hiraishi, Grant Brooke, Antoine Perret, Kinsley Ochsner, Hailey Casey, Grace Sakai, Megan Freeman, Anastasia Meyer, Keat Robinson, William Finnane, Payton Henderson, Takeru Kameda, Yuichi Togashi, Toshinobu Fujiwara, Franck Martin, Hiroaki Kato, Kazuyuki Takai, Katsura Asano&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
-    </item>
-    <item>
-      <title>Give biologists the space to be curious, not just better tools</title>
-      <link>https://www.nature.com/articles/d41586-026-03669-w</link>
-      <guid>https://www.nature.com/articles/d41586-026-03669-w</guid>
-      <description>&lt;b&gt;Relevance: 12% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Edith Heard&lt;/i&gt;&lt;br/&gt;Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03669-w Technology is making biological studies more powerful than ever. But people are the real force behind discovery.</description>
     </item>
     <item>
       <title>A cellular atlas of the preinvasive breast cancer microenvironment | Science</title>
