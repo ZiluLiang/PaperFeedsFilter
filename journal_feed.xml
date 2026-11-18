@@ -4,7 +4,7 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Tue, 17 Nov 2026 15:46:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 15:26:24 +0000</lastBuildDate>
     <item>
       <title>The representation of object-concept primitives across the macaque brain</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</link>
@@ -16,6 +16,13 @@
       <link>https://www.nature.com/articles/s41562-026-02627-w</link>
       <guid>https://www.nature.com/articles/s41562-026-02627-w</guid>
       <description>&lt;b&gt;Relevance: 34% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Deng Pan, Simone D’Ambrogio, Naomi Kingston, Miruna Rascu, Pranav Sankhe, Shuyi Luo, Miriam C. Klein-Flügge, Ali Mahmoodi, Matthew F. S. Rushworth&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 16 November 2026; doi:10.1038/s41562-026-02627-w Pan and colleagues show that the human hippocampus represents relational structures that support inference in changing environments and provide causal evidence that disrupting hippocampal activity impairs this ability.</description>
+    </item>
+    <item>
+      <title>Perceptual glimpses are locally accumulated and globally maintained at distinct processing levels</title>
+      <link>https://elifesciences.org/articles/107980</link>
+      <guid>https://dx.doi.org/10.7554/eLife.107980</guid>
+      <description>&lt;b&gt;Relevance: 32% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Anna C Geuzebroek, Elisabeth Parés-Pujolràs, Redmond G O'Connell, Simon P Kelly&lt;/i&gt;&lt;br/&gt;Making decisions often requires the integration of multiple pieces of information. An extensive body of research has investigated the neural architecture underpinning evidence accumulation in perceptual tasks where information is continuously present, but less is known about how this neural architecture operates in situations affording only intermittent glimpses of an evidence source. In two electroencephalography experiments, human participants judged the direction of up to two pulses of motion evidence separated by gaps of varying duration. Our behavioural analysis found that participants used both pulses but underutilised the second and showed no systematic decrease in accuracy as a function of gap duration. At the neural level, motor beta lateralisation tracked cumulative evidence across pulses, maintaining a sustained representation of the decision variable through the gap and until response. In contrast, the centroparietal positivity (CPP), a previously characterised signature of evidence accumulation, built up transiently to a peak that scaled with each pulse’s contribution to the decision variable (i.e. the absolute belief update it produced), falling back to baseline in between pulses. These patterns were recapitulated in a model where pulse-information transiently integrated at the CPP level is fed to and maintained at a bounded motor level. In this model, the evidence in the second pulse is only integrated to the extent that the evidence in the first pulse falls short of the bound, or not integrated at all if a bound has already been hit.</description>
+      <pubDate>2026-11-18T00:00:00+00:00</pubDate>
     </item>
     <item>
       <title>Long-term training continually fine tunes motor memories</title>
@@ -49,11 +56,10 @@
       <pubDate>2026-11-17T00:00:00+00:00</pubDate>
     </item>
     <item>
-      <title>Cholinergic blockade reveals a role for human hippocampal theta in memory encoding but not retrieval</title>
-      <link>https://elifesciences.org/articles/108972</link>
-      <guid>https://dx.doi.org/10.7554/eLife.108972</guid>
-      <description>&lt;b&gt;Relevance: 27% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Bradley C Lega, David McDonagh, Erfan Zabeh, Jennifer Kriegel, Joshua Jacobs, Tamara Gedankien&lt;/i&gt;&lt;br/&gt;Cholinergic dysfunction is a hallmark of Alzheimer’s disease and other memory disorders. Yet, the neurophysiological mechanisms linking cholinergic signaling to memory remain poorly understood. In this study, we administered scopolamine, a muscarinic cholinergic antagonist, to neurosurgical patients with intracranial electrodes as they performed an associative recognition memory task. When scopolamine was present at encoding, we observed disruptions to hippocampal slow theta oscillations (2–4 Hz), with selective impairments to recollection-based memory. However, when scopolamine was present during retrieval alone, we observed disruptions to slow theta without impaired memory performance. These disruptions included dose-dependent reductions in theta power, theta phase reset, and encoding–retrieval pattern reinstatement. Together, our results challenge the notion that theta oscillations are necessary for memory retrieval, and instead suggest that theta universally reflects an encoding-related neural state. These findings motivate updates to current models of acetylcholine’s role in memory and may inform future therapies targeting rhythmic biomarkers of memory dysfunction.</description>
-      <pubDate>2026-11-11T00:00:00+00:00</pubDate>
+      <title>The decision to stop “counting” explains numerical underproduction in primates</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2620933123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2620933123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 27% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Laura E. SeidlerLena L. JannaschStephanie WestendorffAndreas Niederahttps://ror.org/03a1kwz48Animal Physiology Unit, Institute of Neurobiology, University of Tübingen, Tübingen 72076, Germany&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. SignificanceProducing a specific number of actions is a fundamental component of counting, yet little is known about how the brain determines when a counting sequence should end. We show that two rhesus macaques systematically terminated counting ...</description>
     </item>
     <item>
       <title>Alerting acoustic stimuli enhance the internal representation of head direction</title>
@@ -69,46 +75,16 @@
       <pubDate>2026-11-12T00:00:00+00:00</pubDate>
     </item>
     <item>
-      <title>Respiratory phase orchestrates human olfactory cortical dynamics</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2619920123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2619920123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 25% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Alisa Y. HathawayTodd P. Colemanahttps://ror.org/00f54p054Department of Electrical Engineering, Stanford University, Stanford, CA 94305bhttps://ror.org/00f54p054Department of Bioengineering, Stanford University, Stanford, CA 94305&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. SignificanceDiagnosing smell loss in patients with cognitive disorders remains challenging because conventional tests demand complex responses that measure memory and literacy instead of basic sensory function. We present a task-free alternative where ...</description>
-    </item>
-    <item>
       <title>Brain-wide activity imaging with electron microscopy reveals a distributed brain network for processing threatening somatosensory stimuli</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01354-0?rss=yes</link>
       <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01354-0?rss=yes</guid>
       <description>&lt;b&gt;Relevance: 25% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Nadine Randel, Chen Wang, Michael S. Clayton, Kun Wang, Song Pang, C. Shan Xu, Andrew S. Champion, Harald F. Hess, Albert Cardona, Philipp J. Keller, Marta Zlatic&lt;/i&gt;&lt;br/&gt;Randel et al. present a novel methodology for combining whole-brain activity imaging with subsequent volume electron microscopy imaging of the same brain to visualize neuronal projections and identify neurons with interesting activity. They apply this approach to identify a distributed brain network for processing threatening somatosensory stimuli.</description>
     </item>
     <item>
-      <title>In-group neural alignment serves as a biomarker of social identity</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2624145123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2624145123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 24% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Yohay ZviNitai KeremEldad AvivYaara YeshurunaSagol School of Neuroscience, Tel-Aviv University, Tel Aviv 6997801, IsraelbSchool of Psychological Sciences, Tel-Aviv University, Tel Aviv 6997801, Israel&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. In this study, we propose a perspective on neural synchronization. Beyond reflecting shared understanding between individuals, we suggest it serves as a biological marker of social homogeneity. We examined fMRI neural responses of 42 participants (21 ...</description>
-    </item>
-    <item>
       <title>Symmetry as a common origin of hierarchical emergence and abstraction</title>
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aeh0773?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeh0773?af=R</guid>
       <description>&lt;b&gt;Relevance: 24% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Fernando E. Rosas&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
-    </item>
-    <item>
-      <title>Intrinsically motivated humans and agents in open-world exploration</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2612366123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2612366123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 24% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Aly LidayanYuqing DuEliza KosoyMaria RufovaPieter AbbeelAlison GopnikaBerkeley AI Research Lab, Computer Science Department, University of California Berkeley, Berkeley, CA 94706bPsychology Department, University of California Berkeley, Berkeley, CA 94706&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. SignificanceHow and why do we spontaneously explore the environment—even without any external rewards? What could lead artificial agents to spontaneously explore in the way that humans do? One idea is that people seek intrinsic rewards such as entropy, ...</description>
-    </item>
-    <item>
-      <title>Binding sites as dynamic hubs of coevolution encoded information flow</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2612667123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2612667123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 24% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kemal DemirtaşBurak ErmanTürkan Haliloğluahttps://ror.org/03z9tma90Department of Chemical Engineering, Bogazici University, Istanbul 34342, Türkiyebhttps://ror.org/03z9tma90Polymer Research Center and Department of Chemical Engineering, Bogazici University, Istanbul 34342, Türkiyechttps://ror.org/00jzwgz36Department of Chemical and Biological Engineering, Koc University, Istanbul 34450, Türkiye&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. SignificanceAllosteric regulation is central to protein function, yet how it is encoded in evolutionary sequence remains unclear. This study demonstrates that coevolutionary signals inherently capture the architecture of allosteric communication. By ...</description>
-    </item>
-    <item>
-      <title>A causal account of the neural origins of mental fatigue</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2534136123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2534136123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 23% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Hongmei XiaGizem VuralAntonia SusnjarHelge J. ZöllnerRebekka S. MattesAlexander Soutschekahttps://ror.org/05591te55Neuro-Cognitive Psychology, Department of Psychology, Ludwig-Maximilians-Universität München, Munich 80802, Germanybhttps://ror.org/024z2rq82Comparative Psychology, Institute of Experimental Psychology, Heinrich-Heine-University Düsseldorf, Düsseldorf 40225, GermanycDepartment of Radiology, Department of Radiology, Harvard Medical School, Boston, MA 02115dhttps://ror.org/002pd6e78Athinoula A. Martinos Center for Biomedical Imaging, Massachusetts General Hospital, Boston, MA 02114ehttps://ror.org/00za53h95Russell H. Morgan Department of Radiology and Radiological Science, The Johns Hopkins University School of Medicine, Baltimore, MD 21205fhttps://ror.org/05q6tgt32F. M. Kirby Research Center for Functional Brain Imaging, Kennedy Krieger Institute, Baltimore, MD 21205ghttps://ror.org/03pvr2g57Department for Psychiatry, Psychosomatics, and Psychotherapy, University Hospital Würzburg, Würzburg 97080, Germany&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 45, November 2026. SignificanceMental fatigue is an ubiquitous experience that limits individual and societal productivity, especially in knowledge-based economies where cognitive performance drives growth. The origins of mental fatigue are controversially debated: While ...</description>
     </item>
     <item>
       <title>The world’s most precious brain samples — and what they teach us about being human</title>
@@ -136,10 +112,23 @@
       <pubDate>2026-11-13T00:00:00+00:00</pubDate>
     </item>
     <item>
+      <title>Spatial transcriptomics reveals organizational properties of the mouse spinal cord and alterations in neuropathic pain</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2623177123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2623177123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 19% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Qimeng WangYunfei HuYuling ZhuGautham ChelliahJing PengEmmanuella Osei-AsanteMelissa SobankoBrianna SanchezDavid D. GintyXin Maizie ZhouShan Meltzerahttps://ror.org/02vm5rt34Department of Pharmacology, Vanderbilt University, Nashville, TN 37240bhttps://ror.org/02vm5rt34Department of Computer Science, Vanderbilt University, Nashville, TN 37235chttps://ror.org/02vm5rt34Department of Biomedical Engineering, Vanderbilt University, Nashville, TN 37235dDepartment of Neurobiology, HHMI, Harvard Medical School, Boston, MA 02115&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. SignificanceThe spinal cord receives and integrates somatosensory inputs and executes motor and autonomic outputs, yet the spatial organization of its diverse cell types in the spinal cord remains incompletely understood. Using spatially resolved single-...</description>
+    </item>
+    <item>
       <title>DeepMind’s ultra-powerful AI for genome mapping wows scientists</title>
       <link>https://www.nature.com/articles/d41586-026-03673-0</link>
       <guid>https://www.nature.com/articles/d41586-026-03673-0</guid>
       <description>&lt;b&gt;Relevance: 19% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ewen Callaway&lt;/i&gt;&lt;br/&gt;Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03673-0 AlphaGenome 2 can predict the types of cell in which a DNA variant is likely to act.</description>
+    </item>
+    <item>
+      <title>Correction: Uncovering the electrical synapse proteome in retinal neurons via in vivo proximity labeling</title>
+      <link>https://elifesciences.org/articles/113746</link>
+      <guid>https://dx.doi.org/10.7554/eLife.113746</guid>
+      <description>&lt;b&gt;Relevance: 19% | Source: eLife&lt;/b&gt;&lt;br/&gt;(no abstract)</description>
+      <pubDate>2026-11-18T00:00:00+00:00</pubDate>
     </item>
     <item>
       <title>Single-nucleus multiomic profiling uncovers epigenetic dysregulation driving hippocampal vulnerability in Alzheimer’s disease</title>
@@ -154,10 +143,16 @@
       <description>&lt;b&gt;Relevance: 18% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Richard Jean So, Hoyt Long, Cody Kommers, Mina Lee, Emily Wenger, Peter West, Eamon Duede, Ari Holtzman, Chenhao Tan&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02639-6 Artificial intelligence (AI)-generated content increasingly saturates our information environment. Efforts to detect and remove it are failing. We propose that calling AI-generated content ‘slop’ is best understood as a social judgement: what a community recognizes as unwanted AI content. Studying AI slop this way makes it tractable, measurable and governable.</description>
     </item>
     <item>
-      <title>AI’s energy paradox: will the AI boom strain energy systems or be the source of solutions?</title>
-      <link>https://www.nature.com/articles/d41586-026-03412-5</link>
-      <guid>https://www.nature.com/articles/d41586-026-03412-5</guid>
-      <description>&lt;b&gt;Relevance: 17% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Melissa Hobson&lt;/i&gt;&lt;br/&gt;Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03412-5 Ginelle Greene-Dewasmes is leading a community of interdisciplinary specialists exploring how to make the energy use of artificial intelligence net-positive.</description>
+      <title>Daily briefing: Huge basal ganglia atlas could transform brain health</title>
+      <link>https://www.nature.com/articles/d41586-026-03757-x</link>
+      <guid>https://www.nature.com/articles/d41586-026-03757-x</guid>
+      <description>&lt;b&gt;Relevance: 17% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Flora Graham&lt;/i&gt;&lt;br/&gt;Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03757-x The massive resource includes data from more than 25 million cells. Plus, the Ebola outbreak tracked with mobile-phone data and the outlook for US science following the mid-term elections.</description>
+    </item>
+    <item>
+      <title>Correction for Ge et al., Empirical validation of race-neutral normative brain morphometry models across ethnoracially diverse populations</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2635735123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2635735123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 17% | Source: PNAS&lt;/b&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026.</description>
     </item>
     <item>
       <title>The role of network connectivity and transcriptomic vulnerability in shaping gray matter atrophy in multiple sclerosis</title>
@@ -166,23 +161,28 @@
       <description>&lt;b&gt;Relevance: 17% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Mar Barrantes-Cepas, Mario Tranfa, David R. van Nederpelt, Ismail Koubiyr, Luigi Lorenzini, Birgit Helmlinger, Stefan Ropele, Daniela Pinter, Christian Enzinger, Tomas Uher, Manuela Vaneckova, Joep Killestein, Eva M. M. Strijbis, Martijn D. Steenwijk, Hugo Vrenken, Frederik Barkhof, Menno M. Schoonheim, Giuseppe Pontillo&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
     </item>
     <item>
+      <title>Intermittent Cauchy walks enable optimal 3D search across target shapes and sizes</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2614625123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2614625123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 16% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Matteo StromieriEmanuele NataleAmos Kormanahttps://ror.org/02f009v59Department of Computer Science, University of Haifa, Haifa 3303221, Israelbhttps://ror.org/019tgvf94COATI, Université Côte d’Azur, Sophia Antipolis Cedex 06902, Francechttps://ror.org/019tgvf94CNRS, COATI, Université Côte d’Azur, Sophia Antipolis Cedex 06902, France&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. SignificanceHow organisms and autonomous systems locate rare targets in complex environments is a fundamental problem spanning biology, physics, and engineering. While most theory assumes simplified, low-dimensional settings, real-world search occurs in ...</description>
+    </item>
+    <item>
       <title>Usage frequency predicts lexicalization across languages</title>
       <link>https://www.nature.com/articles/s41562-026-02625-y</link>
       <guid>https://www.nature.com/articles/s41562-026-02625-y</guid>
       <description>&lt;b&gt;Relevance: 16% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Temuulen Khishigsuren, Francis Mollica, Ekaterina Vylomova, Charles Kemp&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 16 November 2026; doi:10.1038/s41562-026-02625-y Why do almost all human languages have a word for ‘sun’, but fewer have a word for ‘weather’? Khishigsuren et al. find that the usefulness of a concept in communication predicts how often it appears in vocabularies across languages.</description>
     </item>
     <item>
-      <title>Cis -regulation and natural selection in the evolution of human DNA methylation</title>
-      <link>https://elifesciences.org/articles/110575</link>
-      <guid>https://dx.doi.org/10.7554/eLife.110575</guid>
-      <description>&lt;b&gt;Relevance: 16% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Alexander L Starr, David Gokhman, Hunter B Fraser, Zhenzhen Ma&lt;/i&gt;&lt;br/&gt;The vast collection of human-specific traits—such as our unique morphology, cognition, behavior, and diseases—has long been attributed to gene expression divergence between us and our closest living relatives, chimpanzees. Theory suggests that changes to cis -regulatory elements such as promoters and enhancers may drive evolutionary adaptation, and DNA methylation is a key factor in transcriptional cis -regulation. However, we still lack an understanding of (1) how species-specific methylation patterns arise; (2) their downstream effects; and (3) whether they are a common target of natural selection. In this study, we investigated these three questions. By combining a novel hypothesis testing framework with DNA methylation data from six human and chimpanzee cell types, as well as fused interspecies hybrid cells, we disentangled cis - vs. trans -acting methylation divergence across the genome. Across cell types, we found that methylation divergence is primarily driven in cis , which can be linked in some cases to nearby sequence variants such as CpG gains and losses. Although less common, regions with trans -acting methylation divergence were enriched for specific transcription factor (TF) binding motifs, suggesting a role of TFs such as FOXM1 in these differences. Having established these causes of methylation divergence, we then examined the functional consequences of differential methylation. Although methylation lacks a consistent relationship with transcription, we observed that associations between methylation and gene expression are stronger for genes with cis -regulatory divergence. Moreover, we identified lineage-specific selection shaping promoter methylation at the level of entire pathways, including those associated with human-specific traits such as speech, cognition, and susceptibility to infection with hepatitis C. Collectively, our findings provide a mechanistic framework suggesting that DNA methylation may occupy a key position, mediating the effects of both cis - and trans -acting factors on transcriptional networks, including those contributing to human-specific traits.</description>
-      <pubDate>2026-11-12T00:00:00+00:00</pubDate>
-    </item>
-    <item>
       <title>Incomplete synaptic vesicle priming functionally disconnects CA1 pyramidal cells</title>
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aej3501?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aej3501?af=R</guid>
       <description>&lt;b&gt;Relevance: 15% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Noemi Holderith and Zoltan Nusser&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
+    </item>
+    <item>
+      <title>Modest loss of sleep increases susceptibility to cybersecurity threats</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2622467123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2622467123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 15% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Eitan Schechtmanahttps://ror.org/04gyf1771Department of Neurobiology and Behavior and Center for the Neurobiology of Learning and Memory, University of California, Irvine, CA 92697&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. Sleep restriction leads to impaired cognitive processing across domains. I examined whether the transition to daylight saving time (DST), typically accompanied by compromised sleep, would lead to an increase in the probability of falling prey to a ...</description>
     </item>
     <item>
       <title>Evolutionarily reinforced GC-rich motif enables non-AUG translation in mammals under eIF1/5MP-mediated fidelity control</title>
