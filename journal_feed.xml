@@ -4,7 +4,7 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Wed, 18 Nov 2026 15:26:24 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 15:31:58 +0000</lastBuildDate>
     <item>
       <title>The representation of object-concept primitives across the macaque brain</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</link>
@@ -16,6 +16,12 @@
       <link>https://www.nature.com/articles/s41562-026-02627-w</link>
       <guid>https://www.nature.com/articles/s41562-026-02627-w</guid>
       <description>&lt;b&gt;Relevance: 34% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Deng Pan, Simone D’Ambrogio, Naomi Kingston, Miruna Rascu, Pranav Sankhe, Shuyi Luo, Miriam C. Klein-Flügge, Ali Mahmoodi, Matthew F. S. Rushworth&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 16 November 2026; doi:10.1038/s41562-026-02627-w Pan and colleagues show that the human hippocampus represents relational structures that support inference in changing environments and provide causal evidence that disrupting hippocampal activity impairs this ability.</description>
+    </item>
+    <item>
+      <title>Cortical population codes for embedding sensory inputs into the prior context</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aef5006?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aef5006?af=R</guid>
+      <description>&lt;b&gt;Relevance: 34% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Iacopo Hachen, Sebastian Reinartz, Alisea Stroligo, Alejandro Pequeno-Zurro, Mathew E. Diamond&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
     </item>
     <item>
       <title>Perceptual glimpses are locally accumulated and globally maintained at distinct processing levels</title>
@@ -43,6 +49,18 @@
       <description>&lt;b&gt;Relevance: 31% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Fei Wang, Andrej Bicanski&lt;/i&gt;&lt;br/&gt;Wang and Bicanski propose a theory of subicular coding. Discontinuities in the world drive geometric representations in the subiculum, including boundary vector cells and corner cells. The framework generalizes to other domains, natural environments, and population responses, explaining seemingly different neural correlates as manifestations of the same principle.</description>
     </item>
     <item>
+      <title>Cross-domain encoding models reveal shared and domain-specific neural representations across language and mathematics</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aej5555?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aej5555?af=R</guid>
+      <description>&lt;b&gt;Relevance: 30% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Tomoya Nakai, Rieko Kubo, Shinji Nishimoto&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
+    </item>
+    <item>
+      <title>Rapid prey capture learning slowly resets activity set points in rat binocular visual cortex</title>
+      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01447-8?rss=yes</link>
+      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01447-8?rss=yes</guid>
+      <description>&lt;b&gt;Relevance: 29% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Daniel P. Leman, Brian A. Cary, Wei Wen, Brian J. Lane, Diane Bissen, Nicole F. Wong, M. Regis Shanley, Krish B. Bhut, Gina G. Turrigiano&lt;/i&gt;&lt;br/&gt;Leman et al. find that rapid, vision-dependent learning triggers a slow resetting of firing rate set points in visual cortex. This resetting is driven by a homeostatic increase in excitatory drive, and preventing resetting impairs consolidation. Thus, learning can co-opt homeostatic plasticity to reset firing rate setpoints and enhance consolidation.</description>
+    </item>
+    <item>
       <title>Long-term development of a motor memory</title>
       <link>https://www.nature.com/articles/s41562-026-02622-1</link>
       <guid>https://www.nature.com/articles/s41562-026-02622-1</guid>
@@ -54,6 +72,12 @@
       <guid>https://dx.doi.org/10.7554/eLife.111297</guid>
       <description>&lt;b&gt;Relevance: 29% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Asit Pal, David J Heeger, Shivang Rawat, Stefano Martiniani&lt;/i&gt;&lt;br/&gt;The primate brain exhibits a hierarchical, modular architecture with conserved microcircuits executing canonical computations across reciprocally connected cortical areas. We present a hierarchical neural circuit theory with feedback connections that dynamically implements divisive normalization across its hierarchy. In a two-stage instantiation (V1 ↔ V2), increasing feedback from V2 to V1 amplifies responses in both areas. We analytically derive power spectra (V1) and coherence spectra (V1-V2) as functions of frequency ( f ) and compare them with experimental observations: peaks in both spectra shift to higher frequencies with increased stimulus contrast, and power decays as 1/ f 4 at high frequencies. The closed-form spectra are validated against direct stochastic simulation of the full nonlinear circuit across contrasts. The theory further predicts distinctive spectral signatures of feedback and input gain modulation. Crucially, the theory offers a unified view of inter-areal communication, defined as the ability to linearly predict neural activity in one brain area from neural activity in another, with emergent features consistent with empirical observations of both communication subspaces and inter-areal coherence. It admits a low-dimensional communication subspace, where inter-areal communication is lower-dimensional than within-area communication. It further predicts that: (1) increasing feedback strength enhances inter-areal communication and diminishes within-area communication, without altering the subspace dimensionality; (2) communication is strongest, and the subspace dimensionality lowest, at the frequencies at which V1-V2 coherence peaks; (3) normalization reduces the subspace dimensionality. Finally, a three-area (V1 ↔ V4 and V1 ↔ V5) instantiation of the theory demonstrates that differential feedback from higher to lower cortical areas dictates their dynamic functional connectivity. Altogether, our theory provides a robust and analytically tractable framework for generating experimentally testable predictions about normalization, inter-areal communication, and functional connectivity.</description>
       <pubDate>2026-11-17T00:00:00+00:00</pubDate>
+    </item>
+    <item>
+      <title>A state-dependent neural circuit resolves approach-avoidance conflict</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeg1944?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeg1944?af=R</guid>
+      <description>&lt;b&gt;Relevance: 29% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Devika Bodas, Şevval Demirci, Olga Procenko, Marine Balcou, Lennart Baumeister, Darryl Segal, Lisa Scheunemann, Carolina Rezaval&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
     </item>
     <item>
       <title>The decision to stop “counting” explains numerical underproduction in primates</title>
@@ -68,41 +92,22 @@
       <description>&lt;b&gt;Relevance: 26% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Florian Hofmann, Eduardo Blanco-Hernández, Giuseppe Balsamo, Steffen R. Hage, Andrea Burgalossi, Patricia Preston-Ferrer&lt;/i&gt;&lt;br/&gt;Hofmann et al. show that alerting sounds recruit HD neurons in the thalamocortical HD circuit and enhance the fidelity of the HD representation. These findings reveal a link between sensory-induced arousal and the neural circuits underlying spatial navigation.</description>
     </item>
     <item>
-      <title>Learning-associated flexibility of cortical taste coding is impaired in Shank3 knockout mice</title>
-      <link>https://elifesciences.org/articles/108988</link>
-      <guid>https://dx.doi.org/10.7554/eLife.108988</guid>
-      <description>&lt;b&gt;Relevance: 26% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Chi-Hong Wu, Gina G Turrigiano&lt;/i&gt;&lt;br/&gt;The ability to update the valence of sensory perception to influence behavior is crucial for survival. A common phenotype in autism spectrum disorders (ASDs) is defects in sensory processing, but whether these defects impair flexible sensory encoding is largely unexplored. In particular, how genetic risk factors such as Shank3 deletion affect the adaptability of cortical taste processing and downstream behavior is unknown. To address this gap, we performed two-photon calcium imaging during a conditioned taste aversion (CTA) learning paradigm, an ethologically relevant form of associative learning that depends on taste processing in the gustatory cortex (GC), to examine how Shank3 knockout alters taste-related neuronal activity in GC and influences CTA learning. We found that GC neurons in Shank3 knockout mice exhibited reduced stimulus-evoked suppression and increased trial-to-trial correlated variability during the acquisition of CTA memory. These activity changes, which likely reduced signal-to-noise ratio in GC, were associated with slower CTA acquisition in Shank3 knockout mice. In both genotypes, CTA learning enhanced, while subsequent extinction reduced, taste discriminability in GC, and both extinction and the associated reduction in discriminability were faster in Shank3 knockout than in wild-type mice. Together, these results show that Shank3 loss is associated with destabilized cortical activity dynamics in GC, which may contribute to inefficient encoding and maintenance of learned taste aversion. These findings show that loss of Shank3 compromises the ability of animals to update behavior to incorporate negative outcomes, and suggest this loss of flexibility may be an important feature of monogenic ASDs.</description>
-      <pubDate>2026-11-12T00:00:00+00:00</pubDate>
+      <title>Auditory cortical coding of spectrotemporal modulations is sufficient to support perceptual categorization of speech and music</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aed8025?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aed8025?af=R</guid>
+      <description>&lt;b&gt;Relevance: 24% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Jérémie Ginzburg, Clarisse Gotti, Émilie Cloutier Debaque, Arthur Borderie, Benjamin Morillon, Laurence Martineau, Paule Lessard Bonaventure, Robert J Zatorre, Philippe Albouy&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
     </item>
     <item>
-      <title>Brain-wide activity imaging with electron microscopy reveals a distributed brain network for processing threatening somatosensory stimuli</title>
-      <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01354-0?rss=yes</link>
-      <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01354-0?rss=yes</guid>
-      <description>&lt;b&gt;Relevance: 25% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Nadine Randel, Chen Wang, Michael S. Clayton, Kun Wang, Song Pang, C. Shan Xu, Andrew S. Champion, Harald F. Hess, Albert Cardona, Philipp J. Keller, Marta Zlatic&lt;/i&gt;&lt;br/&gt;Randel et al. present a novel methodology for combining whole-brain activity imaging with subsequent volume electron microscopy imaging of the same brain to visualize neuronal projections and identify neurons with interesting activity. They apply this approach to identify a distributed brain network for processing threatening somatosensory stimuli.</description>
-    </item>
-    <item>
-      <title>Symmetry as a common origin of hierarchical emergence and abstraction</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeh0773?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeh0773?af=R</guid>
-      <description>&lt;b&gt;Relevance: 24% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Fernando E. Rosas&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
+      <title>TransA-MERFISH reveals divergent post-retinal direction-selective circuits</title>
+      <link>https://www.nature.com/articles/s41586-026-11235-7</link>
+      <guid>https://www.nature.com/articles/s41586-026-11235-7</guid>
+      <description>&lt;b&gt;Relevance: 24% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Fei Wang, Lin Zhang, Siyuan Chang, Can Liu, Jitao Hu, Mengya Zhao, Nicole Y. Tsai, Kushal Nimkar, Shaobo Zhang, Jennifer L. Shadrach, Xiaoke Chen, Julia A. Kaltschmidt, Lin Gan, Shenqin Yao, Karthik Shekhar, Evan H. Feinberg, Xin Duan&lt;/i&gt;&lt;br/&gt;Nature, Published online: 18 November 2026; doi:10.1038/s41586-026-11235-7 TransA-MERFISH combines anterograde trans-neuronal tracing and spatial transcriptomics and reveals distinct retinal on–off direction-selective ganglion cell-dependent and independent motion-selective pathways in superior colliculus, establishing a sensitive cell-type-resolved framework for wiring-diagram reconstruction in early visual processing.</description>
     </item>
     <item>
       <title>The world’s most precious brain samples — and what they teach us about being human</title>
       <link>https://www.nature.com/articles/d41586-026-03711-x</link>
       <guid>https://www.nature.com/articles/d41586-026-03711-x</guid>
       <description>&lt;b&gt;Relevance: 23% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Rachel Fieldhouse&lt;/i&gt;&lt;br/&gt;Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03711-x How do human neurons behave in their natural environment? To answer that question, you need rare brain samples taken from living humans — and very steady hands.</description>
-    </item>
-    <item>
-      <title>This AI ‘mechanic’ can peer inside the black box of other neural networks</title>
-      <link>https://www.nature.com/articles/d41586-026-03679-8</link>
-      <guid>https://www.nature.com/articles/d41586-026-03679-8</guid>
-      <description>&lt;b&gt;Relevance: 21% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Elizabeth Gibney&lt;/i&gt;&lt;br/&gt;Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03679-8 Being able to target and debug systems could improve artificial-intelligence safety and utility.</description>
-    </item>
-    <item>
-      <title>Massive atlas of brain region linked to a host of diseases is the most detailed yet</title>
-      <link>https://www.nature.com/articles/d41586-026-03565-3</link>
-      <guid>https://www.nature.com/articles/d41586-026-03565-3</guid>
-      <description>&lt;b&gt;Relevance: 21% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Miryam Naddaf&lt;/i&gt;&lt;br/&gt;Nature, Published online: 12 November 2026; doi:10.1038/d41586-026-03565-3 A global team profiled nearly 26 million brain cells from the basal ganglia to build a cross-species reference database that will help to understand conditions from Parkinson’s disease to addiction.</description>
     </item>
     <item>
       <title>The zoo of the gene networks capable of pattern formation by extracellular signaling</title>
@@ -112,16 +117,17 @@
       <pubDate>2026-11-13T00:00:00+00:00</pubDate>
     </item>
     <item>
+      <title>Rhodopsin 7 is an ancestral non-canonical photoreceptor that shapes light-responsive behavior</title>
+      <link>https://elifesciences.org/articles/109811</link>
+      <guid>https://dx.doi.org/10.7554/eLife.109811</guid>
+      <description>&lt;b&gt;Relevance: 20% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Annika Mohr, Charlotte Helfrich-Förster, Dirk Rieger, Heiko Hartlieb, Nils Reinhard, Peter Soba, Pingkalai R Senthilan, Valentina Kirsch&lt;/i&gt;&lt;br/&gt;Animals rely on light not only for vision but also to adapt behavior to their environment through non-image-forming pathways. In Drosophila , most rhodopsins mediate retinal image formation, but Rhodopsin 7 (RH7) is widely expressed in the brain and optic lobe, acting as a non-canonical light sensor reminiscent of mammalian melanopsin. We combined expression mapping, behavioral assays, and phylogenetic comparisons to investigate its function. RH7 detects temporal changes in luminance, guiding rapid behavioral responses, and regulating daily activity patterns. Flies lacking RH7 are less active during the dark phase, while strains with constitutively active RH7 show increased activity. Phylogenetic analyses suggest that RH7 is an ancient rhodopsin present across panarthropods, representing an intermediate between G protein–coupled receptors and specialized rhodopsins, highlighting a key step in the evolution of non-visual light perception. These findings show that RH7 functions as a melanopsin-like sensor, shaping behavior, and illuminating the origins of light detection.</description>
+      <pubDate>2026-11-18T00:00:00+00:00</pubDate>
+    </item>
+    <item>
       <title>Spatial transcriptomics reveals organizational properties of the mouse spinal cord and alterations in neuropathic pain</title>
       <link>https://www.pnas.org/doi/abs/10.1073/pnas.2623177123?af=R</link>
       <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2623177123?af=R</guid>
       <description>&lt;b&gt;Relevance: 19% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Qimeng WangYunfei HuYuling ZhuGautham ChelliahJing PengEmmanuella Osei-AsanteMelissa SobankoBrianna SanchezDavid D. GintyXin Maizie ZhouShan Meltzerahttps://ror.org/02vm5rt34Department of Pharmacology, Vanderbilt University, Nashville, TN 37240bhttps://ror.org/02vm5rt34Department of Computer Science, Vanderbilt University, Nashville, TN 37235chttps://ror.org/02vm5rt34Department of Biomedical Engineering, Vanderbilt University, Nashville, TN 37235dDepartment of Neurobiology, HHMI, Harvard Medical School, Boston, MA 02115&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. SignificanceThe spinal cord receives and integrates somatosensory inputs and executes motor and autonomic outputs, yet the spatial organization of its diverse cell types in the spinal cord remains incompletely understood. Using spatially resolved single-...</description>
-    </item>
-    <item>
-      <title>DeepMind’s ultra-powerful AI for genome mapping wows scientists</title>
-      <link>https://www.nature.com/articles/d41586-026-03673-0</link>
-      <guid>https://www.nature.com/articles/d41586-026-03673-0</guid>
-      <description>&lt;b&gt;Relevance: 19% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ewen Callaway&lt;/i&gt;&lt;br/&gt;Nature, Published online: 11 November 2026; doi:10.1038/d41586-026-03673-0 AlphaGenome 2 can predict the types of cell in which a DNA variant is likely to act.</description>
     </item>
     <item>
       <title>Correction: Uncovering the electrical synapse proteome in retinal neurons via in vivo proximity labeling</title>
@@ -131,10 +137,10 @@
       <pubDate>2026-11-18T00:00:00+00:00</pubDate>
     </item>
     <item>
-      <title>Single-nucleus multiomic profiling uncovers epigenetic dysregulation driving hippocampal vulnerability in Alzheimer’s disease</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aee4760?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aee4760?af=R</guid>
-      <description>&lt;b&gt;Relevance: 19% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Quyuan Tao, Ting Luo, Pan Wang, Maorui Jiang, Zilin Lai, Bufan Jin, Yuyang Liu, Youzhe He, Yanrong Wei, Yue Gao, Langjian Zhu, Heyang Du, Lifang Wang, Yujie Peng, Yong Hou, Shiping Liu, Longqi Liu, Jing Zhang, Lei Han&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
+      <title>Ribosome-associated vesicles promote activity-dependent local translation in neurons</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aee0620?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aee0620?af=R</guid>
+      <description>&lt;b&gt;Relevance: 19% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Eva Martin-Solana, Stephen D. Carter, Karthik Krishnamurthy, Giovanni de Nola, Jiying Ning, Jill R. Glausier, Matias A. Preisegger, Laura Harris, Lauren Meyer, Leanna Eisenman, Paul N. Joseph, Cedric Bouchet-Marquis, Ken Wu, Catherina L. Mobini, Amber N. Frantz, Stephanie Puig, Cheri M. Hampton, Nadine Kabbani, David Mankus, Eric K. F. Donahue, Kristopher Burkewitz, Grant J. Jensen, Simon C. Watkins, Karl Deisseroth, Lief E. Fenno, Michael S. Gold, Zachary P. Wills, Abigail K. R. Lytton-Jean, Sulagna Das, Zachary Freyberg&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
     </item>
     <item>
       <title>AI ‘slop’ is a social judgement</title>
@@ -143,22 +149,16 @@
       <description>&lt;b&gt;Relevance: 18% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Richard Jean So, Hoyt Long, Cody Kommers, Mina Lee, Emily Wenger, Peter West, Eamon Duede, Ari Holtzman, Chenhao Tan&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02639-6 Artificial intelligence (AI)-generated content increasingly saturates our information environment. Efforts to detect and remove it are failing. We propose that calling AI-generated content ‘slop’ is best understood as a social judgement: what a community recognizes as unwanted AI content. Studying AI slop this way makes it tractable, measurable and governable.</description>
     </item>
     <item>
-      <title>Daily briefing: Huge basal ganglia atlas could transform brain health</title>
-      <link>https://www.nature.com/articles/d41586-026-03757-x</link>
-      <guid>https://www.nature.com/articles/d41586-026-03757-x</guid>
-      <description>&lt;b&gt;Relevance: 17% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Flora Graham&lt;/i&gt;&lt;br/&gt;Nature, Published online: 13 November 2026; doi:10.1038/d41586-026-03757-x The massive resource includes data from more than 25 million cells. Plus, the Ebola outbreak tracked with mobile-phone data and the outlook for US science following the mid-term elections.</description>
-    </item>
-    <item>
       <title>Correction for Ge et al., Empirical validation of race-neutral normative brain morphometry models across ethnoracially diverse populations</title>
       <link>https://www.pnas.org/doi/abs/10.1073/pnas.2635735123?af=R</link>
       <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2635735123?af=R</guid>
       <description>&lt;b&gt;Relevance: 17% | Source: PNAS&lt;/b&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026.</description>
     </item>
     <item>
-      <title>The role of network connectivity and transcriptomic vulnerability in shaping gray matter atrophy in multiple sclerosis</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeg3412?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeg3412?af=R</guid>
-      <description>&lt;b&gt;Relevance: 17% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Mar Barrantes-Cepas, Mario Tranfa, David R. van Nederpelt, Ismail Koubiyr, Luigi Lorenzini, Birgit Helmlinger, Stefan Ropele, Daniela Pinter, Christian Enzinger, Tomas Uher, Manuela Vaneckova, Joep Killestein, Eva M. M. Strijbis, Martijn D. Steenwijk, Hugo Vrenken, Frederik Barkhof, Menno M. Schoonheim, Giuseppe Pontillo&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
+      <title>AI is ditching hallucinated references — and other bad habits</title>
+      <link>https://www.nature.com/articles/d41586-026-03753-1</link>
+      <guid>https://www.nature.com/articles/d41586-026-03753-1</guid>
+      <description>&lt;b&gt;Relevance: 17% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kaia Glickman&lt;/i&gt;&lt;br/&gt;Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03753-1 An analysis finds that many undesirable LLM behaviours dissipate after about 16 months.</description>
     </item>
     <item>
       <title>Intermittent Cauchy walks enable optimal 3D search across target shapes and sizes</title>
@@ -173,10 +173,10 @@
       <description>&lt;b&gt;Relevance: 16% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Temuulen Khishigsuren, Francis Mollica, Ekaterina Vylomova, Charles Kemp&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 16 November 2026; doi:10.1038/s41562-026-02625-y Why do almost all human languages have a word for ‘sun’, but fewer have a word for ‘weather’? Khishigsuren et al. find that the usefulness of a concept in communication predicts how often it appears in vocabularies across languages.</description>
     </item>
     <item>
-      <title>Incomplete synaptic vesicle priming functionally disconnects CA1 pyramidal cells</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aej3501?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aej3501?af=R</guid>
-      <description>&lt;b&gt;Relevance: 15% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Noemi Holderith and Zoltan Nusser&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
+      <title>People entering old age now have better memory than their parents did</title>
+      <link>https://www.nature.com/articles/d41586-026-03783-9</link>
+      <guid>https://www.nature.com/articles/d41586-026-03783-9</guid>
+      <description>&lt;b&gt;Relevance: 16% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Miryam Naddaf&lt;/i&gt;&lt;br/&gt;Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03783-9 Older people today maintain memory function for longer than previous generations did, according to a study of 219,000 adults.</description>
     </item>
     <item>
       <title>Modest loss of sleep increases susceptibility to cybersecurity threats</title>
@@ -185,45 +185,10 @@
       <description>&lt;b&gt;Relevance: 15% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Eitan Schechtmanahttps://ror.org/04gyf1771Department of Neurobiology and Behavior and Center for the Neurobiology of Learning and Memory, University of California, Irvine, CA 92697&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. Sleep restriction leads to impaired cognitive processing across domains. I examined whether the transition to daylight saving time (DST), typically accompanied by compromised sleep, would lead to an increase in the probability of falling prey to a ...</description>
     </item>
     <item>
-      <title>Evolutionarily reinforced GC-rich motif enables non-AUG translation in mammals under eIF1/5MP-mediated fidelity control</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aek4290?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aek4290?af=R</guid>
-      <description>&lt;b&gt;Relevance: 15% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Haruyuki Furukawa, Abhineet Banerjee, Antonin Tidu, Nirmala Bardiya, Susumu Ishiguro, Chingakham Ranjit Singh, Hitomi Yagi, Hiroyuki Hiraishi, Grant Brooke, Antoine Perret, Kinsley Ochsner, Hailey Casey, Grace Sakai, Megan Freeman, Anastasia Meyer, Keat Robinson, William Finnane, Payton Henderson, Takeru Kameda, Yuichi Togashi, Toshinobu Fujiwara, Franck Martin, Hiroaki Kato, Kazuyuki Takai, Katsura Asano&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 46, November 2026.</description>
-    </item>
-    <item>
-      <title>A cellular atlas of the preinvasive breast cancer microenvironment | Science</title>
-      <link>https://www.science.org/doi/10.1126/science.aef4622</link>
-      <guid>https://www.science.org/doi/10.1126/science.aef4622</guid>
-      <description>&lt;b&gt;Relevance: 1% | Source: Science&lt;/b&gt;&lt;br/&gt;Ductal carcinoma in situ (DCIS) is the most common preinvasive breast cancer, however our knowledge of the DCIS tumor microenvironment (TME) remains limited. We constructed a comprehensive atlas of the TME in estrogen-receptor positive DCIS using fresh ...</description>
-      <pubDate>2026-11-12T09:01:00-05:00</pubDate>
-    </item>
-    <item>
-      <title>The cryosphere beyond a planetary safe operating space | Science</title>
-      <link>https://www.science.org/doi/10.1126/science.aef5636</link>
-      <guid>https://www.science.org/doi/10.1126/science.aef5636</guid>
-      <description>&lt;b&gt;Relevance: 0% | Source: Science&lt;/b&gt;&lt;br/&gt;The cryosphere plays a vital role in regulating planetary dynamics and habitability, yet it remains unclear whether its essential functions remain within a safe operating space (SOS) amid Anthropocene change. Here, we propose a cryosphere SOS and ...</description>
-      <pubDate>2026-11-12T09:01:00-05:00</pubDate>
-    </item>
-    <item>
-      <title>Early epidemiological and spatial assessment of the Bundibugyo virus outbreak 2026 | Science</title>
-      <link>https://www.science.org/doi/10.1126/science.aej4586</link>
-      <guid>https://www.science.org/doi/10.1126/science.aej4586</guid>
-      <description>&lt;b&gt;Relevance: -3% | Source: Science&lt;/b&gt;&lt;br/&gt;A Bundibugyo virus outbreak was first reported on May 15th, 2026 in Ituri province, Democratic Republic of the Congo, with multiple cases reported across health zones during the early phase of the outbreak and suggestions of circulation weeks prior to ...</description>
-      <pubDate>2026-11-12T09:01:00-05:00</pubDate>
-    </item>
-    <item>
-      <title>Hantavirus pulmonary syndrome outbreak linked to cruise ship travel in April–May 2026 | Science</title>
-      <link>https://www.science.org/doi/10.1126/science.aej1376</link>
-      <guid>https://www.science.org/doi/10.1126/science.aej1376</guid>
-      <description>&lt;b&gt;Relevance: -4% | Source: Science&lt;/b&gt;&lt;br/&gt;In April 2026, a hantavirus pulmonary syndrome (HPS) outbreak caused by Andes virus (ANDV) occurred on a cruise ship. ANDV genome sequences were obtained for 10 of the 13 identified cases during a cross-country investigation established to share initial ...</description>
-      <pubDate>2026-11-12T09:01:00-05:00</pubDate>
-    </item>
-    <item>
-      <title>Long-term local circulation of an Andes virus lineage in northern Patagonia is linked to the M/V Hondius outbreak | Science</title>
-      <link>https://www.science.org/doi/10.1126/science.aej1679</link>
-      <guid>https://www.science.org/doi/10.1126/science.aej1679</guid>
-      <description>&lt;b&gt;Relevance: -5% | Source: Science&lt;/b&gt;&lt;br/&gt;In 2026, a hantavirus pulmonary syndrome (HPS) outbreak caused by Andes virus (ANDV) occurred on a cruise ship. Analyses revealed an unexpected relationship to an outbreak in Argentina in 2018. Retrospective investigation clarified the 2018 outbreak ...</description>
-      <pubDate>2026-11-12T09:01:00-05:00</pubDate>
+      <title>Hypothalamic volume and cell-type changes in ageing and Alzheimer’s disease</title>
+      <link>https://www.nature.com/articles/s41586-026-11305-w</link>
+      <guid>https://www.nature.com/articles/s41586-026-11305-w</guid>
+      <description>&lt;b&gt;Relevance: 15% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Doudou Yu, Jürgen Germann, Ghulam Murtaza, Kaitlyn H. Hajdarovic, Kelsey R. Babcock, Shiva Kazempour Dehkordi, Alexander C. Jackson, Ivana Delalle, Miranda E. Orr, Habil Zare, Ritambhara Singh, Michael J. MacCoss, William Stafford Noble, Andrei G. Vlassenko, Manu S. Goyal, Ashley E. Webb&lt;/i&gt;&lt;br/&gt;Nature, Published online: 18 November 2026; doi:10.1038/s41586-026-11305-w HypoAD, an atlas of the human hypothalamus in ageing and Alzheimer’s disease that combines high-resolution magnetic resonance imaging from 458 individuals with single-nucleus RNA sequencing of 614,403 nuclei, reveals that metabolism- and circadian-regulating subregions, and their inhibitory neurons and microglia, are particularly vulnerable.</description>
     </item>
   </channel>
 </rss>
