@@ -4,7 +4,7 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Thu, 19 Nov 2026 15:31:58 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 15:09:09 +0000</lastBuildDate>
     <item>
       <title>The representation of object-concept primitives across the macaque brain</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</link>
@@ -29,6 +29,13 @@
       <guid>https://dx.doi.org/10.7554/eLife.107980</guid>
       <description>&lt;b&gt;Relevance: 32% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Anna C Geuzebroek, Elisabeth Parés-Pujolràs, Redmond G O'Connell, Simon P Kelly&lt;/i&gt;&lt;br/&gt;Making decisions often requires the integration of multiple pieces of information. An extensive body of research has investigated the neural architecture underpinning evidence accumulation in perceptual tasks where information is continuously present, but less is known about how this neural architecture operates in situations affording only intermittent glimpses of an evidence source. In two electroencephalography experiments, human participants judged the direction of up to two pulses of motion evidence separated by gaps of varying duration. Our behavioural analysis found that participants used both pulses but underutilised the second and showed no systematic decrease in accuracy as a function of gap duration. At the neural level, motor beta lateralisation tracked cumulative evidence across pulses, maintaining a sustained representation of the decision variable through the gap and until response. In contrast, the centroparietal positivity (CPP), a previously characterised signature of evidence accumulation, built up transiently to a peak that scaled with each pulse’s contribution to the decision variable (i.e. the absolute belief update it produced), falling back to baseline in between pulses. These patterns were recapitulated in a model where pulse-information transiently integrated at the CPP level is fed to and maintained at a bounded motor level. In this model, the evidence in the second pulse is only integrated to the extent that the evidence in the first pulse falls short of the bound, or not integrated at all if a bound has already been hit.</description>
       <pubDate>2026-11-18T00:00:00+00:00</pubDate>
+    </item>
+    <item>
+      <title>Ramping-up hippocampal ripples and their neocortical coupling support human visual short-term memory</title>
+      <link>https://elifesciences.org/articles/111304</link>
+      <guid>https://dx.doi.org/10.7554/eLife.111304</guid>
+      <description>&lt;b&gt;Relevance: 31% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Can Yang, Gui Xue, Jing Liu, Nikolai Axmacher, Shaomin Zhang, Xianhui He, Ying Cai&lt;/i&gt;&lt;br/&gt;Emerging evidence suggests that the hippocampus contributes to visual short-term memory (VSTM). However, the neural mechanisms through which hippocampal activity supports the maintenance of VSTM representations remain largely unknown. Here, using intracranial EEG recordings from human participants performing a delayed match-to-sample task for naturalistic objects, we investigated the role of hippocampal ripple activity—brief high-frequency oscillations associated with memory replay—in VSTM maintenance and hippocampal-neocortical communication. We found that hippocampal ripple rates progressively ramped up during the maintenance period and supported successful VSTM. More critically, hippocampal ripples were temporally coupled with the ripples in the lateral temporal lobe (LTL), and these coupled ripples were associated with memory reactivation in the LTL. These findings provide direct evidence that hippocampal–neocortical interaction via coupled ripples supports VSTM, extending the role of hippocampal ripples from long-term consolidation to short-term mnemonic processes and offering new insights into the dynamic coding mechanisms of working memory.</description>
+      <pubDate>2026-11-20T00:00:00+00:00</pubDate>
     </item>
     <item>
       <title>Long-term training continually fine tunes motor memories</title>
@@ -104,19 +111,6 @@
       <description>&lt;b&gt;Relevance: 24% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Fei Wang, Lin Zhang, Siyuan Chang, Can Liu, Jitao Hu, Mengya Zhao, Nicole Y. Tsai, Kushal Nimkar, Shaobo Zhang, Jennifer L. Shadrach, Xiaoke Chen, Julia A. Kaltschmidt, Lin Gan, Shenqin Yao, Karthik Shekhar, Evan H. Feinberg, Xin Duan&lt;/i&gt;&lt;br/&gt;Nature, Published online: 18 November 2026; doi:10.1038/s41586-026-11235-7 TransA-MERFISH combines anterograde trans-neuronal tracing and spatial transcriptomics and reveals distinct retinal on–off direction-selective ganglion cell-dependent and independent motion-selective pathways in superior colliculus, establishing a sensitive cell-type-resolved framework for wiring-diagram reconstruction in early visual processing.</description>
     </item>
     <item>
-      <title>The world’s most precious brain samples — and what they teach us about being human</title>
-      <link>https://www.nature.com/articles/d41586-026-03711-x</link>
-      <guid>https://www.nature.com/articles/d41586-026-03711-x</guid>
-      <description>&lt;b&gt;Relevance: 23% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Rachel Fieldhouse&lt;/i&gt;&lt;br/&gt;Nature, Published online: 17 November 2026; doi:10.1038/d41586-026-03711-x How do human neurons behave in their natural environment? To answer that question, you need rare brain samples taken from living humans — and very steady hands.</description>
-    </item>
-    <item>
-      <title>The zoo of the gene networks capable of pattern formation by extracellular signaling</title>
-      <link>https://elifesciences.org/articles/107563</link>
-      <guid>https://dx.doi.org/10.7554/eLife.107563</guid>
-      <description>&lt;b&gt;Relevance: 20% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Isaac Salazar-Ciudad, Kevin Martinez Anhom&lt;/i&gt;&lt;br/&gt;A fundamental question of developmental biology is pattern formation, or how cells with specific gene expression end up in specific locations in the body to form tissues, organs, and, overall functional anatomy. Pattern formation involves communication through extracellular signals and complex intracellular gene networks integrating these signals to determine cell responses (e.g. further signaling, cell division, cell differentiation, etc.). In this article, we address two questions: (1) Are there any logical or mathematical principles determining which gene network topologies can lead to pattern formation by cell signaling over space in multicellular systems? (2) Can gene network topologies be classified into a small number of classes that entail similar dynamics and pattern transformation capacities? We combine logical arguments and mathematical proofs to show that, despite the large amount of formally possible gene network topologies, all gene network topologies capable of pattern formation fall into only three fundamental classes and their combinations. Additionally, we show that gene networks within each class share the same logic on how they lead to pattern formation, and hence, lead to similar patterns. We characterize the main features of each class. This zoo includes the complete gene networks that, to the best of our knowledge, have been experimentally reported to lead to pattern formation as well as other gene networks that have not yet been found experimentally.</description>
-      <pubDate>2026-11-13T00:00:00+00:00</pubDate>
-    </item>
-    <item>
       <title>Rhodopsin 7 is an ancestral non-canonical photoreceptor that shapes light-responsive behavior</title>
       <link>https://elifesciences.org/articles/109811</link>
       <guid>https://dx.doi.org/10.7554/eLife.109811</guid>
@@ -189,6 +183,33 @@
       <link>https://www.nature.com/articles/s41586-026-11305-w</link>
       <guid>https://www.nature.com/articles/s41586-026-11305-w</guid>
       <description>&lt;b&gt;Relevance: 15% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Doudou Yu, Jürgen Germann, Ghulam Murtaza, Kaitlyn H. Hajdarovic, Kelsey R. Babcock, Shiva Kazempour Dehkordi, Alexander C. Jackson, Ivana Delalle, Miranda E. Orr, Habil Zare, Ritambhara Singh, Michael J. MacCoss, William Stafford Noble, Andrei G. Vlassenko, Manu S. Goyal, Ashley E. Webb&lt;/i&gt;&lt;br/&gt;Nature, Published online: 18 November 2026; doi:10.1038/s41586-026-11305-w HypoAD, an atlas of the human hypothalamus in ageing and Alzheimer’s disease that combines high-resolution magnetic resonance imaging from 458 individuals with single-nucleus RNA sequencing of 614,403 nuclei, reveals that metabolism- and circadian-regulating subregions, and their inhibitory neurons and microglia, are particularly vulnerable.</description>
+    </item>
+    <item>
+      <title>Sore throat? The brain has surprising control over how ill you feel</title>
+      <link>https://www.nature.com/articles/d41586-026-03774-w</link>
+      <guid>https://www.nature.com/articles/d41586-026-03774-w</guid>
+      <description>&lt;b&gt;Relevance: 13% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Max Kozlov&lt;/i&gt;&lt;br/&gt;Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03774-w The brain might decode pathogens, store memories of previous illnesses and prepare the body for future threats.</description>
+    </item>
+    <item>
+      <title>Quaternary carbon–guided carbocation cascade rearrangement to enantioenriched polycycles | Science</title>
+      <link>https://www.science.org/doi/10.1126/science.aei2041</link>
+      <guid>https://www.science.org/doi/10.1126/science.aei2041</guid>
+      <description>&lt;b&gt;Relevance: 1% | Source: Science&lt;/b&gt;&lt;br/&gt;Polycyclic frameworks are prevalent in natural products and bioactive molecules, yet their efficient enantioselective synthesis remains a longstanding challenge. Carbocation cascade cyclization is a textbook reaction that has transformed the synthesis of ...</description>
+      <pubDate>2026-11-19T09:01:00-05:00</pubDate>
+    </item>
+    <item>
+      <title>Widespread marine mammal and seabird reductions are unlikely to benefit salmon due to indirect ecosystem effects | Science</title>
+      <link>https://www.science.org/doi/10.1126/science.aeb1122</link>
+      <guid>https://www.science.org/doi/10.1126/science.aeb1122</guid>
+      <description>&lt;b&gt;Relevance: 1% | Source: Science&lt;/b&gt;&lt;br/&gt;Pacific salmon are depleted due to anthropogenic impacts, and populations have failed to recover despite management interventions. Predation on salmon by pinnipeds and seabirds has been suggested as a barrier to recovery, leading to calls for predator ...</description>
+      <pubDate>2026-11-19T09:01:00-05:00</pubDate>
+    </item>
+    <item>
+      <title>Zero-shot de novo design of a metalloenzyme | Science</title>
+      <link>https://www.science.org/doi/10.1126/science.aej3009</link>
+      <guid>https://www.science.org/doi/10.1126/science.aej3009</guid>
+      <description>&lt;b&gt;Relevance: 1% | Source: Science&lt;/b&gt;&lt;br/&gt;De novo design of enzymes is a frontier challenge, requiring consideration of catalytic mechanism and optimization across biochemical and biophysical criteria. Here, we present dEVA (design by EVolutionary Algorithm), a multi-objective protein design ...</description>
+      <pubDate>2026-11-19T09:01:00-05:00</pubDate>
     </item>
   </channel>
 </rss>
