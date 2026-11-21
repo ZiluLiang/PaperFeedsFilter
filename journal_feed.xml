@@ -4,7 +4,14 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Fri, 20 Nov 2026 15:09:09 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 14:28:28 +0000</lastBuildDate>
+    <item>
+      <title>Cognitive control networks in human and macaque</title>
+      <link>https://elifesciences.org/articles/111502</link>
+      <guid>https://dx.doi.org/10.7554/eLife.111502</guid>
+      <description>&lt;b&gt;Relevance: 36% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Daniel J Mitchell, Freja Holm Prins, John Duncan, Mark J Buckley, Moataz Assem, Søren Kyllingsbæk, Urs Schüffelgen, Valentina Mione&lt;/i&gt;&lt;br/&gt;A much-replicated finding in human brain imaging is a distributed ‘multiple-demand’ or MD system, increasing in activity for many kinds of cognitive demand, and centrally involved in cognitive control. MD regions are proposed to encode a distributed mental model of critical task events, bound together in the roles and relationships needed to direct action selection. Though previous data hint at a corresponding network in the macaque, there has been no direct comparison to human data. Here we used functional magnetic resonance imaging to measure whole-brain activation in a multi-step saccadic maze task, compared to a control requiring similar moves but without goal-based decisions. Human data were a close match to the canonical MD network, extended to include adjacent regions, and in particular much of the canonical dorsal attention network. Data from two monkeys suggested correspondences in dorsomedial frontal, insula/orbitofrontal, and posterior temporal cortex. In lateral frontal cortex, there was just a single, largely dorsal activation patch, in contrast to multiple distinct human patches. In one animal, as in humans, there was accompanying activation of dorsal and medial parietal cortex. In macaques, as in humans, together with previous data, our findings suggest an extended and strongly interconnected brain network recruited by increased cognitive challenge.</description>
+      <pubDate>2026-11-20T00:00:00+00:00</pubDate>
+    </item>
     <item>
       <title>The representation of object-concept primitives across the macaque brain</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</link>
@@ -99,6 +106,12 @@
       <description>&lt;b&gt;Relevance: 26% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Florian Hofmann, Eduardo Blanco-Hernández, Giuseppe Balsamo, Steffen R. Hage, Andrea Burgalossi, Patricia Preston-Ferrer&lt;/i&gt;&lt;br/&gt;Hofmann et al. show that alerting sounds recruit HD neurons in the thalamocortical HD circuit and enhance the fidelity of the HD representation. These findings reveal a link between sensory-induced arousal and the neural circuits underlying spatial navigation.</description>
     </item>
     <item>
+      <title>An all-magnonic neuron with tunable fading memory</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeg1429?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeg1429?af=R</guid>
+      <description>&lt;b&gt;Relevance: 25% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;David Breitbach, Moritz Bechberger, Hanadi Mortada, Björn Heinz, Roman Verba, Qi Wang, Carsten Dubs, Mario Carpentieri, Giovanni Finocchio, Davi Rodrigues, Alexandre Abbass Hamadeh, Philipp Pirro&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
+    </item>
+    <item>
       <title>Auditory cortical coding of spectrotemporal modulations is sufficient to support perceptual categorization of speech and music</title>
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aed8025?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aed8025?af=R</guid>
@@ -122,19 +135,6 @@
       <link>https://www.pnas.org/doi/abs/10.1073/pnas.2623177123?af=R</link>
       <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2623177123?af=R</guid>
       <description>&lt;b&gt;Relevance: 19% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Qimeng WangYunfei HuYuling ZhuGautham ChelliahJing PengEmmanuella Osei-AsanteMelissa SobankoBrianna SanchezDavid D. GintyXin Maizie ZhouShan Meltzerahttps://ror.org/02vm5rt34Department of Pharmacology, Vanderbilt University, Nashville, TN 37240bhttps://ror.org/02vm5rt34Department of Computer Science, Vanderbilt University, Nashville, TN 37235chttps://ror.org/02vm5rt34Department of Biomedical Engineering, Vanderbilt University, Nashville, TN 37235dDepartment of Neurobiology, HHMI, Harvard Medical School, Boston, MA 02115&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. SignificanceThe spinal cord receives and integrates somatosensory inputs and executes motor and autonomic outputs, yet the spatial organization of its diverse cell types in the spinal cord remains incompletely understood. Using spatially resolved single-...</description>
-    </item>
-    <item>
-      <title>Correction: Uncovering the electrical synapse proteome in retinal neurons via in vivo proximity labeling</title>
-      <link>https://elifesciences.org/articles/113746</link>
-      <guid>https://dx.doi.org/10.7554/eLife.113746</guid>
-      <description>&lt;b&gt;Relevance: 19% | Source: eLife&lt;/b&gt;&lt;br/&gt;(no abstract)</description>
-      <pubDate>2026-11-18T00:00:00+00:00</pubDate>
-    </item>
-    <item>
-      <title>Ribosome-associated vesicles promote activity-dependent local translation in neurons</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aee0620?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aee0620?af=R</guid>
-      <description>&lt;b&gt;Relevance: 19% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Eva Martin-Solana, Stephen D. Carter, Karthik Krishnamurthy, Giovanni de Nola, Jiying Ning, Jill R. Glausier, Matias A. Preisegger, Laura Harris, Lauren Meyer, Leanna Eisenman, Paul N. Joseph, Cedric Bouchet-Marquis, Ken Wu, Catherina L. Mobini, Amber N. Frantz, Stephanie Puig, Cheri M. Hampton, Nadine Kabbani, David Mankus, Eric K. F. Donahue, Kristopher Burkewitz, Grant J. Jensen, Simon C. Watkins, Karl Deisseroth, Lief E. Fenno, Michael S. Gold, Zachary P. Wills, Abigail K. R. Lytton-Jean, Sulagna Das, Zachary Freyberg&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
     </item>
     <item>
       <title>AI ‘slop’ is a social judgement</title>
