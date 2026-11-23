@@ -4,7 +4,7 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Sun, 22 Nov 2026 14:21:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 17:44:56 +0000</lastBuildDate>
     <item>
       <title>Cognitive control networks in human and macaque</title>
       <link>https://elifesciences.org/articles/111502</link>
@@ -29,6 +29,12 @@
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aef5006?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aef5006?af=R</guid>
       <description>&lt;b&gt;Relevance: 34% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Iacopo Hachen, Sebastian Reinartz, Alisea Stroligo, Alejandro Pequeno-Zurro, Mathew E. Diamond&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
+    </item>
+    <item>
+      <title>Linguistic contextualization in the human hippocampus</title>
+      <link>https://www.nature.com/articles/s41562-026-02543-z</link>
+      <guid>https://www.nature.com/articles/s41562-026-02543-z</guid>
+      <description>&lt;b&gt;Relevance: 33% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kalman A. Katlowitz, James L. Belanger, Taha Ismail, Ana G. Chavez, Assia Chericoni, Melissa Franch, Elizabeth A. Mickiewicz, Raissa K. Mathura, Alica M. Goldman, Vaishnav Krishnan, Atul Maheshwari, Mohammed Hasen, Danika L. Paulo, Andrew J. Watrous, Eleonora Bartoli, Steven T. Piantadosi, Nicole R. Provenza, Sameer A. Sheth, Benjamin Y. Hayden&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 23 November 2026; doi:10.1038/s41562-026-02543-z Katlowitz et al. show that hippocampal neuron firing during active listening encodes not only word meaning but also clause position and the semantic context of preceding words through weighted sums.</description>
     </item>
     <item>
       <title>Perceptual glimpses are locally accumulated and globally maintained at distinct processing levels</title>
@@ -75,12 +81,6 @@
       <description>&lt;b&gt;Relevance: 29% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Daniel P. Leman, Brian A. Cary, Wei Wen, Brian J. Lane, Diane Bissen, Nicole F. Wong, M. Regis Shanley, Krish B. Bhut, Gina G. Turrigiano&lt;/i&gt;&lt;br/&gt;Leman et al. find that rapid, vision-dependent learning triggers a slow resetting of firing rate set points in visual cortex. This resetting is driven by a homeostatic increase in excitatory drive, and preventing resetting impairs consolidation. Thus, learning can co-opt homeostatic plasticity to reset firing rate setpoints and enhance consolidation.</description>
     </item>
     <item>
-      <title>Long-term development of a motor memory</title>
-      <link>https://www.nature.com/articles/s41562-026-02622-1</link>
-      <guid>https://www.nature.com/articles/s41562-026-02622-1</guid>
-      <description>&lt;b&gt;Relevance: 29% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;David W. Franklin, Pascal Nietschmann, Sae Franklin&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02622-1 Franklin et al. examine how simple motor adaptation is developed with thousands of training trials over multiple weeks to study the long-term development of a motor memory.</description>
-    </item>
-    <item>
       <title>Hierarchical neural circuit theory of normalization and inter-areal communication</title>
       <link>https://elifesciences.org/articles/111297</link>
       <guid>https://dx.doi.org/10.7554/eLife.111297</guid>
@@ -112,6 +112,12 @@
       <description>&lt;b&gt;Relevance: 25% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;David Breitbach, Moritz Bechberger, Hanadi Mortada, Björn Heinz, Roman Verba, Qi Wang, Carsten Dubs, Mario Carpentieri, Giovanni Finocchio, Davi Rodrigues, Alexandre Abbass Hamadeh, Philipp Pirro&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
     </item>
     <item>
+      <title>Towards population-specific brain charts across the lifespan</title>
+      <link>https://www.nature.com/articles/s41562-026-02596-0</link>
+      <guid>https://www.nature.com/articles/s41562-026-02596-0</guid>
+      <description>&lt;b&gt;Relevance: 24% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 23 November 2026; doi:10.1038/s41562-026-02596-0 A study of the largest available Chinese lifespan-wide structural neuroimaging dataset (comprising 43,037 participants aged 0–100 years) established population-specific brain charts, revealing developmental trajectories that diverge from those of predominantly white populations. These tailored charts improved typical phenotypic prediction and better captured disease-related deviations, advancing equitable precision neuroscience.</description>
+    </item>
+    <item>
       <title>Auditory cortical coding of spectrotemporal modulations is sufficient to support perceptual categorization of speech and music</title>
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aed8025?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aed8025?af=R</guid>
@@ -122,6 +128,12 @@
       <link>https://www.nature.com/articles/s41586-026-11235-7</link>
       <guid>https://www.nature.com/articles/s41586-026-11235-7</guid>
       <description>&lt;b&gt;Relevance: 24% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Fei Wang, Lin Zhang, Siyuan Chang, Can Liu, Jitao Hu, Mengya Zhao, Nicole Y. Tsai, Kushal Nimkar, Shaobo Zhang, Jennifer L. Shadrach, Xiaoke Chen, Julia A. Kaltschmidt, Lin Gan, Shenqin Yao, Karthik Shekhar, Evan H. Feinberg, Xin Duan&lt;/i&gt;&lt;br/&gt;Nature, Published online: 18 November 2026; doi:10.1038/s41586-026-11235-7 TransA-MERFISH combines anterograde trans-neuronal tracing and spatial transcriptomics and reveals distinct retinal on–off direction-selective ganglion cell-dependent and independent motion-selective pathways in superior colliculus, establishing a sensitive cell-type-resolved framework for wiring-diagram reconstruction in early visual processing.</description>
+    </item>
+    <item>
+      <title>Reply to: Do apparent rhythms in behaviour arise from aperiodic processes?</title>
+      <link>https://www.nature.com/articles/s41562-026-02612-3</link>
+      <guid>https://www.nature.com/articles/s41562-026-02612-3</guid>
+      <description>&lt;b&gt;Relevance: 22% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Geoffrey Brookshire&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 23 November 2026; doi:10.1038/s41562-026-02612-3 Reply to: Do apparent rhythms in behaviour arise from aperiodic processes?</description>
     </item>
     <item>
       <title>Rhodopsin 7 is an ancestral non-canonical photoreceptor that shapes light-responsive behavior</title>
@@ -135,12 +147,6 @@
       <link>https://www.pnas.org/doi/abs/10.1073/pnas.2623177123?af=R</link>
       <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2623177123?af=R</guid>
       <description>&lt;b&gt;Relevance: 19% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Qimeng WangYunfei HuYuling ZhuGautham ChelliahJing PengEmmanuella Osei-AsanteMelissa SobankoBrianna SanchezDavid D. GintyXin Maizie ZhouShan Meltzerahttps://ror.org/02vm5rt34Department of Pharmacology, Vanderbilt University, Nashville, TN 37240bhttps://ror.org/02vm5rt34Department of Computer Science, Vanderbilt University, Nashville, TN 37235chttps://ror.org/02vm5rt34Department of Biomedical Engineering, Vanderbilt University, Nashville, TN 37235dDepartment of Neurobiology, HHMI, Harvard Medical School, Boston, MA 02115&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. SignificanceThe spinal cord receives and integrates somatosensory inputs and executes motor and autonomic outputs, yet the spatial organization of its diverse cell types in the spinal cord remains incompletely understood. Using spatially resolved single-...</description>
-    </item>
-    <item>
-      <title>AI ‘slop’ is a social judgement</title>
-      <link>https://www.nature.com/articles/s41562-026-02639-6</link>
-      <guid>https://www.nature.com/articles/s41562-026-02639-6</guid>
-      <description>&lt;b&gt;Relevance: 18% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Richard Jean So, Hoyt Long, Cody Kommers, Mina Lee, Emily Wenger, Peter West, Eamon Duede, Ari Holtzman, Chenhao Tan&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 09 November 2026; doi:10.1038/s41562-026-02639-6 Artificial intelligence (AI)-generated content increasingly saturates our information environment. Efforts to detect and remove it are failing. We propose that calling AI-generated content ‘slop’ is best understood as a social judgement: what a community recognizes as unwanted AI content. Studying AI slop this way makes it tractable, measurable and governable.</description>
     </item>
     <item>
       <title>Correction for Ge et al., Empirical validation of race-neutral normative brain morphometry models across ethnoracially diverse populations</title>
@@ -161,12 +167,6 @@
       <description>&lt;b&gt;Relevance: 16% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Matteo StromieriEmanuele NataleAmos Kormanahttps://ror.org/02f009v59Department of Computer Science, University of Haifa, Haifa 3303221, Israelbhttps://ror.org/019tgvf94COATI, Université Côte d’Azur, Sophia Antipolis Cedex 06902, Francechttps://ror.org/019tgvf94CNRS, COATI, Université Côte d’Azur, Sophia Antipolis Cedex 06902, France&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. SignificanceHow organisms and autonomous systems locate rare targets in complex environments is a fundamental problem spanning biology, physics, and engineering. While most theory assumes simplified, low-dimensional settings, real-world search occurs in ...</description>
     </item>
     <item>
-      <title>Usage frequency predicts lexicalization across languages</title>
-      <link>https://www.nature.com/articles/s41562-026-02625-y</link>
-      <guid>https://www.nature.com/articles/s41562-026-02625-y</guid>
-      <description>&lt;b&gt;Relevance: 16% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Temuulen Khishigsuren, Francis Mollica, Ekaterina Vylomova, Charles Kemp&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 16 November 2026; doi:10.1038/s41562-026-02625-y Why do almost all human languages have a word for ‘sun’, but fewer have a word for ‘weather’? Khishigsuren et al. find that the usefulness of a concept in communication predicts how often it appears in vocabularies across languages.</description>
-    </item>
-    <item>
       <title>People entering old age now have better memory than their parents did</title>
       <link>https://www.nature.com/articles/d41586-026-03783-9</link>
       <guid>https://www.nature.com/articles/d41586-026-03783-9</guid>
@@ -179,16 +179,16 @@
       <description>&lt;b&gt;Relevance: 15% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Eitan Schechtmanahttps://ror.org/04gyf1771Department of Neurobiology and Behavior and Center for the Neurobiology of Learning and Memory, University of California, Irvine, CA 92697&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. Sleep restriction leads to impaired cognitive processing across domains. I examined whether the transition to daylight saving time (DST), typically accompanied by compromised sleep, would lead to an increase in the probability of falling prey to a ...</description>
     </item>
     <item>
-      <title>Hypothalamic volume and cell-type changes in ageing and Alzheimer’s disease</title>
-      <link>https://www.nature.com/articles/s41586-026-11305-w</link>
-      <guid>https://www.nature.com/articles/s41586-026-11305-w</guid>
-      <description>&lt;b&gt;Relevance: 15% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Doudou Yu, Jürgen Germann, Ghulam Murtaza, Kaitlyn H. Hajdarovic, Kelsey R. Babcock, Shiva Kazempour Dehkordi, Alexander C. Jackson, Ivana Delalle, Miranda E. Orr, Habil Zare, Ritambhara Singh, Michael J. MacCoss, William Stafford Noble, Andrei G. Vlassenko, Manu S. Goyal, Ashley E. Webb&lt;/i&gt;&lt;br/&gt;Nature, Published online: 18 November 2026; doi:10.1038/s41586-026-11305-w HypoAD, an atlas of the human hypothalamus in ageing and Alzheimer’s disease that combines high-resolution magnetic resonance imaging from 458 individuals with single-nucleus RNA sequencing of 614,403 nuclei, reveals that metabolism- and circadian-regulating subregions, and their inhibitory neurons and microglia, are particularly vulnerable.</description>
+      <title>‘Mozart of maths’ Terence Tao is your guide to what underpins reality</title>
+      <link>https://www.nature.com/articles/d41586-026-03720-w</link>
+      <guid>https://www.nature.com/articles/d41586-026-03720-w</guid>
+      <description>&lt;b&gt;Relevance: 15% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Itai Yanai&lt;/i&gt;&lt;br/&gt;Nature, Published online: 23 November 2026; doi:10.1038/d41586-026-03720-w A Fields Medallist reveals how curiosity about numbers can lead to solutions in the real world.</description>
     </item>
     <item>
-      <title>Sore throat? The brain has surprising control over how ill you feel</title>
-      <link>https://www.nature.com/articles/d41586-026-03774-w</link>
-      <guid>https://www.nature.com/articles/d41586-026-03774-w</guid>
-      <description>&lt;b&gt;Relevance: 13% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Max Kozlov&lt;/i&gt;&lt;br/&gt;Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03774-w The brain might decode pathogens, store memories of previous illnesses and prepare the body for future threats.</description>
+      <title>Ayanna Howard thinks ‘everyone has to be part of’ building ethical AI tools</title>
+      <link>https://www.nature.com/articles/d41586-026-03721-9</link>
+      <guid>https://www.nature.com/articles/d41586-026-03721-9</guid>
+      <description>&lt;b&gt;Relevance: 13% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Katherine Skipper&lt;/i&gt;&lt;br/&gt;Nature, Published online: 23 November 2026; doi:10.1038/d41586-026-03721-9 The researcher and educator explains why she’s optimistic about the future of work and what individuals can do to thrive alongside artificial intelligence.</description>
     </item>
     <item>
       <title>Quaternary carbon–guided carbocation cascade rearrangement to enantioenriched polycycles | Science</title>
