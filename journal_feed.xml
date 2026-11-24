@@ -4,7 +4,7 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Mon, 23 Nov 2026 17:44:56 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 17:17:18 +0000</lastBuildDate>
     <item>
       <title>Cognitive control networks in human and macaque</title>
       <link>https://elifesciences.org/articles/111502</link>
@@ -51,12 +51,6 @@
       <pubDate>2026-11-20T00:00:00+00:00</pubDate>
     </item>
     <item>
-      <title>Long-term training continually fine tunes motor memories</title>
-      <link>https://www.nature.com/articles/s41562-026-02637-8</link>
-      <guid>https://www.nature.com/articles/s41562-026-02637-8</guid>
-      <description>&lt;b&gt;Relevance: 31% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 11 November 2026; doi:10.1038/s41562-026-02637-8 Humans’ rapid adaptation to new dynamics is a crucial ability for interacting with the world. By combining the controlled manipulations of sensorimotor adaptation studies with the long-term learning approach of complex tasks, this study shows that the learned motor memory is continually tuned, and that retention increases with long-term training.</description>
-    </item>
-    <item>
       <title>Lateral orbitofrontal cortex enables new learning to overwrite previously acquired information</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01427-2?rss=yes</link>
       <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01427-2?rss=yes</guid>
@@ -79,13 +73,6 @@
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01447-8?rss=yes</link>
       <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01447-8?rss=yes</guid>
       <description>&lt;b&gt;Relevance: 29% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Daniel P. Leman, Brian A. Cary, Wei Wen, Brian J. Lane, Diane Bissen, Nicole F. Wong, M. Regis Shanley, Krish B. Bhut, Gina G. Turrigiano&lt;/i&gt;&lt;br/&gt;Leman et al. find that rapid, vision-dependent learning triggers a slow resetting of firing rate set points in visual cortex. This resetting is driven by a homeostatic increase in excitatory drive, and preventing resetting impairs consolidation. Thus, learning can co-opt homeostatic plasticity to reset firing rate setpoints and enhance consolidation.</description>
-    </item>
-    <item>
-      <title>Hierarchical neural circuit theory of normalization and inter-areal communication</title>
-      <link>https://elifesciences.org/articles/111297</link>
-      <guid>https://dx.doi.org/10.7554/eLife.111297</guid>
-      <description>&lt;b&gt;Relevance: 29% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Asit Pal, David J Heeger, Shivang Rawat, Stefano Martiniani&lt;/i&gt;&lt;br/&gt;The primate brain exhibits a hierarchical, modular architecture with conserved microcircuits executing canonical computations across reciprocally connected cortical areas. We present a hierarchical neural circuit theory with feedback connections that dynamically implements divisive normalization across its hierarchy. In a two-stage instantiation (V1 ↔ V2), increasing feedback from V2 to V1 amplifies responses in both areas. We analytically derive power spectra (V1) and coherence spectra (V1-V2) as functions of frequency ( f ) and compare them with experimental observations: peaks in both spectra shift to higher frequencies with increased stimulus contrast, and power decays as 1/ f 4 at high frequencies. The closed-form spectra are validated against direct stochastic simulation of the full nonlinear circuit across contrasts. The theory further predicts distinctive spectral signatures of feedback and input gain modulation. Crucially, the theory offers a unified view of inter-areal communication, defined as the ability to linearly predict neural activity in one brain area from neural activity in another, with emergent features consistent with empirical observations of both communication subspaces and inter-areal coherence. It admits a low-dimensional communication subspace, where inter-areal communication is lower-dimensional than within-area communication. It further predicts that: (1) increasing feedback strength enhances inter-areal communication and diminishes within-area communication, without altering the subspace dimensionality; (2) communication is strongest, and the subspace dimensionality lowest, at the frequencies at which V1-V2 coherence peaks; (3) normalization reduces the subspace dimensionality. Finally, a three-area (V1 ↔ V4 and V1 ↔ V5) instantiation of the theory demonstrates that differential feedback from higher to lower cortical areas dictates their dynamic functional connectivity. Altogether, our theory provides a robust and analytically tractable framework for generating experimentally testable predictions about normalization, inter-areal communication, and functional connectivity.</description>
-      <pubDate>2026-11-17T00:00:00+00:00</pubDate>
     </item>
     <item>
       <title>A state-dependent neural circuit resolves approach-avoidance conflict</title>
@@ -112,6 +99,13 @@
       <description>&lt;b&gt;Relevance: 25% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;David Breitbach, Moritz Bechberger, Hanadi Mortada, Björn Heinz, Roman Verba, Qi Wang, Carsten Dubs, Mario Carpentieri, Giovanni Finocchio, Davi Rodrigues, Alexandre Abbass Hamadeh, Philipp Pirro&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
     </item>
     <item>
+      <title>Applying functional MRI analysis techniques to whole-brain calcium-imaging data to investigate structural and functional relationships in Drosophila melanogaster</title>
+      <link>https://elifesciences.org/articles/107990</link>
+      <guid>https://dx.doi.org/10.7554/eLife.107990</guid>
+      <description>&lt;b&gt;Relevance: 24% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Alexander Woodward, Hideyuki Okano, Junichi Hata, Takuto Okuno&lt;/i&gt;&lt;br/&gt;Clarifying the relationship between structure and function is important for understanding the brain. In Drosophila melanogaster , FlyEM and FlyWire electron microscopy-based connectome data, and whole-brain calcium-imaging data are available. We applied pre-processing methods from functional magnetic resonance imaging to whole-brain calcium-imaging data and comprehensively investigated the optimal parameters. Then, we found that the FC–SC (functional and structural connectivity) correlation decreased linearly with region of interest count, and this trend was the same in flies and humans. We also developed a new, more robust method to quantify the degree of pre- and post-synaptic segregation, and investigated this in the fly whole-brain. This revealed that many neurons have unsegregated synapses. We extracted highly unsegregated synapses and compared them with random-extracted null SC matrices. Their FC–SC correlation was significantly higher, indicating that these synapses contribute to FC well. Conversely, highly segregated synapses showed significantly lower FC–SC correlation and contribute less to FC. Neurons with unsegregated synapses, like non-spiking neurons, are spread throughout the whole-brain, and they are thought to have a significant influence on FC.</description>
+      <pubDate>2026-11-24T00:00:00+00:00</pubDate>
+    </item>
+    <item>
       <title>Towards population-specific brain charts across the lifespan</title>
       <link>https://www.nature.com/articles/s41562-026-02596-0</link>
       <guid>https://www.nature.com/articles/s41562-026-02596-0</guid>
@@ -124,16 +118,28 @@
       <description>&lt;b&gt;Relevance: 24% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Jérémie Ginzburg, Clarisse Gotti, Émilie Cloutier Debaque, Arthur Borderie, Benjamin Morillon, Laurence Martineau, Paule Lessard Bonaventure, Robert J Zatorre, Philippe Albouy&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
     </item>
     <item>
-      <title>TransA-MERFISH reveals divergent post-retinal direction-selective circuits</title>
-      <link>https://www.nature.com/articles/s41586-026-11235-7</link>
-      <guid>https://www.nature.com/articles/s41586-026-11235-7</guid>
-      <description>&lt;b&gt;Relevance: 24% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Fei Wang, Lin Zhang, Siyuan Chang, Can Liu, Jitao Hu, Mengya Zhao, Nicole Y. Tsai, Kushal Nimkar, Shaobo Zhang, Jennifer L. Shadrach, Xiaoke Chen, Julia A. Kaltschmidt, Lin Gan, Shenqin Yao, Karthik Shekhar, Evan H. Feinberg, Xin Duan&lt;/i&gt;&lt;br/&gt;Nature, Published online: 18 November 2026; doi:10.1038/s41586-026-11235-7 TransA-MERFISH combines anterograde trans-neuronal tracing and spatial transcriptomics and reveals distinct retinal on–off direction-selective ganglion cell-dependent and independent motion-selective pathways in superior colliculus, establishing a sensitive cell-type-resolved framework for wiring-diagram reconstruction in early visual processing.</description>
-    </item>
-    <item>
       <title>Reply to: Do apparent rhythms in behaviour arise from aperiodic processes?</title>
       <link>https://www.nature.com/articles/s41562-026-02612-3</link>
       <guid>https://www.nature.com/articles/s41562-026-02612-3</guid>
       <description>&lt;b&gt;Relevance: 22% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Geoffrey Brookshire&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 23 November 2026; doi:10.1038/s41562-026-02612-3 Reply to: Do apparent rhythms in behaviour arise from aperiodic processes?</description>
+    </item>
+    <item>
+      <title>The science on AI consciousness must acknowledge uncertainty</title>
+      <link>https://www.nature.com/articles/d41586-026-03822-5</link>
+      <guid>https://www.nature.com/articles/d41586-026-03822-5</guid>
+      <description>&lt;b&gt;Relevance: 22% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Haewoon Kwak&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03822-5 The science on AI consciousness must acknowledge uncertainty</description>
+    </item>
+    <item>
+      <title>Mini microscope captures brain activity while mice are on the go</title>
+      <link>https://www.nature.com/articles/d41586-026-03380-w</link>
+      <guid>https://www.nature.com/articles/d41586-026-03380-w</guid>
+      <description>&lt;b&gt;Relevance: 21% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Weijian Yang, Marco Tripodi&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03380-w A head-mounted device records neuronal activity as mice explore a naturalistic environment and interact with each other. Specialists discuss the technology and its applications.</description>
+    </item>
+    <item>
+      <title>Do apparent rhythms in behaviour arise from aperiodic processes?</title>
+      <link>https://www.nature.com/articles/s41562-026-02613-2</link>
+      <guid>https://www.nature.com/articles/s41562-026-02613-2</guid>
+      <description>&lt;b&gt;Relevance: 21% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Martin Vinck, Cem Uran, Tommaso Tosato, Marius Schneider&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 23 November 2026; doi:10.1038/s41562-026-02613-2 Do apparent rhythms in behaviour arise from aperiodic processes?</description>
     </item>
     <item>
       <title>Rhodopsin 7 is an ancestral non-canonical photoreceptor that shapes light-responsive behavior</title>
@@ -147,6 +153,18 @@
       <link>https://www.pnas.org/doi/abs/10.1073/pnas.2623177123?af=R</link>
       <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2623177123?af=R</guid>
       <description>&lt;b&gt;Relevance: 19% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Qimeng WangYunfei HuYuling ZhuGautham ChelliahJing PengEmmanuella Osei-AsanteMelissa SobankoBrianna SanchezDavid D. GintyXin Maizie ZhouShan Meltzerahttps://ror.org/02vm5rt34Department of Pharmacology, Vanderbilt University, Nashville, TN 37240bhttps://ror.org/02vm5rt34Department of Computer Science, Vanderbilt University, Nashville, TN 37235chttps://ror.org/02vm5rt34Department of Biomedical Engineering, Vanderbilt University, Nashville, TN 37235dDepartment of Neurobiology, HHMI, Harvard Medical School, Boston, MA 02115&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. SignificanceThe spinal cord receives and integrates somatosensory inputs and executes motor and autonomic outputs, yet the spatial organization of its diverse cell types in the spinal cord remains incompletely understood. Using spatially resolved single-...</description>
+    </item>
+    <item>
+      <title>Pregnancy rewires the brain — scientists are finally mapping it</title>
+      <link>https://www.nature.com/articles/d41586-026-03804-7</link>
+      <guid>https://www.nature.com/articles/d41586-026-03804-7</guid>
+      <description>&lt;b&gt;Relevance: 18% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Max Kozlov&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03804-7 Brain scans show what healthy pregnancy looks like, and offer clues about how depression and pre-eclampsia arise.</description>
+    </item>
+    <item>
+      <title>AI is ‘the end of mathematics as we know it’ — where does the field go next?</title>
+      <link>https://www.nature.com/articles/d41586-026-03719-3</link>
+      <guid>https://www.nature.com/articles/d41586-026-03719-3</guid>
+      <description>&lt;b&gt;Relevance: 18% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Davide Castelvecchi&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03719-3 Mathematicians are bracing for a future when their profession could be mostly delegated to machines.</description>
     </item>
     <item>
       <title>Correction for Ge et al., Empirical validation of race-neutral normative brain morphometry models across ethnoracially diverse populations</title>
@@ -167,28 +185,10 @@
       <description>&lt;b&gt;Relevance: 16% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Matteo StromieriEmanuele NataleAmos Kormanahttps://ror.org/02f009v59Department of Computer Science, University of Haifa, Haifa 3303221, Israelbhttps://ror.org/019tgvf94COATI, Université Côte d’Azur, Sophia Antipolis Cedex 06902, Francechttps://ror.org/019tgvf94CNRS, COATI, Université Côte d’Azur, Sophia Antipolis Cedex 06902, France&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. SignificanceHow organisms and autonomous systems locate rare targets in complex environments is a fundamental problem spanning biology, physics, and engineering. While most theory assumes simplified, low-dimensional settings, real-world search occurs in ...</description>
     </item>
     <item>
-      <title>People entering old age now have better memory than their parents did</title>
-      <link>https://www.nature.com/articles/d41586-026-03783-9</link>
-      <guid>https://www.nature.com/articles/d41586-026-03783-9</guid>
-      <description>&lt;b&gt;Relevance: 16% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Miryam Naddaf&lt;/i&gt;&lt;br/&gt;Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03783-9 Older people today maintain memory function for longer than previous generations did, according to a study of 219,000 adults.</description>
-    </item>
-    <item>
       <title>Modest loss of sleep increases susceptibility to cybersecurity threats</title>
       <link>https://www.pnas.org/doi/abs/10.1073/pnas.2622467123?af=R</link>
       <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2622467123?af=R</guid>
       <description>&lt;b&gt;Relevance: 15% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Eitan Schechtmanahttps://ror.org/04gyf1771Department of Neurobiology and Behavior and Center for the Neurobiology of Learning and Memory, University of California, Irvine, CA 92697&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. Sleep restriction leads to impaired cognitive processing across domains. I examined whether the transition to daylight saving time (DST), typically accompanied by compromised sleep, would lead to an increase in the probability of falling prey to a ...</description>
-    </item>
-    <item>
-      <title>‘Mozart of maths’ Terence Tao is your guide to what underpins reality</title>
-      <link>https://www.nature.com/articles/d41586-026-03720-w</link>
-      <guid>https://www.nature.com/articles/d41586-026-03720-w</guid>
-      <description>&lt;b&gt;Relevance: 15% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Itai Yanai&lt;/i&gt;&lt;br/&gt;Nature, Published online: 23 November 2026; doi:10.1038/d41586-026-03720-w A Fields Medallist reveals how curiosity about numbers can lead to solutions in the real world.</description>
-    </item>
-    <item>
-      <title>Ayanna Howard thinks ‘everyone has to be part of’ building ethical AI tools</title>
-      <link>https://www.nature.com/articles/d41586-026-03721-9</link>
-      <guid>https://www.nature.com/articles/d41586-026-03721-9</guid>
-      <description>&lt;b&gt;Relevance: 13% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Katherine Skipper&lt;/i&gt;&lt;br/&gt;Nature, Published online: 23 November 2026; doi:10.1038/d41586-026-03721-9 The researcher and educator explains why she’s optimistic about the future of work and what individuals can do to thrive alongside artificial intelligence.</description>
     </item>
     <item>
       <title>Quaternary carbon–guided carbocation cascade rearrangement to enantioenriched polycycles | Science</title>
