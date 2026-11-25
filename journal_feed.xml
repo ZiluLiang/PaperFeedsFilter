@@ -4,7 +4,7 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Tue, 24 Nov 2026 17:17:18 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 17:01:22 +0000</lastBuildDate>
     <item>
       <title>Cognitive control networks in human and macaque</title>
       <link>https://elifesciences.org/articles/111502</link>
@@ -19,29 +19,22 @@
       <description>&lt;b&gt;Relevance: 35% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Spencer R. Loggia, Helen E. Feibes, Stuart Duffield, Karthik Kasi, Bevil R. Conway&lt;/i&gt;&lt;br/&gt;Loggia et al. train macaques for years on color-shape associations, then use fMRI while the monkeys “hold in mind” features cued by their associates. The results suggest a whole-brain blueprint for object concepts: retinotopic cortex encodes perception, anterior IT uses color as a concept scaffold, and frontal cortex mediates decisions.</description>
     </item>
     <item>
-      <title>Causal role of human hippocampus in relational structure learning and inference</title>
-      <link>https://www.nature.com/articles/s41562-026-02627-w</link>
-      <guid>https://www.nature.com/articles/s41562-026-02627-w</guid>
-      <description>&lt;b&gt;Relevance: 34% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Deng Pan, Simone D’Ambrogio, Naomi Kingston, Miruna Rascu, Pranav Sankhe, Shuyi Luo, Miriam C. Klein-Flügge, Ali Mahmoodi, Matthew F. S. Rushworth&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 16 November 2026; doi:10.1038/s41562-026-02627-w Pan and colleagues show that the human hippocampus represents relational structures that support inference in changing environments and provide causal evidence that disrupting hippocampal activity impairs this ability.</description>
-    </item>
-    <item>
       <title>Cortical population codes for embedding sensory inputs into the prior context</title>
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aef5006?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aef5006?af=R</guid>
       <description>&lt;b&gt;Relevance: 34% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Iacopo Hachen, Sebastian Reinartz, Alisea Stroligo, Alejandro Pequeno-Zurro, Mathew E. Diamond&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
     </item>
     <item>
-      <title>Linguistic contextualization in the human hippocampus</title>
-      <link>https://www.nature.com/articles/s41562-026-02543-z</link>
-      <guid>https://www.nature.com/articles/s41562-026-02543-z</guid>
-      <description>&lt;b&gt;Relevance: 33% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kalman A. Katlowitz, James L. Belanger, Taha Ismail, Ana G. Chavez, Assia Chericoni, Melissa Franch, Elizabeth A. Mickiewicz, Raissa K. Mathura, Alica M. Goldman, Vaishnav Krishnan, Atul Maheshwari, Mohammed Hasen, Danika L. Paulo, Andrew J. Watrous, Eleonora Bartoli, Steven T. Piantadosi, Nicole R. Provenza, Sameer A. Sheth, Benjamin Y. Hayden&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 23 November 2026; doi:10.1038/s41562-026-02543-z Katlowitz et al. show that hippocampal neuron firing during active listening encodes not only word meaning but also clause position and the semantic context of preceding words through weighted sums.</description>
+      <title>Preemptive solving of future problems: Multitask Preplay in humans and machines</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2521870123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2521870123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 32% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Wilka CarvalhoSam Hall-McMasterHonglak LeeSamuel J. Gershmanahttps://ror.org/03vek6s52Kempner Institute for the Study of Natural and Artificial Intelligence, Harvard University, Allston, MA 02134bhttps://ror.org/03vek6s52Department of Psychology and Center for Brain Science, Harvard University, Cambridge, MA 02138chttps://ror.org/00jmfr291Department of Computer Science and Engineering, University of Michigan, Ann Arbor, MI 48109dLG AI Research, Ann Arbor, MI 48105&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 47, November 2026. SignificanceHow do humans leverage past experience to continually solve new tasks in a complex world? Inspired by hippocampal preplay where “place cells” activate before an animal pursues a location, we propose Multitask Preplay. Multitask Preplay ...</description>
     </item>
     <item>
-      <title>Perceptual glimpses are locally accumulated and globally maintained at distinct processing levels</title>
-      <link>https://elifesciences.org/articles/107980</link>
-      <guid>https://dx.doi.org/10.7554/eLife.107980</guid>
-      <description>&lt;b&gt;Relevance: 32% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Anna C Geuzebroek, Elisabeth Parés-Pujolràs, Redmond G O'Connell, Simon P Kelly&lt;/i&gt;&lt;br/&gt;Making decisions often requires the integration of multiple pieces of information. An extensive body of research has investigated the neural architecture underpinning evidence accumulation in perceptual tasks where information is continuously present, but less is known about how this neural architecture operates in situations affording only intermittent glimpses of an evidence source. In two electroencephalography experiments, human participants judged the direction of up to two pulses of motion evidence separated by gaps of varying duration. Our behavioural analysis found that participants used both pulses but underutilised the second and showed no systematic decrease in accuracy as a function of gap duration. At the neural level, motor beta lateralisation tracked cumulative evidence across pulses, maintaining a sustained representation of the decision variable through the gap and until response. In contrast, the centroparietal positivity (CPP), a previously characterised signature of evidence accumulation, built up transiently to a peak that scaled with each pulse’s contribution to the decision variable (i.e. the absolute belief update it produced), falling back to baseline in between pulses. These patterns were recapitulated in a model where pulse-information transiently integrated at the CPP level is fed to and maintained at a bounded motor level. In this model, the evidence in the second pulse is only integrated to the extent that the evidence in the first pulse falls short of the bound, or not integrated at all if a bound has already been hit.</description>
-      <pubDate>2026-11-18T00:00:00+00:00</pubDate>
+      <title>Training of human spatial skills: Brain activity as a window to the mind’s eye</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2634315123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2634315123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 32% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Mary Hegartyahttps://ror.org/02t274463Department of Psychological &amp; Brain Sciences, University of California, Santa Barbara, CA 93106&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 47, November 2026.</description>
     </item>
     <item>
       <title>Ramping-up hippocampal ripples and their neocortical coupling support human visual short-term memory</title>
@@ -69,10 +62,22 @@
       <description>&lt;b&gt;Relevance: 30% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Tomoya Nakai, Rieko Kubo, Shinji Nishimoto&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
     </item>
     <item>
+      <title>Short-term flexibility and long-term stability in models of mind perception</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2625583123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2625583123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 29% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ronja F. HeldRuud Hortensiusahttps://ror.org/04pp8hn57Department of Psychology, Utrecht University, Utrecht 3584CS, The Netherlands&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 47, November 2026. SignificanceWhen do people perceive someone or something to possess a mind? Although research has shown that agency, the ability to act, and experience, the ability to feel, are the two underlying dimensions of mind perception, it remains unclear which ...</description>
+    </item>
+    <item>
       <title>Rapid prey capture learning slowly resets activity set points in rat binocular visual cortex</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01447-8?rss=yes</link>
       <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01447-8?rss=yes</guid>
       <description>&lt;b&gt;Relevance: 29% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Daniel P. Leman, Brian A. Cary, Wei Wen, Brian J. Lane, Diane Bissen, Nicole F. Wong, M. Regis Shanley, Krish B. Bhut, Gina G. Turrigiano&lt;/i&gt;&lt;br/&gt;Leman et al. find that rapid, vision-dependent learning triggers a slow resetting of firing rate set points in visual cortex. This resetting is driven by a homeostatic increase in excitatory drive, and preventing resetting impairs consolidation. Thus, learning can co-opt homeostatic plasticity to reset firing rate setpoints and enhance consolidation.</description>
+    </item>
+    <item>
+      <title>Causal dynamic resonance reduces false positives in detecting causality</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2518099123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2518099123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 29% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Claudia LainscsekPariya SalamiSimon DrägerAdi R. BulsaraSydney S. CashTerrence J. Sejnowskiahttps://ror.org/03xez1567Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037bhttps://ror.org/0168r3w48Institute for Neural Computation, University of California San Diego, La Jolla, CA 92093chttps://ror.org/002pd6e78Department of Neurology, Massachusetts General Hospital, Harvard Medical School, Boston, MA 02114dhttps://ror.org/002pd6e78Department of Neurology, Center for Neurotechnology and Neurorecovery, Massachusetts General Hospital, Boston, MA 02114eNaval Information Warfare Center (RET), San Diego, CA 92152fhttps://ror.org/0168r3w48Department of Neurobiology, University of California San Diego, La Jolla, CA 92093&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 47, November 2026. SignificanceA major challenge in neuroscience is distinguishing true causal interactions from spurious connections in complex neural networks. Here, we introduce a nonlinear dynamical analysis framework that accurately identifies causal relationships ...</description>
     </item>
     <item>
       <title>A state-dependent neural circuit resolves approach-avoidance conflict</title>
@@ -81,10 +86,10 @@
       <description>&lt;b&gt;Relevance: 29% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Devika Bodas, Şevval Demirci, Olga Procenko, Marine Balcou, Lennart Baumeister, Darryl Segal, Lisa Scheunemann, Carolina Rezaval&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
     </item>
     <item>
-      <title>The decision to stop “counting” explains numerical underproduction in primates</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2620933123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2620933123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 27% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Laura E. SeidlerLena L. JannaschStephanie WestendorffAndreas Niederahttps://ror.org/03a1kwz48Animal Physiology Unit, Institute of Neurobiology, University of Tübingen, Tübingen 72076, Germany&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. SignificanceProducing a specific number of actions is a fundamental component of counting, yet little is known about how the brain determines when a counting sequence should end. We show that two rhesus macaques systematically terminated counting ...</description>
+      <title>The developmental semantic–temporal relation extends beyond discrete sense representations</title>
+      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2634051123?af=R</link>
+      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2634051123?af=R</guid>
+      <description>&lt;b&gt;Relevance: 28% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Qiyi TongChan HuangHao SunWei Zhouahttps://ror.org/0107c5v14Department of Informatics, Bioengineering, Robotics and Systems Engineering, University of Genoa, Genoa 16145, Italybhttps://ror.org/042t93s57Human-Robot Interfaces and Interaction Laboratory, Italian Institute of Technology, Genoa 16163, ItalycDepartment of Nephrology and Immunology, Children’s Hospital of Soochow University, Suzhou 215000, Jiangsu, Chinadhttps://ror.org/02jx3x895Wolfson Institute for Biomedical Research, Division of Medicine, University College London, London WC1E 6BT, United Kingdomehttps://ror.org/00a2xv884Department of Nephrology, Children’s Hospital, Zhejiang University School of Medicine, National Clinical Research Center for Children and Adolescents’ Health and Diseases Hangzhou 310052, Zhejiang, China&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 47, November 2026.</description>
     </item>
     <item>
       <title>Alerting acoustic stimuli enhance the internal representation of head direction</title>
@@ -106,22 +111,16 @@
       <pubDate>2026-11-24T00:00:00+00:00</pubDate>
     </item>
     <item>
-      <title>Towards population-specific brain charts across the lifespan</title>
-      <link>https://www.nature.com/articles/s41562-026-02596-0</link>
-      <guid>https://www.nature.com/articles/s41562-026-02596-0</guid>
-      <description>&lt;b&gt;Relevance: 24% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 23 November 2026; doi:10.1038/s41562-026-02596-0 A study of the largest available Chinese lifespan-wide structural neuroimaging dataset (comprising 43,037 participants aged 0–100 years) established population-specific brain charts, revealing developmental trajectories that diverge from those of predominantly white populations. These tailored charts improved typical phenotypic prediction and better captured disease-related deviations, advancing equitable precision neuroscience.</description>
-    </item>
-    <item>
       <title>Auditory cortical coding of spectrotemporal modulations is sufficient to support perceptual categorization of speech and music</title>
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aed8025?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aed8025?af=R</guid>
       <description>&lt;b&gt;Relevance: 24% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Jérémie Ginzburg, Clarisse Gotti, Émilie Cloutier Debaque, Arthur Borderie, Benjamin Morillon, Laurence Martineau, Paule Lessard Bonaventure, Robert J Zatorre, Philippe Albouy&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
     </item>
     <item>
-      <title>Reply to: Do apparent rhythms in behaviour arise from aperiodic processes?</title>
-      <link>https://www.nature.com/articles/s41562-026-02612-3</link>
-      <guid>https://www.nature.com/articles/s41562-026-02612-3</guid>
-      <description>&lt;b&gt;Relevance: 22% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Geoffrey Brookshire&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 23 November 2026; doi:10.1038/s41562-026-02612-3 Reply to: Do apparent rhythms in behaviour arise from aperiodic processes?</description>
+      <title>Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists</title>
+      <link>https://www.nature.com/articles/d41586-026-03836-z</link>
+      <guid>https://www.nature.com/articles/d41586-026-03836-z</guid>
+      <description>&lt;b&gt;Relevance: 23% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ewen Callaway&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03836-z Anthropic and OpenAI’s language models can design proteins and predict their sequences and structures — capabilities previously seen only in specialized AI tools.</description>
     </item>
     <item>
       <title>The science on AI consciousness must acknowledge uncertainty</title>
@@ -142,17 +141,24 @@
       <description>&lt;b&gt;Relevance: 21% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Martin Vinck, Cem Uran, Tommaso Tosato, Marius Schneider&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 23 November 2026; doi:10.1038/s41562-026-02613-2 Do apparent rhythms in behaviour arise from aperiodic processes?</description>
     </item>
     <item>
-      <title>Rhodopsin 7 is an ancestral non-canonical photoreceptor that shapes light-responsive behavior</title>
-      <link>https://elifesciences.org/articles/109811</link>
-      <guid>https://dx.doi.org/10.7554/eLife.109811</guid>
-      <description>&lt;b&gt;Relevance: 20% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Annika Mohr, Charlotte Helfrich-Förster, Dirk Rieger, Heiko Hartlieb, Nils Reinhard, Peter Soba, Pingkalai R Senthilan, Valentina Kirsch&lt;/i&gt;&lt;br/&gt;Animals rely on light not only for vision but also to adapt behavior to their environment through non-image-forming pathways. In Drosophila , most rhodopsins mediate retinal image formation, but Rhodopsin 7 (RH7) is widely expressed in the brain and optic lobe, acting as a non-canonical light sensor reminiscent of mammalian melanopsin. We combined expression mapping, behavioral assays, and phylogenetic comparisons to investigate its function. RH7 detects temporal changes in luminance, guiding rapid behavioral responses, and regulating daily activity patterns. Flies lacking RH7 are less active during the dark phase, while strains with constitutively active RH7 show increased activity. Phylogenetic analyses suggest that RH7 is an ancient rhodopsin present across panarthropods, representing an intermediate between G protein–coupled receptors and specialized rhodopsins, highlighting a key step in the evolution of non-visual light perception. These findings show that RH7 functions as a melanopsin-like sensor, shaping behavior, and illuminating the origins of light detection.</description>
-      <pubDate>2026-11-18T00:00:00+00:00</pubDate>
+      <title>Male chickadees with better spatial cognition sire more extra-pair young</title>
+      <link>https://elifesciences.org/articles/110905</link>
+      <guid>https://dx.doi.org/10.7554/eLife.110905</guid>
+      <description>&lt;b&gt;Relevance: 20% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Angela M Pitera, Benjamin R Sonnenberg, Bronwyn G Butcher, Carrie L Branch, Eli Bridge, Irby Lovette, Joseph F Welklin, Lauren Benedict, Michael S Webster, Virginia K Heinen, Vladimir Pravosudov&lt;/i&gt;&lt;br/&gt;Across animal taxa, females commonly mate with more than one male, even in monogamous mating systems. These extra-pair copulations and resulting young may increase the fitness of the female via a variety of mechanisms. The ‘good genes’ hypothesis suggests that socially monogamous females mate outside their pair bond to increase the fitness of their offspring via indirect genetic benefits, because extra-pair males do not provide parental care. We tested this hypothesis by quantifying extra-pair paternity in nonmigratory, food-caching mountain chickadees ( Poecile gambeli ). Chickadees rely on spatial cognition to recover scattered food caches, and variation in spatial cognition is associated with increased survival, longer lifespan, and is heritable. However, less is known about the role of sexual selection on spatial cognitive abilities. In the current study, we found that (1) males with better spatial cognitive abilities sired more extra-pair young and produced heavier offspring in their own nests compared to their poorer-performing counterparts, and (2) extra-pair males had significantly better spatial cognition than the social males they cuckolded. These results suggest that sexual selection shapes the evolution of spatial cognition in food-caching chickadees and are consistent with the good genes hypothesis, which posits that females gain indirect genetic benefits via extra-pair young.</description>
+      <pubDate>2026-11-25T00:00:00+00:00</pubDate>
     </item>
     <item>
-      <title>Spatial transcriptomics reveals organizational properties of the mouse spinal cord and alterations in neuropathic pain</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2623177123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2623177123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 19% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Qimeng WangYunfei HuYuling ZhuGautham ChelliahJing PengEmmanuella Osei-AsanteMelissa SobankoBrianna SanchezDavid D. GintyXin Maizie ZhouShan Meltzerahttps://ror.org/02vm5rt34Department of Pharmacology, Vanderbilt University, Nashville, TN 37240bhttps://ror.org/02vm5rt34Department of Computer Science, Vanderbilt University, Nashville, TN 37235chttps://ror.org/02vm5rt34Department of Biomedical Engineering, Vanderbilt University, Nashville, TN 37235dDepartment of Neurobiology, HHMI, Harvard Medical School, Boston, MA 02115&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. SignificanceThe spinal cord receives and integrates somatosensory inputs and executes motor and autonomic outputs, yet the spatial organization of its diverse cell types in the spinal cord remains incompletely understood. Using spatially resolved single-...</description>
+      <title>Neural interface without a scalpel</title>
+      <link>https://www.nature.com/articles/s41562-026-02572-8</link>
+      <guid>https://www.nature.com/articles/s41562-026-02572-8</guid>
+      <description>&lt;b&gt;Relevance: 19% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Michael Dimitriou&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 25 November 2026; doi:10.1038/s41562-026-02572-8 For people who are paralysed by spinal cord injury, regaining hand use is a top priority. Yet the most capable neural interfaces have relied on surgically implanted electrodes. Yang, Rawji, Gibbs and colleagues show that individual motor units, read non-invasively using surface electrodes, can deliver multidimensional control even amid involuntary background muscle activity.</description>
+    </item>
+    <item>
+      <title>Explainable machine learning-assisted exploration of chromatin dynamics reveals chromosome-specific response to serum starvation</title>
+      <link>https://elifesciences.org/articles/108797</link>
+      <guid>https://dx.doi.org/10.7554/eLife.108797</guid>
+      <description>&lt;b&gt;Relevance: 18% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Antti P Pennanen, Harri Jaalinoja, Lassi Paavolainen, Maria K Vartiainen, Olli Natri, Taras Redchuk&lt;/i&gt;&lt;br/&gt;Chromatin is dynamic at all length scales, influencing chromatin-based processes, such as gene expression. Even large-scale reorganization of whole chromosome territories has been reported upon specific signals, but the lack of suitable methods has prevented analysis of the underlying dynamic processes. Here, we have used CRISPR-Sirius for time-lapse imaging of chromatin loci dynamics during serum starvation. We show that chromosome 1 loci move toward the nuclear envelope during the first hour of serum starvation in a chromosome-specific manner. Machine learning-assisted exploration of acquired multiparametric data combined with the Shapley values-based explanation approach allowed us to uncover the critical features that characterize chromatin dynamics during serum starvation. This analysis reveals that although serum starvation affects overall nuclear morphology and chromatin dynamics, chromosome 1 loci display a specific response that is characterized by maintenance of dynamics in a constrained environment, and long ‘jumps’ at the nuclear periphery. Interestingly, the two homologous chromosomes display differential behaviors, with the more peripheral homolog being more responsive to the signal than the internal one. Overall, the presented machine learning-assisted dataset exploration helps us navigate the multidimensional data to understand the underlying dynamic processes and can be applied to a wide variety of research questions in imaging and cell biology in general.</description>
+      <pubDate>2026-11-19T00:00:00+00:00</pubDate>
     </item>
     <item>
       <title>Pregnancy rewires the brain — scientists are finally mapping it</title>
@@ -167,28 +173,22 @@
       <description>&lt;b&gt;Relevance: 18% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Davide Castelvecchi&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03719-3 Mathematicians are bracing for a future when their profession could be mostly delegated to machines.</description>
     </item>
     <item>
-      <title>Correction for Ge et al., Empirical validation of race-neutral normative brain morphometry models across ethnoracially diverse populations</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2635735123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2635735123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 17% | Source: PNAS&lt;/b&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026.</description>
+      <title>Multidimensional motor unit control after paralysing spinal cord injury using non-invasive recordings</title>
+      <link>https://www.nature.com/articles/s41562-026-02626-x</link>
+      <guid>https://www.nature.com/articles/s41562-026-02626-x</guid>
+      <description>&lt;b&gt;Relevance: 17% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Xingchen Yang, Vishal Rawji, Ciara Gibbs, Tianyu Jia, Lara Gouveia Vila, Agnese Grison, Ajoy Nair, Dario Farina, Juan Alvaro Gallego&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 25 November 2026; doi:10.1038/s41562-026-02626-x Yang, Rawji, Gibbs and colleagues show that participants with spinal cord injury can modulate the activity of motor units from their paralysed hand to control a computer cursor in 3D, play video games and drive a virtual wheelchair.</description>
     </item>
     <item>
-      <title>AI is ditching hallucinated references — and other bad habits</title>
-      <link>https://www.nature.com/articles/d41586-026-03753-1</link>
-      <guid>https://www.nature.com/articles/d41586-026-03753-1</guid>
-      <description>&lt;b&gt;Relevance: 17% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Kaia Glickman&lt;/i&gt;&lt;br/&gt;Nature, Published online: 19 November 2026; doi:10.1038/d41586-026-03753-1 An analysis finds that many undesirable LLM behaviours dissipate after about 16 months.</description>
+      <title>Empirical evidence for eight ways that AI is impacting people</title>
+      <link>https://www.nature.com/articles/s41562-026-02615-0</link>
+      <guid>https://www.nature.com/articles/s41562-026-02615-0</guid>
+      <description>&lt;b&gt;Relevance: 14% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Christopher Summerfield, Rebecca Anselmetti, Shahar Avin, Vanessa Cheung, Madga Dubois, Tom Eccles, Anna Gausen, Kobi Hackenburg, Keno Juechems, Hannah Rose Kirk, Lennart Luettgau, Brendan McGrath, Ishan Mishra, Aidan Peppin, Jorge Perez, Nadine Staes-Polet, Merlin Stein, Andrew Strait, Sarenne Wallbridge&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 24 November 2026; doi:10.1038/s41562-026-02615-0 This Review evaluates evidence for eight pressing concerns about how AI is affecting people. It finds modest support for the most alarming claims but calls for deeper scrutiny of the human impact of AI.</description>
     </item>
     <item>
-      <title>Intermittent Cauchy walks enable optimal 3D search across target shapes and sizes</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2614625123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2614625123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 16% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Matteo StromieriEmanuele NataleAmos Kormanahttps://ror.org/02f009v59Department of Computer Science, University of Haifa, Haifa 3303221, Israelbhttps://ror.org/019tgvf94COATI, Université Côte d’Azur, Sophia Antipolis Cedex 06902, Francechttps://ror.org/019tgvf94CNRS, COATI, Université Côte d’Azur, Sophia Antipolis Cedex 06902, France&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. SignificanceHow organisms and autonomous systems locate rare targets in complex environments is a fundamental problem spanning biology, physics, and engineering. While most theory assumes simplified, low-dimensional settings, real-world search occurs in ...</description>
-    </item>
-    <item>
-      <title>Modest loss of sleep increases susceptibility to cybersecurity threats</title>
-      <link>https://www.pnas.org/doi/abs/10.1073/pnas.2622467123?af=R</link>
-      <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2622467123?af=R</guid>
-      <description>&lt;b&gt;Relevance: 15% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Eitan Schechtmanahttps://ror.org/04gyf1771Department of Neurobiology and Behavior and Center for the Neurobiology of Learning and Memory, University of California, Irvine, CA 92697&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 46, November 2026. Sleep restriction leads to impaired cognitive processing across domains. I examined whether the transition to daylight saving time (DST), typically accompanied by compromised sleep, would lead to an increase in the probability of falling prey to a ...</description>
+      <title>Deepfakes pollute digital space and need upstream safeguards</title>
+      <link>https://www.nature.com/articles/s41562-026-02646-7</link>
+      <guid>https://www.nature.com/articles/s41562-026-02646-7</guid>
+      <description>&lt;b&gt;Relevance: 14% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Cuihua Shen&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 25 November 2026; doi:10.1038/s41562-026-02646-7 Deepfakes pollute digital space and need upstream safeguards</description>
     </item>
     <item>
       <title>Quaternary carbon–guided carbocation cascade rearrangement to enantioenriched polycycles | Science</title>
