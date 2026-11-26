@@ -4,7 +4,7 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Wed, 25 Nov 2026 17:01:22 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 16:41:18 +0000</lastBuildDate>
     <item>
       <title>Cognitive control networks in human and macaque</title>
       <link>https://elifesciences.org/articles/111502</link>
@@ -19,10 +19,10 @@
       <description>&lt;b&gt;Relevance: 35% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Spencer R. Loggia, Helen E. Feibes, Stuart Duffield, Karthik Kasi, Bevil R. Conway&lt;/i&gt;&lt;br/&gt;Loggia et al. train macaques for years on color-shape associations, then use fMRI while the monkeys “hold in mind” features cued by their associates. The results suggest a whole-brain blueprint for object concepts: retinotopic cortex encodes perception, anterior IT uses color as a concept scaffold, and frontal cortex mediates decisions.</description>
     </item>
     <item>
-      <title>Cortical population codes for embedding sensory inputs into the prior context</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aef5006?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aef5006?af=R</guid>
-      <description>&lt;b&gt;Relevance: 34% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Iacopo Hachen, Sebastian Reinartz, Alisea Stroligo, Alejandro Pequeno-Zurro, Mathew E. Diamond&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
+      <title>Probabilistic neural code for subjective value and metacognition in human cortex</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aej2870?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aej2870?af=R</guid>
+      <description>&lt;b&gt;Relevance: 34% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ling Huang, Hui-Kuan Chung, Hsin-Hung Li&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 48, November 2026.</description>
     </item>
     <item>
       <title>Preemptive solving of future problems: Multitask Preplay in humans and machines</title>
@@ -56,12 +56,6 @@
       <description>&lt;b&gt;Relevance: 31% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Fei Wang, Andrej Bicanski&lt;/i&gt;&lt;br/&gt;Wang and Bicanski propose a theory of subicular coding. Discontinuities in the world drive geometric representations in the subiculum, including boundary vector cells and corner cells. The framework generalizes to other domains, natural environments, and population responses, explaining seemingly different neural correlates as manifestations of the same principle.</description>
     </item>
     <item>
-      <title>Cross-domain encoding models reveal shared and domain-specific neural representations across language and mathematics</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aej5555?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aej5555?af=R</guid>
-      <description>&lt;b&gt;Relevance: 30% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Tomoya Nakai, Rieko Kubo, Shinji Nishimoto&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
-    </item>
-    <item>
       <title>Short-term flexibility and long-term stability in models of mind perception</title>
       <link>https://www.pnas.org/doi/abs/10.1073/pnas.2625583123?af=R</link>
       <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2625583123?af=R</guid>
@@ -80,10 +74,11 @@
       <description>&lt;b&gt;Relevance: 29% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Claudia LainscsekPariya SalamiSimon DrägerAdi R. BulsaraSydney S. CashTerrence J. Sejnowskiahttps://ror.org/03xez1567Computational Neurobiology Laboratory, The Salk Institute for Biological Studies, La Jolla, CA 92037bhttps://ror.org/0168r3w48Institute for Neural Computation, University of California San Diego, La Jolla, CA 92093chttps://ror.org/002pd6e78Department of Neurology, Massachusetts General Hospital, Harvard Medical School, Boston, MA 02114dhttps://ror.org/002pd6e78Department of Neurology, Center for Neurotechnology and Neurorecovery, Massachusetts General Hospital, Boston, MA 02114eNaval Information Warfare Center (RET), San Diego, CA 92152fhttps://ror.org/0168r3w48Department of Neurobiology, University of California San Diego, La Jolla, CA 92093&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 47, November 2026. SignificanceA major challenge in neuroscience is distinguishing true causal interactions from spurious connections in complex neural networks. Here, we introduce a nonlinear dynamical analysis framework that accurately identifies causal relationships ...</description>
     </item>
     <item>
-      <title>A state-dependent neural circuit resolves approach-avoidance conflict</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeg1944?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeg1944?af=R</guid>
-      <description>&lt;b&gt;Relevance: 29% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Devika Bodas, Şevval Demirci, Olga Procenko, Marine Balcou, Lennart Baumeister, Darryl Segal, Lisa Scheunemann, Carolina Rezaval&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
+      <title>Hippocampal representations differentiate reactive and anticipatory responses during foraging under threat</title>
+      <link>https://elifesciences.org/articles/111762</link>
+      <guid>https://dx.doi.org/10.7554/eLife.111762</guid>
+      <description>&lt;b&gt;Relevance: 28% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;A David Redish, Chelsey C Damphousse, Olivia L Calvin&lt;/i&gt;&lt;br/&gt;Adaptive behavior under threat requires balancing reward pursuit against the risk of harm. During approach-avoidance conflict, animals often pause at decision points, but whether these pauses reflect a unified process or distinct decision states remains unclear. Here, we replicate and extend findings from Calvin et al., 2025, by analyzing hippocampal activity in rats performing a pseudo-predator foraging task across two cohorts. We compared mid-track aborts (MTAs), mid-track continues (MTCs), and retreats. Behaviorally, MTAs and MTCs emerged from a shared pause state but diverged in outcome, whereas retreats reflected rapid escape following attack. Despite similar endpoints, retreats and MTAs differed in movement dynamics and neural activity. During retreats, hippocampal representations remained biased toward the attack location. In contrast, representations during MTAs shifted toward safe locations. During pauses, representations differed according to subsequent behavior: pauses preceding MTAs showed greater decoded probability near the attack region, whereas pauses preceding MTCs showed greater decoded probability to goal locations. These differences were present during the outbound approach, suggesting decision-related processes emerged early on in the journey. Together, these findings dissociate hippocampal representations associated with reactive escape from those underlying anticipatory, anxiety-like decision-making, suggesting that the hippocampus dynamically tracks behaviorally relevant features to guide decisions under threat.</description>
+      <pubDate>2026-11-26T00:00:00+00:00</pubDate>
     </item>
     <item>
       <title>The developmental semantic–temporal relation extends beyond discrete sense representations</title>
@@ -92,16 +87,16 @@
       <description>&lt;b&gt;Relevance: 28% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Qiyi TongChan HuangHao SunWei Zhouahttps://ror.org/0107c5v14Department of Informatics, Bioengineering, Robotics and Systems Engineering, University of Genoa, Genoa 16145, Italybhttps://ror.org/042t93s57Human-Robot Interfaces and Interaction Laboratory, Italian Institute of Technology, Genoa 16163, ItalycDepartment of Nephrology and Immunology, Children’s Hospital of Soochow University, Suzhou 215000, Jiangsu, Chinadhttps://ror.org/02jx3x895Wolfson Institute for Biomedical Research, Division of Medicine, University College London, London WC1E 6BT, United Kingdomehttps://ror.org/00a2xv884Department of Nephrology, Children’s Hospital, Zhejiang University School of Medicine, National Clinical Research Center for Children and Adolescents’ Health and Diseases Hangzhou 310052, Zhejiang, China&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 47, November 2026.</description>
     </item>
     <item>
+      <title>Visual learning through auditory reactivation during wakefulness and sleep</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeh7643?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeh7643?af=R</guid>
+      <description>&lt;b&gt;Relevance: 28% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Musi Xie, Zhuoqun Li, Yuxin Fan, Yifan Li, Xingbei Wan, Sirui Yang, Shiman Huang, Chengsi Zhao, Ning Ma, Fang Fang, Xilin Zhang&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 48, November 2026.</description>
+    </item>
+    <item>
       <title>Alerting acoustic stimuli enhance the internal representation of head direction</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01331-X?rss=yes</link>
       <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01331-X?rss=yes</guid>
       <description>&lt;b&gt;Relevance: 26% | Source: Current Biology&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Florian Hofmann, Eduardo Blanco-Hernández, Giuseppe Balsamo, Steffen R. Hage, Andrea Burgalossi, Patricia Preston-Ferrer&lt;/i&gt;&lt;br/&gt;Hofmann et al. show that alerting sounds recruit HD neurons in the thalamocortical HD circuit and enhance the fidelity of the HD representation. These findings reveal a link between sensory-induced arousal and the neural circuits underlying spatial navigation.</description>
-    </item>
-    <item>
-      <title>An all-magnonic neuron with tunable fading memory</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aeg1429?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aeg1429?af=R</guid>
-      <description>&lt;b&gt;Relevance: 25% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;David Breitbach, Moritz Bechberger, Hanadi Mortada, Björn Heinz, Roman Verba, Qi Wang, Carsten Dubs, Mario Carpentieri, Giovanni Finocchio, Davi Rodrigues, Alexandre Abbass Hamadeh, Philipp Pirro&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
     </item>
     <item>
       <title>Applying functional MRI analysis techniques to whole-brain calcium-imaging data to investigate structural and functional relationships in Drosophila melanogaster</title>
@@ -109,12 +104,6 @@
       <guid>https://dx.doi.org/10.7554/eLife.107990</guid>
       <description>&lt;b&gt;Relevance: 24% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Alexander Woodward, Hideyuki Okano, Junichi Hata, Takuto Okuno&lt;/i&gt;&lt;br/&gt;Clarifying the relationship between structure and function is important for understanding the brain. In Drosophila melanogaster , FlyEM and FlyWire electron microscopy-based connectome data, and whole-brain calcium-imaging data are available. We applied pre-processing methods from functional magnetic resonance imaging to whole-brain calcium-imaging data and comprehensively investigated the optimal parameters. Then, we found that the FC–SC (functional and structural connectivity) correlation decreased linearly with region of interest count, and this trend was the same in flies and humans. We also developed a new, more robust method to quantify the degree of pre- and post-synaptic segregation, and investigated this in the fly whole-brain. This revealed that many neurons have unsegregated synapses. We extracted highly unsegregated synapses and compared them with random-extracted null SC matrices. Their FC–SC correlation was significantly higher, indicating that these synapses contribute to FC well. Conversely, highly segregated synapses showed significantly lower FC–SC correlation and contribute less to FC. Neurons with unsegregated synapses, like non-spiking neurons, are spread throughout the whole-brain, and they are thought to have a significant influence on FC.</description>
       <pubDate>2026-11-24T00:00:00+00:00</pubDate>
-    </item>
-    <item>
-      <title>Auditory cortical coding of spectrotemporal modulations is sufficient to support perceptual categorization of speech and music</title>
-      <link>https://www.science.org/doi/abs/10.1126/sciadv.aed8025?af=R</link>
-      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aed8025?af=R</guid>
-      <description>&lt;b&gt;Relevance: 24% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Jérémie Ginzburg, Clarisse Gotti, Émilie Cloutier Debaque, Arthur Borderie, Benjamin Morillon, Laurence Martineau, Paule Lessard Bonaventure, Robert J Zatorre, Philippe Albouy&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 47, November 2026.</description>
     </item>
     <item>
       <title>Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists</title>
@@ -135,10 +124,10 @@
       <description>&lt;b&gt;Relevance: 21% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Weijian Yang, Marco Tripodi&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03380-w A head-mounted device records neuronal activity as mice explore a naturalistic environment and interact with each other. Specialists discuss the technology and its applications.</description>
     </item>
     <item>
-      <title>Do apparent rhythms in behaviour arise from aperiodic processes?</title>
-      <link>https://www.nature.com/articles/s41562-026-02613-2</link>
-      <guid>https://www.nature.com/articles/s41562-026-02613-2</guid>
-      <description>&lt;b&gt;Relevance: 21% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Martin Vinck, Cem Uran, Tommaso Tosato, Marius Schneider&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 23 November 2026; doi:10.1038/s41562-026-02613-2 Do apparent rhythms in behaviour arise from aperiodic processes?</description>
+      <title>Daily briefing: Is AI ‘the end of mathematics as we know it’?</title>
+      <link>https://www.nature.com/articles/d41586-026-03841-2</link>
+      <guid>https://www.nature.com/articles/d41586-026-03841-2</guid>
+      <description>&lt;b&gt;Relevance: 21% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Flora Graham&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03841-2 Mathematicians are grappling with the future of their field in the age of AI. Plus, trauma leaves molecular scars in brain cells and whether scientists are responsible for their tooting their own horns.</description>
     </item>
     <item>
       <title>Male chickadees with better spatial cognition sire more extra-pair young</title>
@@ -154,11 +143,10 @@
       <description>&lt;b&gt;Relevance: 19% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Michael Dimitriou&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 25 November 2026; doi:10.1038/s41562-026-02572-8 For people who are paralysed by spinal cord injury, regaining hand use is a top priority. Yet the most capable neural interfaces have relied on surgically implanted electrodes. Yang, Rawji, Gibbs and colleagues show that individual motor units, read non-invasively using surface electrodes, can deliver multidimensional control even amid involuntary background muscle activity.</description>
     </item>
     <item>
-      <title>Explainable machine learning-assisted exploration of chromatin dynamics reveals chromosome-specific response to serum starvation</title>
-      <link>https://elifesciences.org/articles/108797</link>
-      <guid>https://dx.doi.org/10.7554/eLife.108797</guid>
-      <description>&lt;b&gt;Relevance: 18% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Antti P Pennanen, Harri Jaalinoja, Lassi Paavolainen, Maria K Vartiainen, Olli Natri, Taras Redchuk&lt;/i&gt;&lt;br/&gt;Chromatin is dynamic at all length scales, influencing chromatin-based processes, such as gene expression. Even large-scale reorganization of whole chromosome territories has been reported upon specific signals, but the lack of suitable methods has prevented analysis of the underlying dynamic processes. Here, we have used CRISPR-Sirius for time-lapse imaging of chromatin loci dynamics during serum starvation. We show that chromosome 1 loci move toward the nuclear envelope during the first hour of serum starvation in a chromosome-specific manner. Machine learning-assisted exploration of acquired multiparametric data combined with the Shapley values-based explanation approach allowed us to uncover the critical features that characterize chromatin dynamics during serum starvation. This analysis reveals that although serum starvation affects overall nuclear morphology and chromatin dynamics, chromosome 1 loci display a specific response that is characterized by maintenance of dynamics in a constrained environment, and long ‘jumps’ at the nuclear periphery. Interestingly, the two homologous chromosomes display differential behaviors, with the more peripheral homolog being more responsive to the signal than the internal one. Overall, the presented machine learning-assisted dataset exploration helps us navigate the multidimensional data to understand the underlying dynamic processes and can be applied to a wide variety of research questions in imaging and cell biology in general.</description>
-      <pubDate>2026-11-19T00:00:00+00:00</pubDate>
+      <title>Hardware-encoded modality separation for multimodal sensing and artificial perception</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aek1093?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aek1093?af=R</guid>
+      <description>&lt;b&gt;Relevance: 18% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Wooseok Kim, Bosung Kim, Dae Han Kim, Pei Liu, Doyoung Kim, Hee Kyu Lee, Sang Uk Park, Janghoon Joo, Byeong Woon Lee, Se Gi Lee, Bogeun Kim, Jaejun Lim, Changsoon Choi, Jong-Woong Kim, Geumbee Lee, Jae-Young Yoo, Sejin Kim, Joohoon Kang, Raudel Avila, Jong Uk Kim, Sang Min Won&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 48, November 2026.</description>
     </item>
     <item>
       <title>Pregnancy rewires the brain — scientists are finally mapping it</title>
@@ -167,22 +155,22 @@
       <description>&lt;b&gt;Relevance: 18% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Max Kozlov&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03804-7 Brain scans show what healthy pregnancy looks like, and offer clues about how depression and pre-eclampsia arise.</description>
     </item>
     <item>
-      <title>AI is ‘the end of mathematics as we know it’ — where does the field go next?</title>
-      <link>https://www.nature.com/articles/d41586-026-03719-3</link>
-      <guid>https://www.nature.com/articles/d41586-026-03719-3</guid>
-      <description>&lt;b&gt;Relevance: 18% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Davide Castelvecchi&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03719-3 Mathematicians are bracing for a future when their profession could be mostly delegated to machines.</description>
-    </item>
-    <item>
       <title>Multidimensional motor unit control after paralysing spinal cord injury using non-invasive recordings</title>
       <link>https://www.nature.com/articles/s41562-026-02626-x</link>
       <guid>https://www.nature.com/articles/s41562-026-02626-x</guid>
       <description>&lt;b&gt;Relevance: 17% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Xingchen Yang, Vishal Rawji, Ciara Gibbs, Tianyu Jia, Lara Gouveia Vila, Agnese Grison, Ajoy Nair, Dario Farina, Juan Alvaro Gallego&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 25 November 2026; doi:10.1038/s41562-026-02626-x Yang, Rawji, Gibbs and colleagues show that participants with spinal cord injury can modulate the activity of motor units from their paralysed hand to control a computer cursor in 3D, play video games and drive a virtual wheelchair.</description>
     </item>
     <item>
-      <title>Empirical evidence for eight ways that AI is impacting people</title>
-      <link>https://www.nature.com/articles/s41562-026-02615-0</link>
-      <guid>https://www.nature.com/articles/s41562-026-02615-0</guid>
-      <description>&lt;b&gt;Relevance: 14% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Christopher Summerfield, Rebecca Anselmetti, Shahar Avin, Vanessa Cheung, Madga Dubois, Tom Eccles, Anna Gausen, Kobi Hackenburg, Keno Juechems, Hannah Rose Kirk, Lennart Luettgau, Brendan McGrath, Ishan Mishra, Aidan Peppin, Jorge Perez, Nadine Staes-Polet, Merlin Stein, Andrew Strait, Sarenne Wallbridge&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 24 November 2026; doi:10.1038/s41562-026-02615-0 This Review evaluates evidence for eight pressing concerns about how AI is affecting people. It finds modest support for the most alarming claims but calls for deeper scrutiny of the human impact of AI.</description>
+      <title>Misremembered social networks are predictions of the future in disguise</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aen5942?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aen5942?af=R</guid>
+      <description>&lt;b&gt;Relevance: 15% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Matthew E. Brashears and Gage Pierce&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 48, November 2026.</description>
+    </item>
+    <item>
+      <title>Spaceflight reshapes Alzheimer’s disease–associated molecular programs in human brain organoids</title>
+      <link>https://www.science.org/doi/abs/10.1126/sciadv.aei3430?af=R</link>
+      <guid>https://www.science.org/doi/abs/10.1126/sciadv.aei3430?af=R</guid>
+      <description>&lt;b&gt;Relevance: 15% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Natalia C. S. Moreira, Luisa B. V. Coelho, Luiz P. Petroski, Stephanie S. Almeida, Luiza P. M. Gaudio, Livia L. Nascimento, Jeong-Hee Lee, Stevens Rehen, Blake Tsu, Juliana de S. da G. Fischer, Paulo C. Carvalho, Aline M. A. Martins, Roberto H. Herai, Alysson R. Muotri&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 48, November 2026.</description>
     </item>
     <item>
       <title>Deepfakes pollute digital space and need upstream safeguards</title>
@@ -191,25 +179,16 @@
       <description>&lt;b&gt;Relevance: 14% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Cuihua Shen&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 25 November 2026; doi:10.1038/s41562-026-02646-7 Deepfakes pollute digital space and need upstream safeguards</description>
     </item>
     <item>
-      <title>Quaternary carbon–guided carbocation cascade rearrangement to enantioenriched polycycles | Science</title>
-      <link>https://www.science.org/doi/10.1126/science.aei2041</link>
-      <guid>https://www.science.org/doi/10.1126/science.aei2041</guid>
-      <description>&lt;b&gt;Relevance: 1% | Source: Science&lt;/b&gt;&lt;br/&gt;Polycyclic frameworks are prevalent in natural products and bioactive molecules, yet their efficient enantioselective synthesis remains a longstanding challenge. Carbocation cascade cyclization is a textbook reaction that has transformed the synthesis of ...</description>
-      <pubDate>2026-11-19T09:01:00-05:00</pubDate>
+      <title>Behavioural interventions shift carbon-pricing support only slightly</title>
+      <link>https://www.nature.com/articles/s41562-026-02628-9</link>
+      <guid>https://www.nature.com/articles/s41562-026-02628-9</guid>
+      <description>&lt;b&gt;Relevance: 13% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 25 November 2026; doi:10.1038/s41562-026-02628-9 Across 55 independently designed experiments with 19,558 participants from the USA, behavioural interventions produced a small increase in support for carbon pricing. Participating researchers substantially overestimated these effects.</description>
     </item>
     <item>
-      <title>Widespread marine mammal and seabird reductions are unlikely to benefit salmon due to indirect ecosystem effects | Science</title>
-      <link>https://www.science.org/doi/10.1126/science.aeb1122</link>
-      <guid>https://www.science.org/doi/10.1126/science.aeb1122</guid>
-      <description>&lt;b&gt;Relevance: 1% | Source: Science&lt;/b&gt;&lt;br/&gt;Pacific salmon are depleted due to anthropogenic impacts, and populations have failed to recover despite management interventions. Predation on salmon by pinnipeds and seabirds has been suggested as a barrier to recovery, leading to calls for predator ...</description>
-      <pubDate>2026-11-19T09:01:00-05:00</pubDate>
-    </item>
-    <item>
-      <title>Zero-shot de novo design of a metalloenzyme | Science</title>
-      <link>https://www.science.org/doi/10.1126/science.aej3009</link>
-      <guid>https://www.science.org/doi/10.1126/science.aej3009</guid>
-      <description>&lt;b&gt;Relevance: 1% | Source: Science&lt;/b&gt;&lt;br/&gt;De novo design of enzymes is a frontier challenge, requiring consideration of catalytic mechanism and optimization across biochemical and biophysical criteria. Here, we present dEVA (design by EVolutionary Algorithm), a multi-objective protein design ...</description>
-      <pubDate>2026-11-19T09:01:00-05:00</pubDate>
+      <title>Research that will survive a fast-paced world</title>
+      <link>https://www.nature.com/articles/s41562-026-02643-w</link>
+      <guid>https://www.nature.com/articles/s41562-026-02643-w</guid>
+      <description>&lt;b&gt;Relevance: 11% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Edmond Awad, Katarzyna Doniec, Gerd Gigerenzer&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 25 November 2026; doi:10.1038/s41562-026-02643-w Crises and technological waves pull science towards fast, trend-driven work. But a drift towards timely research might negatively affect quality and limit the methods, infrastructure and datasets that accumulate value slowly. We discuss how researchers, funders and journals can draw lasting value from urgency-driven research.</description>
     </item>
   </channel>
 </rss>
