@@ -4,14 +4,7 @@
     <title>Zilu's Filtered Journal Feed</title>
     <description>Semantically filtered journal articles matched to your Zotero profile</description>
     <link>https://github.com</link>
-    <lastBuildDate>Thu, 26 Nov 2026 16:41:18 +0000</lastBuildDate>
-    <item>
-      <title>Cognitive control networks in human and macaque</title>
-      <link>https://elifesciences.org/articles/111502</link>
-      <guid>https://dx.doi.org/10.7554/eLife.111502</guid>
-      <description>&lt;b&gt;Relevance: 36% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Daniel J Mitchell, Freja Holm Prins, John Duncan, Mark J Buckley, Moataz Assem, Søren Kyllingsbæk, Urs Schüffelgen, Valentina Mione&lt;/i&gt;&lt;br/&gt;A much-replicated finding in human brain imaging is a distributed ‘multiple-demand’ or MD system, increasing in activity for many kinds of cognitive demand, and centrally involved in cognitive control. MD regions are proposed to encode a distributed mental model of critical task events, bound together in the roles and relationships needed to direct action selection. Though previous data hint at a corresponding network in the macaque, there has been no direct comparison to human data. Here we used functional magnetic resonance imaging to measure whole-brain activation in a multi-step saccadic maze task, compared to a control requiring similar moves but without goal-based decisions. Human data were a close match to the canonical MD network, extended to include adjacent regions, and in particular much of the canonical dorsal attention network. Data from two monkeys suggested correspondences in dorsomedial frontal, insula/orbitofrontal, and posterior temporal cortex. In lateral frontal cortex, there was just a single, largely dorsal activation patch, in contrast to multiple distinct human patches. In one animal, as in humans, there was accompanying activation of dorsal and medial parietal cortex. In macaques, as in humans, together with previous data, our findings suggest an extended and strongly interconnected brain network recruited by increased cognitive challenge.</description>
-      <pubDate>2026-11-20T00:00:00+00:00</pubDate>
-    </item>
+    <lastBuildDate>Fri, 27 Nov 2026 16:25:59 +0000</lastBuildDate>
     <item>
       <title>The representation of object-concept primitives across the macaque brain</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01412-0?rss=yes</link>
@@ -35,13 +28,6 @@
       <link>https://www.pnas.org/doi/abs/10.1073/pnas.2634315123?af=R</link>
       <guid>https://www.pnas.org/doi/abs/10.1073/pnas.2634315123?af=R</guid>
       <description>&lt;b&gt;Relevance: 32% | Source: PNAS&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Mary Hegartyahttps://ror.org/02t274463Department of Psychological &amp; Brain Sciences, University of California, Santa Barbara, CA 93106&lt;/i&gt;&lt;br/&gt;Proceedings of the National Academy of Sciences, Volume 123, Issue 47, November 2026.</description>
-    </item>
-    <item>
-      <title>Ramping-up hippocampal ripples and their neocortical coupling support human visual short-term memory</title>
-      <link>https://elifesciences.org/articles/111304</link>
-      <guid>https://dx.doi.org/10.7554/eLife.111304</guid>
-      <description>&lt;b&gt;Relevance: 31% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Can Yang, Gui Xue, Jing Liu, Nikolai Axmacher, Shaomin Zhang, Xianhui He, Ying Cai&lt;/i&gt;&lt;br/&gt;Emerging evidence suggests that the hippocampus contributes to visual short-term memory (VSTM). However, the neural mechanisms through which hippocampal activity supports the maintenance of VSTM representations remain largely unknown. Here, using intracranial EEG recordings from human participants performing a delayed match-to-sample task for naturalistic objects, we investigated the role of hippocampal ripple activity—brief high-frequency oscillations associated with memory replay—in VSTM maintenance and hippocampal-neocortical communication. We found that hippocampal ripple rates progressively ramped up during the maintenance period and supported successful VSTM. More critically, hippocampal ripples were temporally coupled with the ripples in the lateral temporal lobe (LTL), and these coupled ripples were associated with memory reactivation in the LTL. These findings provide direct evidence that hippocampal–neocortical interaction via coupled ripples supports VSTM, extending the role of hippocampal ripples from long-term consolidation to short-term mnemonic processes and offering new insights into the dynamic coding mechanisms of working memory.</description>
-      <pubDate>2026-11-20T00:00:00+00:00</pubDate>
     </item>
     <item>
       <title>Lateral orbitofrontal cortex enables new learning to overwrite previously acquired information</title>
@@ -93,6 +79,12 @@
       <description>&lt;b&gt;Relevance: 28% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Musi Xie, Zhuoqun Li, Yuxin Fan, Yifan Li, Xingbei Wan, Sirui Yang, Shiman Huang, Chengsi Zhao, Ning Ma, Fang Fang, Xilin Zhang&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 48, November 2026.</description>
     </item>
     <item>
+      <title>Brain area’s mysterious role in speech decoded at last</title>
+      <link>https://www.nature.com/articles/d41586-026-03800-x</link>
+      <guid>https://www.nature.com/articles/d41586-026-03800-x</guid>
+      <description>&lt;b&gt;Relevance: 27% | Source: Nature&lt;/b&gt;&lt;br/&gt;Nature, Published online: 27 November 2026; doi:10.1038/d41586-026-03800-x Wernicke’s area is known for processing spoken words, but brain recordings reveal that it also makes a crucial contribution to a related cognitive task.</description>
+    </item>
+    <item>
       <title>Alerting acoustic stimuli enhance the internal representation of head direction</title>
       <link>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01331-X?rss=yes</link>
       <guid>https://www.cell.com/current-biology/fulltext/S0960-9822(26)01331-X?rss=yes</guid>
@@ -106,22 +98,16 @@
       <pubDate>2026-11-24T00:00:00+00:00</pubDate>
     </item>
     <item>
-      <title>Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists</title>
-      <link>https://www.nature.com/articles/d41586-026-03836-z</link>
-      <guid>https://www.nature.com/articles/d41586-026-03836-z</guid>
-      <description>&lt;b&gt;Relevance: 23% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ewen Callaway&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03836-z Anthropic and OpenAI’s language models can design proteins and predict their sequences and structures — capabilities previously seen only in specialized AI tools.</description>
-    </item>
-    <item>
       <title>The science on AI consciousness must acknowledge uncertainty</title>
       <link>https://www.nature.com/articles/d41586-026-03822-5</link>
       <guid>https://www.nature.com/articles/d41586-026-03822-5</guid>
       <description>&lt;b&gt;Relevance: 22% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Haewoon Kwak&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03822-5 The science on AI consciousness must acknowledge uncertainty</description>
     </item>
     <item>
-      <title>Mini microscope captures brain activity while mice are on the go</title>
-      <link>https://www.nature.com/articles/d41586-026-03380-w</link>
-      <guid>https://www.nature.com/articles/d41586-026-03380-w</guid>
-      <description>&lt;b&gt;Relevance: 21% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Weijian Yang, Marco Tripodi&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03380-w A head-mounted device records neuronal activity as mice explore a naturalistic environment and interact with each other. Specialists discuss the technology and its applications.</description>
+      <title>Watch out, AlphaFold: Claude and ChatGPT’s new biology skills wow scientists</title>
+      <link>https://www.nature.com/articles/d41586-026-03836-z</link>
+      <guid>https://www.nature.com/articles/d41586-026-03836-z</guid>
+      <description>&lt;b&gt;Relevance: 22% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Ewen Callaway&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03836-z Anthropic and OpenAI’s language models can design proteins and predict their sequences and structures — capabilities previously displayed only by specialized AI tools.</description>
     </item>
     <item>
       <title>Daily briefing: Is AI ‘the end of mathematics as we know it’?</title>
@@ -149,10 +135,10 @@
       <description>&lt;b&gt;Relevance: 18% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Wooseok Kim, Bosung Kim, Dae Han Kim, Pei Liu, Doyoung Kim, Hee Kyu Lee, Sang Uk Park, Janghoon Joo, Byeong Woon Lee, Se Gi Lee, Bogeun Kim, Jaejun Lim, Changsoon Choi, Jong-Woong Kim, Geumbee Lee, Jae-Young Yoo, Sejin Kim, Joohoon Kang, Raudel Avila, Jong Uk Kim, Sang Min Won&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 48, November 2026.</description>
     </item>
     <item>
-      <title>Pregnancy rewires the brain — scientists are finally mapping it</title>
-      <link>https://www.nature.com/articles/d41586-026-03804-7</link>
-      <guid>https://www.nature.com/articles/d41586-026-03804-7</guid>
-      <description>&lt;b&gt;Relevance: 18% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Max Kozlov&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03804-7 Brain scans show what healthy pregnancy looks like, and offer clues about how depression and pre-eclampsia arise.</description>
+      <title>AI is ‘the end of mathematics as we know it’ — where does the field go next?</title>
+      <link>https://www.nature.com/articles/d41586-026-03719-3</link>
+      <guid>https://www.nature.com/articles/d41586-026-03719-3</guid>
+      <description>&lt;b&gt;Relevance: 18% | Source: Nature&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Davide Castelvecchi&lt;/i&gt;&lt;br/&gt;Nature, Published online: 24 November 2026; doi:10.1038/d41586-026-03719-3 Mathematicians are bracing for a future when their profession could be mostly delegated to machines.</description>
     </item>
     <item>
       <title>Multidimensional motor unit control after paralysing spinal cord injury using non-invasive recordings</title>
@@ -161,10 +147,24 @@
       <description>&lt;b&gt;Relevance: 17% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Xingchen Yang, Vishal Rawji, Ciara Gibbs, Tianyu Jia, Lara Gouveia Vila, Agnese Grison, Ajoy Nair, Dario Farina, Juan Alvaro Gallego&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 25 November 2026; doi:10.1038/s41562-026-02626-x Yang, Rawji, Gibbs and colleagues show that participants with spinal cord injury can modulate the activity of motor units from their paralysed hand to control a computer cursor in 3D, play video games and drive a virtual wheelchair.</description>
     </item>
     <item>
+      <title>A step towards modelling amyotrophic lateral sclerosis in primates</title>
+      <link>https://elifesciences.org/articles/113568</link>
+      <guid>https://dx.doi.org/10.7554/eLife.113568</guid>
+      <description>&lt;b&gt;Relevance: 16% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Albert C Ludolph, Liubov Novikova&lt;/i&gt;&lt;br/&gt;A new primate model offers a promising first step towards reproducing the spread of ALS pathology across synapses, although important differences from the stereotyped patterns observed in human disease remain to be addressed.</description>
+      <pubDate>2026-11-23T00:00:00+00:00</pubDate>
+    </item>
+    <item>
       <title>Misremembered social networks are predictions of the future in disguise</title>
       <link>https://www.science.org/doi/abs/10.1126/sciadv.aen5942?af=R</link>
       <guid>https://www.science.org/doi/abs/10.1126/sciadv.aen5942?af=R</guid>
       <description>&lt;b&gt;Relevance: 15% | Source: Science Advances&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Matthew E. Brashears and Gage Pierce&lt;/i&gt;&lt;br/&gt;Science Advances, Volume 12, Issue 48, November 2026.</description>
+    </item>
+    <item>
+      <title>Nitric oxide feedback to ciliary photoreceptor cells gates a UV avoidance circuit</title>
+      <link>https://elifesciences.org/articles/91258</link>
+      <guid>https://dx.doi.org/10.7554/eLife.91258</guid>
+      <description>&lt;b&gt;Relevance: 15% | Source: eLife&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Emily Savage, Gáspár Jékely, Kei Jokura, Kyle CA Wedgwood, Luis A Yañez Guerra, Martin Gühmann, Nobuo Ueda, Piotr Slowinski&lt;/i&gt;&lt;br/&gt;Nitric oxide (NO) produced by nitric oxide synthase (NOS) is a key regulator of animal physiology. Here, we uncover a function for NO in the integration of UV exposure and the gating of a UV-avoidance circuit. We studied UV/violet avoidance mediated by brain ciliary photoreceptors (cPRCs) in larvae of the annelid Platynereis dumerilii . In the larva, NOS is expressed in interneurons (INNOS) postsynaptic to cPRCs. UV stimulation of cPRCs triggers INNOS activation and NO production. NO signals retrogradely to cPRCs to induce their sustained post-stimulus activation through an unconventional guanylate cyclase. This late activation drives ciliary beating through serotonergic ciliomotor neurons during UV avoidance. In NOS mutants, retrograde signalling, ciliary activation, and UV avoidance are defective. By mathematical modelling, we recapitulate phototransduction and circuit dynamics in wild-type and mutant larvae. Our results reveal how NO-mediated retrograde signalling gates a synaptic circuit and induces short-term memory of UV exposure to orchestrate light-avoidance behaviour.</description>
+      <pubDate>2026-11-24T00:00:00+00:00</pubDate>
     </item>
     <item>
       <title>Spaceflight reshapes Alzheimer’s disease–associated molecular programs in human brain organoids</title>
@@ -189,6 +189,27 @@
       <link>https://www.nature.com/articles/s41562-026-02643-w</link>
       <guid>https://www.nature.com/articles/s41562-026-02643-w</guid>
       <description>&lt;b&gt;Relevance: 11% | Source: Nature Human Behaviour&lt;/b&gt;&lt;br/&gt;&lt;i&gt;Edmond Awad, Katarzyna Doniec, Gerd Gigerenzer&lt;/i&gt;&lt;br/&gt;Nature Human Behaviour, Published online: 25 November 2026; doi:10.1038/s41562-026-02643-w Crises and technological waves pull science towards fast, trend-driven work. But a drift towards timely research might negatively affect quality and limit the methods, infrastructure and datasets that accumulate value slowly. We discuss how researchers, funders and journals can draw lasting value from urgency-driven research.</description>
+    </item>
+    <item>
+      <title>AI-based digital pathology defines spatial border ecosystems in triple-negative breast cancer | Science</title>
+      <link>https://www.science.org/doi/10.1126/science.aei6252</link>
+      <guid>https://www.science.org/doi/10.1126/science.aei6252</guid>
+      <description>&lt;b&gt;Relevance: 10% | Source: Science&lt;/b&gt;&lt;br/&gt;The invasive tumor border in triple-negative breast cancer (TNBC) is currently poorly understood. We integrated digital pathology and spatial multi-omics to define border ecosystems in TNBC. AI-based digital pathology identified five border ecosystems, ...</description>
+      <pubDate>2026-11-26T09:01:00-05:00</pubDate>
+    </item>
+    <item>
+      <title>Mechanisms of nucleosome disruption shape epigenetic inheritance pathway choice | Science</title>
+      <link>https://www.science.org/doi/10.1126/science.aek0813</link>
+      <guid>https://www.science.org/doi/10.1126/science.aek0813</guid>
+      <description>&lt;b&gt;Relevance: 4% | Source: Science&lt;/b&gt;&lt;br/&gt;Maintaining cell identity requires duplicating the genome and epigenome during S phase. As DNA is copied, histones extracted from parental nucleosomes are transferred to nascent strands, which preserves the position of epigenetic marks. How the replisome ...</description>
+      <pubDate>2026-11-26T09:01:00-05:00</pubDate>
+    </item>
+    <item>
+      <title>Binding kinetics enable tumor-selective MAPK and growth suppression by a Type 1 RAF inhibitor | Science</title>
+      <link>https://www.science.org/doi/10.1126/science.aed6493</link>
+      <guid>https://www.science.org/doi/10.1126/science.aed6493</guid>
+      <description>&lt;b&gt;Relevance: 0% | Source: Science&lt;/b&gt;&lt;br/&gt;Targeting the RAS/MAPK pathway has long been constrained by dose-limiting toxicity in normal tissues at doses required for durable tumor control. Although Type 1.5 RAF inhibitors improved selectivity in BRAF(V600X)-monomer tumors, a comparable strategy ...</description>
+      <pubDate>2026-11-26T09:01:00-05:00</pubDate>
     </item>
   </channel>
 </rss>
